@@ -1,3 +1,5 @@
+package com.example.sping_portfolio.minilabs;
+
 public class NatashaMiniLab2 {
     public static void main(String[] args){
         // grade1 and grade2 -> find the average
