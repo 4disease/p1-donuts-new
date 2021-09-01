@@ -1,3 +1,5 @@
+package com.example.sping_portfolio.minilabs;
+
 public class NatashaMiniLab1 {
     public static void main(String[] args){
         String name = "Natasha Kapoor";
