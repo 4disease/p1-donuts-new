@@ -6,10 +6,10 @@
 <body>
     <!-- Begin navigation fragments -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
-        <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
-            <img src="/static/images/ncs_logo.png" th:src="@{/images/ncs_logo.png}" width="50" height="50" class="d-inline-block align-center" alt="">
-            Nighthawk Coders
-        </a>
+        <!-- <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
+           <img src="/static/images/ncs_logo.png" th:src="@{/images/ncs_logo.png}" width="50" height="50" class="d-inline-block align-center" alt="">
+           Nighthawk Coders
+       </a> -->
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
@@ -20,23 +20,34 @@
                 <li class="nav-item active">
                     <a class="nav-link" href="/">Home <span class="sr-only">(current)</span></a>
                 </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="/aboutme" id="navbarTPT" role="button" data-toggle=“collapse”>
+                        About Me
+                    </a>
+                </li>
+
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle" href="#" id="navbarPBL" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                        About Us
+                        Mini Labs
                     </a>
                     <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                        <a class="dropdown-item" href="/greet">Greet</a>
-                        <a class="dropdown-item" href="/birds">Birds</a>
-                        <a class="dropdown-item" href="/dne">404 error</a>
+                        <a class="dropdown-item" href="/kira">Kira</a>
+                        <a class="dropdown-item" href="/ridhima">Ridhima</a>
+                        <a class="dropdown-item" href="/sam">Sam</a>
+                        <a class="dropdown-item" href="/adi">Adi</a>
+                        <a class="dropdown-item" href="/natasha">Natasha</a>
                     </div>
                 </li>
+
                 <li class="nav-item active">
-                    <a class="nav-link" href="/">Calendar <span class="sr-only">(current)</span></a>
-                </li>
-                <li class="nav-item active">
-                    <a class="nav-link" href="#" id="navbarTPT" role="button" data-toggle=“collapse” aria-haspopup="true" aria-expanded="false">
+                    <a class="nav-link" href="/calendar" id="navbarTPT" role="button" data-toggle=“collapse”>
                         Calendar
                     </a>
+                </li>
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="/profile ">Profile <span class="sr-only">(current)</span></a>
                 </li>
             </ul>
             <!-- Clock display -->
