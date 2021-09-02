@@ -6,13 +6,28 @@
 <body>
     <!-- Begin navigation fragments -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
-        <!-- <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
+        <!-- LOGO WITH LINK TO ANOTHER PAGE
+
+        <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
            <img src="/static/images/ncs_logo.png" th:src="@{/images/ncs_logo.png}" width="50" height="50" class="d-inline-block align-center" alt="">
            Nighthawk Coders
        </a> -->
+        <!--    <div class="search-container">
+                <form action="/action_page.php">
+                    <input type="text" placeholder="Search.." name="search">
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div> -->
+
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
         </button>
+
+        <div id="spring_intro" class="articles" style="margin: 10px; padding-top:5px; font-size=30%;">
+            <h5>Donuts</h5>
+        </div>
+
         <!-- Bootstrap menus -->
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav mr-auto">
