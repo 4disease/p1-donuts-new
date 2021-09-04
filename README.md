@@ -3,6 +3,8 @@ Welcome to our project!
 
 ## PBL 1-2 plus Unit 2
 Ridhima: 
+  - PBL Individual: 1.5/2 
+  - Individual: 2/2
 
 Samhitha:
 
