@@ -4,15 +4,52 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <!-- Start of head content specific to page -->
-    <title>Profile</title>
-    <!-- End of head content specific to page -->
+    <title>UnitOne</title>
 </div></head>
 
 <body><div layout:fragment="content" th:remove="tag">
-    <!-- Start of body content specific to page -->
-
-    <!-- End of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/unitone" method="GET" id="samForm">
+                <div>
+                    <label for="name">What is you name?</label>
+                    <input name="name" id="name">
+                    <label for="animal">What is your favorite animal?</label>
+                    <input name="animal" id="animal">
+                    <button>Answer</button>
+                    <p th:text="'Hi, ' + ${name} + '! ' + ${animal} + 's are cool.'"></p>
+                </div>
+            </form>
+            <form action="/unitone" method="GET" id="samForm">
+                <div>
+                    <label for="number1">Input two integers to multiply</label>
+                    <input name="number1" id="number1">
+                    <input name="number2" id="number2">
+                    <button>Get Answer</button>
+                    <p th:text="'Hi, ' + ${number1} + '! ' + ${number2} + 's are cool.'"></p>
+                </div>
+            </form>
+        </div>
+    </div>
 </div></body>
+
+<div layout:fragment="script" th:remove="tag">
+    <!-- Start of custom script specific to page -->
+    <script src="/static/vanta/three.r119.min.js" th:src="@{/vanta/three.r119.min.js}"></script>
+    <script src="/static/vanta/vanta.birds.min.js" th:src="@{/vanta/vanta.birds.min.js}"></script>
+    <script>
+        VANTA.BIRDS({
+            el: "body",
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            scale: 1.00,
+            scaleMobile: 1.00
+        })
+    </script>
+    <!-- End of custom script specific to page -->
+</div>
 
 </html>
