@@ -8,6 +8,9 @@ Ridhima:
   - [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-68123556)
 
 Samhitha:
+  - PBL Individual: 1.5/2
+  - Individual Unit 2: 5/5
+  - [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-68122673)
 
 Kira:
 
