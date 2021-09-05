@@ -8,7 +8,8 @@ public class Adi {
     @GetMapping("/adi")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String adi() {
-        return "adi"; // returns HTML VIEW (greeting)
+        return "/minilabs/adi"; // returns HTML VIEW (greeting)
     }
 }
+
 
