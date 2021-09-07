@@ -1,6 +1,11 @@
 # Readme 
 Welcome to our project!
 
+## Contributers 
+| Name | Github Profile |
+|  --- |  ---           |
+|
+
 ## PBL 1-2 plus Unit 2
 Ridhima: 
   - PBL Individual: 1.5/2 
