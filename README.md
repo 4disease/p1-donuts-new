@@ -26,7 +26,7 @@
 | Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | |
 | Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | |
 
-### Individual
+### Individual PBL
 
 [Kira & Natasha's Journal](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)
 [Adi, Samhitha & Ridhima's Joural](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit?usp=sharing)
