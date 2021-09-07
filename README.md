@@ -6,7 +6,7 @@
 | Samhitha | @dsblack0  |
 | Natasha | @mistylavender  |
 | Kira | @4disease |
-| Ridhimaa | @4disease  |
+| Ridhimaa | @ridhimainukurti  |
 | Adi | @adhithin  |
 
 ## Table of Contents
