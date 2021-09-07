@@ -6,7 +6,7 @@ Welcome to our project!
 |  --- |  ---           |
 | Samhitha | @dsblack0  |
 | Natasha | @mistylavender  |
-| Samhitha | @dsblack0  |
+| Kira | @4disease |
 
 
 ## PBL 1-2 plus Unit 2
