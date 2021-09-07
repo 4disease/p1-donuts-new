@@ -39,7 +39,7 @@
 | Natasha | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/natasha.html), [Unit 2 Journal]()| will use personal laptop at home and school |
 | Kira | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/kira.html), [Unit 2 Journal](https://docs.google.com/document/d/12eXZS0i8E9GRPjdFEagZcaeR4yZ9VsZz0ILtXA66BPs/edit)| will use personal laptop at home and school |
 | Ridhima | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/ridhima.html), [Unit 2 Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit)| will use personal laptop at home and school |
-| Adi | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/adi.html), [Unit 2 Journal]()| will use personal laptop at home and school |
+| Adi | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/adi.html), [Unit 2 Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6)| will use personal laptop at home and school |
 
 ## Ideation
 Our idea...
