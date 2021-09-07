@@ -5,7 +5,7 @@ Welcome to our project!
 | Name | Github Profile |
 |  --- |  ---           |
 | Samhitha | @dsblack0  |
-| Samhitha | @dsblack0  |
+| Natasha | @mistylavendar  |
 | Samhitha | @dsblack0  |
 
 
