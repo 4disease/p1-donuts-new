@@ -11,7 +11,7 @@
 
 ## Table of Contents
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-2-grading)
-  - [Ideation](
+  - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
 ## Week 2 Grading
 **PBL Points: **
@@ -19,7 +19,7 @@
 | Requirment | Evidence |
 | ---        | ---      |
 
-## Individual
+### Individual
 
 [Kira & Natasha's Journal](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)
 [Adi, Samhitha & Ridhima's Joural](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit?usp=sharing)
