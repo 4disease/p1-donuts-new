@@ -4,7 +4,10 @@ Welcome to our project!
 ## Contributers 
 | Name | Github Profile |
 |  --- |  ---           |
-|
+| Samhitha | @dsblack0  |
+| Samhitha | @dsblack0  |
+| Samhitha | @dsblack0  |
+
 
 ## PBL 1-2 plus Unit 2
 Ridhima: 
