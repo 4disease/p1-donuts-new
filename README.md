@@ -7,6 +7,8 @@ Welcome to our project!
 | Samhitha | @dsblack0  |
 | Natasha | @mistylavender  |
 | Kira | @4disease |
+| Ridhimaa | @4disease  |
+| Adi | @adhithin  |
 
 
 ## PBL 1-2 plus Unit 2
