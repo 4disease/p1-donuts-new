@@ -1,5 +1,4 @@
-# Readme 
-Welcome to our project!
+# Period 1 Donuts 
 
 ## Contributers 
 | Name | Github Profile |
@@ -9,6 +8,14 @@ Welcome to our project!
 | Kira | @4disease |
 | Ridhimaa | @4disease  |
 | Adi | @adhithin  |
+
+## Table of Contents
+  - [Week 2 Grading](
+  - [Ideation](
+
+## Week 2 Grading
+**PBL Points: **
+| Requirment | Evidence | 
 
 
 ## PBL 1-2 plus Unit 2
