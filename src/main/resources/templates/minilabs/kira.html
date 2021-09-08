@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Greet</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/kira" method="GET" id="greetForm">
+                <div>
+                    <label for="greetField">What's your name?</label>
+                    <input name="name" id="greetField">
+                    <button>Greetings!</button>
+                    <p th:text="'Hi, ' + ${name} + '! Welcome to my individual page. Feel free to look around at the minilabs and journal.'"></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <div>
+        <iframe src="https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing" height="200" width="300" title="Kira's Journal"></iframe>
+
+    </div>
+</div></body>
+
+</html>
