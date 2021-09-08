@@ -18,13 +18,13 @@
 
 | Requirment | Evidence |
 | ---        | ---      |
-| Scrum Master. Define tasks and place assignments to in-progress on the Scrum board.| |
-| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | |
-| Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | |
-| Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | |
-| Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | |
-| Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | |
-| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | |
+| Scrum Master. Define tasks and place assignments to in-progress on the Scrum board.| [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) |
+| Designer. Wire Frame (at least three theme pages, team mini-labs, and about) | on our website page |
+| Technical Lead. Coordinate brain write session, after preliminary wire frames, make sure you capture technical complexities as an output of this exercise (input, saving data, comments, visual actions, animations, ...) | can be seen in the [issues](https://github.com/4disease/p1-donuts-new/issues) section |
+| Navigators. Capture or build highlight of Ideation in README.md, this allows ideas to persist with Project,  Make sure that work from Developers works to expectations (testing, suggestions for improvement) | [Ideation](https://github.com/4disease/p1-donuts-new#ideation) |
+| Developers. Bootstrap drop downs in navbar, start to form Wire Frame menu options.  Each menu option should have a Stub code page | Navbar finished [Ticket](https://github.com/4disease/p1-donuts-new/issues/3)|
+| Developers. Integration of Greet, Birds, Unit 1 functionality into a mini-lab page | [Ticket](https://github.com/4disease/p1-donuts-new/issues/2) |
+| Designer/Developer. 1 minute video integrated into About Us on Genesis ideas for project. | [Ticket](https://github.com/4disease/p1-donuts-new/issues/1) |
 
 ### Individual PBL
 
@@ -43,4 +43,4 @@
 | Adi | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/adi.html), [Unit 2 Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6)| will use personal laptop at home and school |
 
 ## Ideation
-Our idea...
+Our idea is to create a website that would be a to do list or planner for students in order to organize their tasks and their schedules. We wanted to help them organize their lives and keep them on track. We are planning on having different features such as notifications that would alert them of future tasks that need to be done, also a calendar that would list the tasks, and a login page that would require the user to create a username/password in order to enter the website. 
