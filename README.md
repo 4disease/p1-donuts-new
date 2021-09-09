@@ -44,3 +44,6 @@
 
 ## Ideation
 Our idea is to create a website that would be a to do list or planner for students in order to organize their tasks and their schedules. We wanted to help them organize their lives and keep them on track. We are planning on having different features such as notifications that would alert them of future tasks that need to be done, also a calendar that would list the tasks, and a login page that would require the user to create a username/password in order to enter the website. 
+
+## Intro Video
+"https://www.youtube.com/embed/lgSEf8-F7TE" 
