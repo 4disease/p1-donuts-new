@@ -3,9 +3,9 @@
 ## Scrum Board
 [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1)
 
-[Contributers](https://github.com/4disease/p1-donuts-new/graphs/contributors)
+[Contributors](https://github.com/4disease/p1-donuts-new/graphs/contributors)
 
-## Contributers 
+## Contributors 
 | Name | Github Profile | Tasks | Scrum Board | Commits |
 |  --- |  ---           | ---   | ---         | ---     |
 | Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) | 
