@@ -4,13 +4,13 @@
 https://github.com/4disease/p1-donuts-new/projects/1
 
 ## Contributers 
-| Name | Github Profile |
-|  --- |  ---           |
-| Samhitha | @dsblack0  |
-| Natasha | @mistylavender  |
-| Kira | @4disease |
-| Ridhimaa | @ridhimainukurti  |
-| Adi | @adhithin  |
+| Name | Github Profile | Tasks | Commits |
+|  --- |  ---           | ---   | ---     |
+| Samhitha | [@dsblack0](https://github.com/dsblack0)  |
+| Natasha | [@mistylavender](https://github.com/mistylavender)  |
+| Kira | [@4disease](https://github.com/4disease) |
+| Ridhimaa | [@ridhimainukurti](https://github.com/ridhimainukurti)  |
+| Adi | [@adhithin](https://github.com/adhithin)  |
 
 ## Table of Contents
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-2-grading)
