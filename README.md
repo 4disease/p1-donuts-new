@@ -1,7 +1,8 @@
 # Period 1 Donuts 
 
 ## Scrum Board
-https://github.com/4disease/p1-donuts-new/projects/1
+[Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1)
+[Contributers](https://github.com/4disease/p1-donuts-new/graphs/contributors)
 
 ## Contributers 
 | Name | Github Profile | Tasks | Scrum Board | Commits |
