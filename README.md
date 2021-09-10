@@ -6,11 +6,11 @@ https://github.com/4disease/p1-donuts-new/projects/1
 ## Contributers 
 | Name | Github Profile | Tasks | Scrum Board | Commits |
 |  --- |  ---           | ---   | ---         | ---     |
-| Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) |
-| Natasha | [@mistylavender](https://github.com/mistylavender)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/mistylavender) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Amistylavender) |
-| Kira | [@4disease](https://github.com/4disease) | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/4disease) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3A4disease) |
-| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) |
-| Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) |
+| Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) | 
+| Natasha | [@mistylavender](https://github.com/mistylavender)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/mistylavender) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Amistylavender) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=mistylavender) |
+| Kira | [@4disease](https://github.com/4disease) | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/4disease) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3A4disease) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=4disease) |
+| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=ridhimainukurti) |
+| Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-2-grading)
