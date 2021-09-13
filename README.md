@@ -33,6 +33,13 @@
 |Pair Prototyping / Thymeleaf.  Try using Class objects in Thymeleaf.    Most simple Class would be to use String methods (Links to an external site.) and Number methods, (Links to an external site.) more complex is to use your own defined Class include Images or other Media.   Objective is to produce a 3 by 3 grid using Bootstrap Grids, Bootstrap Tables, Bootstrap Cards.  Try to incorporate into Project or consider as Mini Lab depending on your design.  Try changing 3 x 3 to 4 x 4 or other orientation would be showing ability to manage page dynamically.| [Ticket](https://github.com/4disease/p1-donuts-new/issues/18) |
 | TPT2 MiniLab | [Ticket](https://github.com/4disease/p1-donuts-new/issues/15)
 
+### Scrum Team Management
+| Requirment | Evidence |
+| Review Canvas requirements.  Additionally, create requirements you want to complement this assignment to ensure your success. | [Calendar Page](https://github.com/4disease/p1-donuts-new/issues/4) and [Chat Bot](https://github.com/4disease/p1-donuts-new/issues/17) |
+| Make Issues and assign to individuals or pairs, place Issues in appropriate Column as you progress. | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) |
+| As you move Issues into review, individuals link Tangible assets to add to the Issue.  Those assigned to issue are required to add comments that highlight anything Scrum master should report to Teacher.  Videos or previews prior to 1 v 1 event are HIGHLY encoraged. | [Scrum Board Review](https://github.com/4disease/p1-donuts-new/projects/1#column-15776348) |
+| At close of Sprint and each week update README with links to issues completed, it is HIGHLY suggested to use table to display Issues with highlighting descriptions.  Time box the week or sprint in README as a section declaring Sprint and dates as section Header.  Add a Video to section to highlight work. | Done |
+
 ### Individual Journals
 [Samhitha](https://docs.google.com/document/d/1ZNDZvucqu6cIj-rZo1GJwSH_VwAaeIdEBF9du9tJNeI/edit?usp=sharing)
 
