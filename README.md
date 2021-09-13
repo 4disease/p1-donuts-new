@@ -35,6 +35,7 @@
 
 ### Individual Journals
 [Samhitha](https://docs.google.com/document/d/1ZNDZvucqu6cIj-rZo1GJwSH_VwAaeIdEBF9du9tJNeI/edit?usp=sharing)
+
 [Ridhima](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing)
 
 ## Week 2 Grading
