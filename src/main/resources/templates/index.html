@@ -11,25 +11,119 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
-    <div id="spring_intro" class="articles" style="margin: 30px;">
-        <h1><strong>Java and Spring</strong></h1>
-        <h3><strong>What is Spring?</strong></h3>
-        <ol>
-            <li>Spring Framework is the most popular application development framework of Java. </li>
-            <li>Spring Boot helps to create a stand-alone application with less configuration.</li>
-            <li>Spring MVC is a model view controller-based web framework under the Spring framework.</li>
-            <li>ThymeLeaf is a server-side Java template engine, support HTML5 JVM web development, and provides full integration with Spring Framework.</li>
-        </ol>
-        <h3><strong>What should Java Developers learn?</strong></h3>
-        <ol>
-            <li>Development DevOps. Java programmers should have a passion for managing the environment and learning automation (Maven, Gradle, DevOps, Deployment.</li>
-            <li>Git/GitHub.  Learning to master managing change, branches, pull requests.</li>
-            <li>REST services using Spring.  Mastering creating and consuming RESTful APIs</li>
-            <li>Microservices are nothing but an extension of RESTful Web services with the main objective being to break up your code into small, distributed, and independent services.</li>
-            <li>Java 9-15. Java 8 is AP standard.  Things like Jigsaw, Reactive Streams, Process API, HTTP2 client, JShell, React JS are all more recent</li>
-        </ol>
+    <div id="main_page" class="articles">
+        <div class="product" style="margin-top: 2%;">
+            <div class="row" style="padding: 0% 10% 5%;">
+                <div class="col-8" >
+                    <h1>Planner Home</h1>
+                    <div class="card card-flip h-100" style="margin-top: 50px; width: 30rem; margin-bottom: 30px;">
+                        <div class="card-front text-white bg-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Front</h3>
+                                <p class="card-text">can add notes or a calendar</p>
+                                <p class="card-text"></p>
+                                <p class="card-text"></p>
+                            </div>
+                        </div>
+                        <div class="card-back bg-info mb-1 text-dark">
+                            <div class="card-body">
+                                <h3 class="card-title">Back</h3>
+                                <p class="card-text">more information on events</p>
+                            </div>
+                        </div>
+                        <style>
+                            .card-flip > div {
+                                backface-visibility: hidden;
+                                transition: transform 300ms;
+                                transition-timing-function: linear;
+                                width: 100%;
+                                height: 100%;
+                                margin: 0;
+                                display: flex;
+                            }
+
+                            .card-front {
+                                transform: rotateY(0deg);
+                            }
+
+                            .card-back {
+                                transform: rotateY(180deg);
+                                position: absolute;
+                                top: 0;
+                            }
+
+                            .card-flip:hover .card-front {
+                                transform: rotateY(-180deg);
+                            }
+
+                            .card-flip:hover .card-back {
+                                transform: rotateY(0deg);
+                            }
+                        </style>
+                    </div>
+                    <div class="card bg-info mb-3" style="width: 50rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title">Reminders</h5>
+                            <p class="card-text">can add tasks & notifications</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-9">
+                    <div class="card bg-info" style="margin-top: 2px; margin-left: 1000px; width: 20rem;" >
+                        <div class="card-body">
+                            <h5 class="card-title">Notes</h5>
+                            <p class="card-text">some temporary notes</p>
+                            <p class="card-text">more notes</p>
+                            <p class="card-text">To Do Lists</p>
+                        </div>
+                    </div>
+                    <div class="input-group" style="margin-top: 50px; width: 20rem; margin-left:1000px">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with radio button">
+                    </div>
+                    <div class="input-group" style="width: 20rem; margin-left:1000px">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with radio button">
+                    </div>
+                    <div class="input-group" style="width: 20rem; margin-left:1000px">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with radio button">
+                    </div>
+                    <div class="input-group" style="width: 20rem; margin-left:1000px">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with radio button">
+                    </div>
+                    <div class="input-group" style="width: 20rem; margin-left:1000px">
+                        <div class="input-group-prepend">
+                            <div class="input-group-text">
+                                <input type="radio" aria-label="Radio button for following text input">
+                            </div>
+                        </div>
+                        <input type="text" class="form-control" aria-label="Text input with radio button">
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
+</div>
     <!-- End of body content specific to page -->
+
 </div></body>
 
 </html>

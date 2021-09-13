@@ -1,17 +1,35 @@
 # Period 1 Donuts 
 
-## Contributers 
-| Name | Github Profile |
-|  --- |  ---           |
-| Samhitha | @dsblack0  |
-| Natasha | @mistylavender  |
-| Kira | @4disease |
-| Ridhimaa | @ridhimainukurti  |
-| Adi | @adhithin  |
+## Scrum Board
+[Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1)
+
+[Contributors](https://github.com/4disease/p1-donuts-new/graphs/contributors)
+
+**Journals**
+
+[Kira & Natasha's Journal](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)
+
+[Adi, Samhitha & Ridhima's Joural](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit?usp=sharing)
+
+## Contributors 
+| Name | Github Profile | Tasks | Scrum Board | Commits |
+|  --- |  ---           | ---   | ---         | ---     |
+| Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) | 
+| Natasha | [@mistylavender](https://github.com/mistylavender)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/mistylavender) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Amistylavender) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=mistylavender) |
+| Kira | [@4disease](https://github.com/4disease) | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/4disease) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3A4disease) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=4disease) |
+| Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=ridhimainukurti) |
+| Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
-  - [Week 2 Grading](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-2-grading)
+  - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
+  - [Week 2 Grading](https://github.com/4disease/p1-donuts-new#week-2-grading)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Week 3
+| Requirment | Evidence |
+| ---        | ---      |
+| Pair Design / HTML.  Transfer design to layout.  Much of this could simply be converting Ideas to HTML.  Objective is to get your own STYLE, COLORS, FONTS; NAVIGATION into the site.  Establish your VIBE or Groove.  Try a couple of prototype experiments and get feedback from similar pair in Crossover. | [Layout Ticket](https://github.com/4disease/p1-donuts-new/issues/16) and [Main Page Ticket](https://github.com/4disease/p1-donuts-new/issues/6)|
+|Pair Prototyping / Thymeleaf.  Try using Class objects in Thymeleaf.    Most simple Class would be to use String methods (Links to an external site.) and Number methods, (Links to an external site.) more complex is to use your own defined Class include Images or other Media.   Objective is to produce a 3 by 3 grid using Bootstrap Grids, Bootstrap Tables, Bootstrap Cards.  Try to incorporate into Project or consider as Mini Lab depending on your design.  Try changing 3 x 3 to 4 x 4 or other orientation would be showing ability to manage page dynamically.| [Ticket](https://github.com/4disease/p1-donuts-new/issues/18) |
 
 ## Week 2 Grading
 ### Team PBL Points: 3/3
@@ -44,3 +62,6 @@
 
 ## Ideation
 Our idea is to create a website that would be a to do list or planner for students in order to organize their tasks and their schedules. We wanted to help them organize their lives and keep them on track. We are planning on having different features such as notifications that would alert them of future tasks that need to be done, also a calendar that would list the tasks, and a login page that would require the user to create a username/password in order to enter the website. 
+
+## Intro Video
+"https://www.youtube.com/embed/lgSEf8-F7TE" 

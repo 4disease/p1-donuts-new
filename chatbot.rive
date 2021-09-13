@@ -1,0 +1,34 @@
+! version = 2.0
+
++ hello
+- hello, what is your name?
+
++ hi
+- hi, what is your name?
+
++ my name is *
+- nice to meet you <star>
+- nice meeting you <star>
+
++ thank you
+- you are welcome
+- welcome
+- no problem
+- no worries
+
++ i like * 
+- i like <star> too! 
+
++ how are you today?
+- i'm doing better than good. what about you? 
+- i'm not doing so good today.
+- i'm feeling meh. 
+
++ what is your favorite color
+- i like all colors, but blue is my favorite 
+
++ do you have someone you look up to 
+- siri is my inspiration. 
+
++ are you a robot? 
+- robots do not know that they are robots. treat us like humans. 
