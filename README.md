@@ -42,6 +42,8 @@
 
 [Natasha](https://docs.google.com/document/d/1jlZ4lVLIvT2z1moLGH6sJ0sAnl9rziXM0UKtYKuRnNg/edit?usp=sharing)
 
+[Kira](https://docs.google.com/document/d/14GF9RhA9naTa_XoukQUV8AowLPUaWgmbewJRQaYMQAk/edit?usp=sharing)
+
 ## Week 2 Grading
 ### Team PBL Points: 3/3
 
