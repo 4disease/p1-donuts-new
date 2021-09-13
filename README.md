@@ -41,6 +41,10 @@
 | As you move Issues into review, individuals link Tangible assets to add to the Issue.  Those assigned to issue are required to add comments that highlight anything Scrum master should report to Teacher.  Videos or previews prior to 1 v 1 event are HIGHLY encoraged. | [Scrum Board Review](https://github.com/4disease/p1-donuts-new/projects/1#column-15776348) |
 | At close of Sprint and each week update README with links to issues completed, it is HIGHLY suggested to use table to display Issues with highlighting descriptions.  Time box the week or sprint in README as a section declaring Sprint and dates as section Header. | Done |
 
+### Screeshots
+![image](https://user-images.githubusercontent.com/70492417/133113453-693df054-91c7-42c0-a2e3-6a095fd17d25.png)
+![image](https://user-images.githubusercontent.com/70492417/133113613-9c435b88-ce3a-4b83-8394-e2dc29485e47.png)
+
 ### Individual Journals
 [Samhitha](https://docs.google.com/document/d/1ZNDZvucqu6cIj-rZo1GJwSH_VwAaeIdEBF9du9tJNeI/edit?usp=sharing)
 
