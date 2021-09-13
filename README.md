@@ -36,7 +36,7 @@
 ### Scrum Team Management
 | Requirment | Evidence |
 | ---        | ---      |
-| Review Canvas requirements.  Additionally, create requirements you want to complement this assignment to ensure your success. | [Calendar Page](https://github.com/4disease/p1-donuts-new/issues/4) and [Chat Bot](https://github.com/4disease/p1-donuts-new/issues/17) |
+| Review Canvas requirements.  Additionally, create requirements you want to complement this assignment to ensure your success. | [Calendar Page](https://github.com/4disease/p1-donuts-new/issues/4), [Chat Bot](https://github.com/4disease/p1-donuts-new/issues/17), and [Tasks Page](https://github.com/4disease/p1-donuts-new/projects/1#card-68535342)|
 | Make Issues and assign to individuals or pairs, place Issues in appropriate Column as you progress. | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) |
 | As you move Issues into review, individuals link Tangible assets to add to the Issue.  Those assigned to issue are required to add comments that highlight anything Scrum master should report to Teacher.  Videos or previews prior to 1 v 1 event are HIGHLY encoraged. | [Scrum Board Review](https://github.com/4disease/p1-donuts-new/projects/1#column-15776348) |
 | At close of Sprint and each week update README with links to issues completed, it is HIGHLY suggested to use table to display Issues with highlighting descriptions.  Time box the week or sprint in README as a section declaring Sprint and dates as section Header. | Done |
