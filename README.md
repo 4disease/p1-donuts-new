@@ -38,6 +38,8 @@
 
 [Ridhima](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing)
 
+[Adi](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6)
+
 ## Week 2 Grading
 ### Team PBL Points: 3/3
 
