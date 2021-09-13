@@ -77,11 +77,16 @@
             <div>
                 <span id="clock"></span>
             </div>
-            <!-- Dark mode action -->
-            <div class="custom-control custom-switch">
-                <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
-                <label class="custom-control-label" for="darkSwitch"></label>
-            </div>
+            </ul>
+                <li class="nav-item active">
+                <a class="nav-link" href="/profile ">Profile <span class="sr-only">(current)</span></a>
+                </li>
+            </ul>
+             <!-- Dark mode action -->
+            <!-- <div class="custom-control custom-switch">
+               <input type="checkbox" onclick="darkFunction()" class="custom-control-input" id="darkSwitch">
+               <label class="custom-control-label" for="darkSwitch"></label>
+           </div> -->
             <style>
                 body{
                     font-family: 'Oswald';
@@ -120,11 +125,11 @@
             </style>
             <!-- Navigation bar JavaScript support -->
             <script>
-                // Dark Mode Toggle
+                /* // Dark Mode Toggle
                 function darkFunction() {
                     let element = document.body;
                     element.classList.toggle("dark-mode");
-                }
+                } */
                 // Clock controller
                 let clockElement = document.getElementById('clock');
                 function clock() {
