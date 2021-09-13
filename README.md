@@ -43,7 +43,9 @@
 
 ### Screeshots
 ![image](https://user-images.githubusercontent.com/70492417/133113453-693df054-91c7-42c0-a2e3-6a095fd17d25.png)
+![image](https://user-images.githubusercontent.com/45546576/133113755-66e952cf-a6c3-451a-bd72-674349675364.png)
 ![image](https://user-images.githubusercontent.com/70492417/133113613-9c435b88-ce3a-4b83-8394-e2dc29485e47.png)
+
 
 ### Individual Journals
 [Samhitha](https://docs.google.com/document/d/1ZNDZvucqu6cIj-rZo1GJwSH_VwAaeIdEBF9du9tJNeI/edit?usp=sharing)
