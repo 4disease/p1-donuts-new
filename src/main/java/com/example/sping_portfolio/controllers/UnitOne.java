@@ -12,7 +12,6 @@ public class UnitOne {
                            @RequestParam(name="animal", required=false, defaultValue="Animal") String animal,
                            @RequestParam(name="number1", required=false, defaultValue="3") String number1,
                            @RequestParam(name="number2", required=false, defaultValue="2") String number2, Model model) {
-        int newResult = Integer.parseInt(number1) * Integer.parseInt(number2);
         model.addAttribute("name", name);
         model.addAttribute("animal", animal);
         model.addAttribute("number1", number1);

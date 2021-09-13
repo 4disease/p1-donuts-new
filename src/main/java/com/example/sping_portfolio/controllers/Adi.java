@@ -10,6 +10,12 @@ public class Adi {
     public String adi() {
         return "/minilabs/adi"; // returns HTML VIEW (greeting)
     }
+
+    @GetMapping("/chatbot")
+    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
+    public String chatbot() {
+        return "/chatbot"; // returns HTML VIEW (greeting)
+    }
 }
 
 

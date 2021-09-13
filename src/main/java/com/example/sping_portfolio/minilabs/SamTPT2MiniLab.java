@@ -1,7 +1,5 @@
 package com.example.sping_portfolio.minilabs;
 
-import org.apache.catalina.valves.StuckThreadDetectionValve;
-
 public class SamTPT2MiniLab {
     public void SchoolType(boolean LikesSchool, int StudentAge, boolean HasPet) {
         System.out.println("The Student is " + StudentAge + " years old and it is " + HasPet + " that they have a pet.");
