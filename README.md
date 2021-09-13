@@ -5,7 +5,7 @@
 
 [Contributors](https://github.com/4disease/p1-donuts-new/graphs/contributors)
 
-**Journals**
+### Pair Journals
 
 [Kira & Natasha's Journal](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)
 
@@ -26,10 +26,15 @@
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
 ## Week 3
+### Team PBL
 | Requirment | Evidence |
 | ---        | ---      |
 | Pair Design / HTML.  Transfer design to layout.  Much of this could simply be converting Ideas to HTML.  Objective is to get your own STYLE, COLORS, FONTS; NAVIGATION into the site.  Establish your VIBE or Groove.  Try a couple of prototype experiments and get feedback from similar pair in Crossover. | [Layout Ticket](https://github.com/4disease/p1-donuts-new/issues/16) and [Main Page Ticket](https://github.com/4disease/p1-donuts-new/issues/6)|
 |Pair Prototyping / Thymeleaf.  Try using Class objects in Thymeleaf.    Most simple Class would be to use String methods (Links to an external site.) and Number methods, (Links to an external site.) more complex is to use your own defined Class include Images or other Media.   Objective is to produce a 3 by 3 grid using Bootstrap Grids, Bootstrap Tables, Bootstrap Cards.  Try to incorporate into Project or consider as Mini Lab depending on your design.  Try changing 3 x 3 to 4 x 4 or other orientation would be showing ability to manage page dynamically.| [Ticket](https://github.com/4disease/p1-donuts-new/issues/18) |
+| TPT2 MiniLab | [Ticket](https://github.com/4disease/p1-donuts-new/issues/15)
+
+### Individual Journals
+[Samhitha](https://docs.google.com/document/d/1ZNDZvucqu6cIj-rZo1GJwSH_VwAaeIdEBF9du9tJNeI/edit?usp=sharing)
 
 ## Week 2 Grading
 ### Team PBL Points: 3/3
