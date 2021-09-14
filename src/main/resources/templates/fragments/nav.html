@@ -5,7 +5,7 @@
 </head>
 <body>
     <!-- Begin navigation fragments -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light" th:fragment="header">
+    <nav class="navbar navbar-expand-lg" th:fragment="header">
         <!-- LOGO WITH LINK TO ANOTHER PAGE
 
         <a class="navbar-brand" href="http://nighthawkcodingsociety.com/">
@@ -24,7 +24,7 @@
             <span class="navbar-toggler-icon"></span>
         </button>
 
-        <div id="spring_intro" class="articles" style="margin: 10px; padding-top:5px; font-size:30%;">
+        <div id="spring_intro" class="articles" style="margin: 10px; padding-top:5px; font-size:30%; color: #ffffff;">
             <h5>Donuts</h5>
         </div>
 
@@ -75,7 +75,7 @@
             </ul>
             <!-- Clock display -->
             <div>
-                <span id="clock" class="articles" style="padding-right:50px" ></span>
+                <span id="clock" class="articles" style="padding-right:50px; color: #ffffff;" ></span>
             </div>
 
             <!-- Bootstrap menus -->
@@ -96,14 +96,14 @@
                     font-family: 'Oswald';
                 }
 
-                .bg-light {
-                    background-color: #646664;
+                .navbar{
+                    background: #394047;
                 }
+
                 .nav-link{
-                    color:#999;
-                    background:rgba(0, 0, 0, 0.5);
+                    color:#ffffff;
                     padding:10px 20px;
-                    font-size:12px; `
+                    font-size:12px;
                     text-decoration:none;
                     letter-spacing:2px;
                     text-transform:uppercase;
@@ -112,7 +112,7 @@
                 .nav-link:hover{
                     border:none;
                     background:rgba(0, 0, 0, 0.4);
-                    background:#fff;
+                    background:#ffffff;
                     padding:20px 20px #000;
                     color:#1b1b1b;
                 }
