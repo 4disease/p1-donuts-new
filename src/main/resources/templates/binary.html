@@ -148,7 +148,9 @@
 
           <tr>
             <th:block th:each="i: ${#numbers.sequence(0, bits-1)}">
-              <td><input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly></td>
+              <td><label>
+                <input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly>
+              </label></td>
             </th:block>
           </tr>
 
