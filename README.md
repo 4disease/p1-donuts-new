@@ -25,6 +25,29 @@
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new#week-2-grading)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
+
+## Week 4
+### Team Scoring
+| Requirment | Evidence | Grade |
+| ---        | ---      | --- |
+| Team and Scrum Master Planning by Wednesday  |[Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) | 1/1 |
+| Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project. | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) | 2/2 |
+
+### Individual Scoring
+| Name | Requirment | Evidence | Grade |
+| --- | ---        | ---      | --- |
+| Kira | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Kira | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Natasha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Ridhima | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Samhitha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Adi | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+
+
 ## Week 3
 ### Team PBL
 | Requirment | Evidence |
@@ -47,6 +70,7 @@
 ![image](https://user-images.githubusercontent.com/45546576/133113755-66e952cf-a6c3-451a-bd72-674349675364.png)
 ![image](https://user-images.githubusercontent.com/45546576/133114173-a59a8d4a-5fb7-43ec-8da8-c0a1e1a17c30.png)
 ![image](https://user-images.githubusercontent.com/70492417/133113613-9c435b88-ce3a-4b83-8394-e2dc29485e47.png)
+![image](https://user-images.githubusercontent.com/45546576/133298255-2c3cb7ce-58f0-4fb3-997e-cd76281c3d6c.png)
 
 
 ### Individual Journals
