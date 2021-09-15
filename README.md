@@ -25,6 +25,29 @@
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new#week-2-grading)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
+
+## Week 4
+### Team Scoring
+| Requirment | Evidence | Grade |
+| ---        | ---      | --- |
+| Team and Scrum Master Planning by Wednesday  |[Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) | 1/1 |
+| Team Technicals 2 points.  Evaluation is on how Planning and individual Issues compliment the entire project. | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1) | 2/2 |
+
+### Individual Scoring
+| Name | Requirment | Evidence | Grade |
+| --- | ---        | ---      | --- |
+| Kira | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Kira | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Natasha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Ridhima | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Samhitha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Adi | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+
+
 ## Week 3
 ### Team PBL
 | Requirment | Evidence |
