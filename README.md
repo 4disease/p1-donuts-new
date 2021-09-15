@@ -36,11 +36,11 @@
 ### Individual Scoring
 | Name | Requirment | Evidence | Grade |
 | --- | ---        | ---      | --- |
-| Kira | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
-| Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
-| Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
-| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
-| Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots go here | -/2 |
+| Kira | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
+| Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
 | Kira | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 | Natasha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 | Ridhima | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
