@@ -1,113 +1,207 @@
+<!DOCTYPE html>
 <html>
-  <head>
-    <title>Simple ChatAI using RiveScript.js</title>
-  </head>
-  <style>
-      * {
-  font-family: Monospace;
-  font-size: 11pt;
+<head>
+	<title>chatbot</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Allerta+Stencil">
+</head>
+<style>
+  *
+{
+	margin:0;
+	padding:0;
+	font-family: tahoma, sans-serif;
+	box-sizing: border-box;
+}
+body
+{
+	background:#1ddced;
+	z-index: -10;
+}
+.chatbox
+{
+	width:500px;
+	min-width: 390px;
+	height: 400px;
+	background:#fff;
+	padding: 25px;
+	margin:60px auto;
+	box-shadow: 3px 3px #ccc;
+  z-index:-1;
+
+}
+.chatlogs
+{
+	padding:10px;
+	width:100%;
+	height:450px;
+
+}
+.chat
+{
+	display: flex;
+	flex-flow: row wrap;
+	align-items: flex-start;
+	margin-bottom: 40px;
+}
+.chat .user-photo
+{
+	width: 60px;
+	height: 60px;
+	background: #ccc;
+	border-radius:50%;
+
+}
+.chat .chat-message
+{
+	width:80%;
+	padding: 15px;
+	margin:5px 10px 0;
+	border-radius: 10px;
+	color:#fff;
+	font-size: 18px;
+}
+.user .chat-message
+{
+	background: #1adda4;
+}
+.bot .chat-message
+{
+	background:#1ddced;
+	order:-1;
+}
+.chat-form
+{
+	margin-top: 100px;
+	margin-left: 40px;
+	display: flex;
+	align-items: flex-start;
+}
+.chat-form input
+{
+	background: #fbfbfb;
+	width:80%;
+	height:55px;
+	border:2px solid grey;
+	border-radius: 5px;
+	padding:10px;
+	font-size: 18px;
+	color: red;
+}
+.head
+{
+	background-color: black;
+	color:white;
+	width: 100%;
+	height: 80px;
+	font-size: 50px;
+	padding: 10px;
+
+
+}
+.head p
+{
+	align-items: center;
+	margin-left: 150px;
+	text-transform: capitalize;
+	
 }
 
-.chat {
-  width: 500px;
-  height: 90%;
-  position: fixed;
-  overflow: scroll;
-}
 
-.actions {
-  position: fixed;
-  bottom: 0;
-  display: block;
-  width: 100%;
-}
-
-.actions input{
-  height: 30px;
-  display: block;
-  width: 100%;
-  outline: 0;
-  border-top: 0;
-  border-left: 0;
-  border-right: 0;
-}
-
-.messages div {
-  max-width: 60%;
-  display: block;
-  margin: 5px;
-  padding: 10px;
-  border-radius: 7px;
-}
-
-.messages .bot {
-  text-align: left;
-  margin-right: auto;
-  background: lightblue;
-}
-
-.messages .self {
-  text-align: right;
-  margin-left: auto;
-  background: #DDD
-}
-  </style>
-  <body>
-
-    <div class="chat">
-      <div class="messages"></div>
-      <div id="edge"></div>
-      <form class="actions">
-        <input type="text" placeholder="press 'Enter' to send...">
-      </form>     
+</style>
+<body>
+    <div class="head">
+    	<p >a simple chatbot</p>
     </div>
-    
-    <script src="https://unpkg.com/rivescript@latest/dist/rivescript.min.js"></script>
-    <script> 
-    
-    let bot = new RiveScript();
+<div class="chatbox">
+	<div class="chatlogs">
+		<div class="chat user">
+			<div class="user-photo"></div>
+                 <div class="chat-message">user: <span id="user"></span></div>
+             </div>
+	<div class="chat bot">
+		<div class="user-photo"></div>
 
-const message_container = document.querySelector('.messages');
-const form = document.querySelector('form');
-const input_box = document.querySelector('input');
+		<div class="chat-message">chatbot: <span id="chatbot"></span></div>
+	</div>
+	<div class="chat-form"><input id="input" type="text" placeholder="say anything..." autocomplete="off"/></div>
 
-const brains = [
-  'https://gist.githubusercontent.com/awesammcoder/91e0f6c527bfdc03b8815289ca4af150/raw/6410ce00b7e1ea0dbd28be03b6eaab64252a841d/brain.rive'
+  <script>
+    var trigger = [
+	["hi","hey","hello"], 
+	["how are you", "how is life", "how are things"],
+	["what are you doing", "what is going on"],
+	["how old are you"],
+	["what is your task","what do you do"],
+	["who are you", "are you human", "are you bot", "are you human or bot"],
+	["who created you", "who made you"],
+	["your name please",  "your name", "may i know your name", "what is your name"],
+	["i love you"],
+	["happy", "good"],
+	["bad", "bored", "tired"],
+	["help me", "tell me story", "tell me joke"],
+	["ah", "yes", "ok", "okay", "nice", "thanks", "thank you"],
+	["bye", "good bye", "goodbye", "see you later"],
+	
 ];
+var reply = [
+	["Hi","Hey","Hello"], 
+	["Fine", "Pretty well", "Fantastic"],
+	["Nothing much", "About to go to sleep", "Can you guest?", "I don't know actually"],
+	["I am 1 day old"],
+	["my task is to help you out"],
+	["I am just a bot", "I am a bot. What are you?"],
+	[ "My God"],
+	["I am nameless", "I don't have a name"],
+	["I love you too", "Me too"],
+	["Have you ever felt bad?", "Glad to hear it"],
+	["Why?", "Why? You shouldn't!", "Try watching TV"],
+	["I will", "What about?"],
+	["Tell me a story", "Tell me a joke", "Tell me about yourself", "You are welcome"],
+	["Bye", "Goodbye", "See you later"]
 
-bot.loadFile(brains).then(botReady).catch(botNotReady);
-
-form.addEventListener('submit', (e) => {
-  e.preventDefault();
-  selfReply(input_box.value);
-  input_box.value = '';
+];
+var alternative = ["Haha...", "Eh..."];
+document.querySelector("#input").addEventListener("keypress", function(e){
+	var key = e.which || e.keyCode;
+	if(key === 13){ //Enter button
+		var input = document.getElementById("input").value;
+		document.getElementById("user").innerHTML = input;
+		output(input);
+	}
 });
-
-function botReply(message){
-  message_container.innerHTML += `<div class="bot">${message}</div>`;
-  location.href = '#edge';
+function output(input){
+	try{
+		var product = input + "=" + eval(input);
+	} catch(e){
+		var text = (input.toLowerCase()).replace(/[^\w\s\d]/gi, ""); //remove all chars except words, space and 
+		text = text.replace(/ a /g, " ").replace(/i feel /g, "").replace(/whats/g, "what is").replace(/please /g, "").replace(/ please/g, "");
+		if(compare(trigger, reply, text)){
+			var product = compare(trigger, reply, text);
+		} else {
+			var product = alternative[Math.floor(Math.random()*alternative.length)];
+		}
+	}
+	document.getElementById("chatbot").innerHTML = product;
+	
+	document.getElementById("input").value = ""; //clear input value
 }
-
-function selfReply(message){
-  message_container.innerHTML += `<div class="self">${message}</div>`;
-  location.href = '#edge';
-  
-  bot.reply("local-user", message).then(function(reply) {
-    botReply(reply);
-  });
+function compare(arr, array, string){
+	var item;
+	for(var x=0; x<arr.length; x++){
+		for(var y=0; y<array.length; y++){
+			if(arr[x][y] == string){
+				items = array[x];
+				item =  items[Math.floor(Math.random()*items.length)];
+			}
+		}
+	}
+	return item;
 }
-
-function botReady(){
-  bot.sortReplies();
-  botReply('Hello');
-}
-
-function botNotReady(err){
-  console.log("An error has occurred.", err);
-
-  
-}
-chatbot.loadFiles(['bot.rive']);
-</script>
-  </body>
+  </script>
+	
+</div>
+</body>
+<script type="text/javascript" src="script.js"></script>
 </html>
