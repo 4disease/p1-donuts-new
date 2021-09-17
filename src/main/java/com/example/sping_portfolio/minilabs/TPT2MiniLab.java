@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.minilabs;
 
-public class SamTPT2MiniLab {
+public class TPT2MiniLab {
     public void SchoolType(boolean LikesSchool, int StudentAge, boolean HasPet) {
         System.out.println("The Student is " + StudentAge + " years old and it is " + HasPet + " that they have a pet.");
         System.out.println("The Student likes school: " + LikesSchool);
@@ -24,10 +24,10 @@ public class SamTPT2MiniLab {
     }
 
     public static void main(String[] args) {
-        SamTPT2MiniLab student1 = new SamTPT2MiniLab();
+        TPT2MiniLab student1 = new TPT2MiniLab();
         student1.SchoolType(false, 13, true);
 
-        SamTPT2MiniLab student2 = new SamTPT2MiniLab();
+        TPT2MiniLab student2 = new TPT2MiniLab();
         student2.SchoolType(true, 5, true);
     }
 
