@@ -11,7 +11,7 @@
 <!-- Hack 6: fix all warnings -->
 
 <!-- <head> -->
-<div layout:fragment="metadata" th:with="bits=8" th:remove="tag">
+<div layout:fragment="metadata" th:with="bits=${newbit}" th:remove="tag">
   <title>Binary page</title>
   <script>
     const BITS = [[${bits}]];
@@ -26,11 +26,6 @@
       let bits = "";
       for(let i = 0; i < BITS; i++) {
         bits = bits + document.getElementById('digit' + i).value;
-        if (BITS >= 24)
-        {
-
-
-        }
       }
       return bits;
     }
@@ -114,7 +109,7 @@
 <!-- </head> -->
 
 <!-- <body> -->
-<div layout:fragment="content" th:with="bits=8" th:remove="tag">
+<div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
   <h1 class="text-center">Binary Math with Conversions</h1>
   <div class="container">
     <div class="row justify-content-md-center">
@@ -153,14 +148,26 @@
 
           <tr>
             <th:block th:each="i: ${#numbers.sequence(0, bits-1)}">
-              <td><label>
-                <input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly>
-              </label></td>
+              <td><input type='text' th:id="'digit' + ${i}" Value="0" size="1" readonly></td>
             </th:block>
           </tr>
 
         </table>
       </div>
+
+      <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+          <form action="/binary" method="GET" id="binaryForm">
+            <div>
+              <label for="bit">How many bits do you want?</label>
+              <input name="bit" id="bit">
+              <button>Submit</button>
+              <p th:text="'The number of bits you have entered are, ' + ${newbit} + '!'"></p>
+            </div>
+          </form>
+        </div>
+      </div>
+
     </div>
   </div>
 </div>
