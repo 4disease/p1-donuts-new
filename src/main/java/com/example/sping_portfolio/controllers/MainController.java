@@ -61,11 +61,16 @@ public class MainController {
     }
 
     @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String binary(@RequestParam(name = "bit", required = false, defaultValue = "8") String bit, Model model) {
+    public String binary(@RequestParam(name = "bit", required = false, defaultValue = "8") String bit,
+                         @RequestParam(name = "decimal", required = false, defaultValue = "0") String decimal, Model model) {
         model.addAttribute( "bit", bit);
         int newbit = Integer.valueOf(bit);
         model.addAttribute("newbit", newbit);
+        int decimalValue = 57;
+        char asciiValue = (char) decimalValue;
+        model.addAttribute("asciiValue", asciiValue);
         return "binary";
+
     }
 
 }
