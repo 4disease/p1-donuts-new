@@ -21,6 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2 Grading](https://github.com/4disease/p1-donuts-new#week-2-grading)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
@@ -44,7 +45,7 @@
 | Kira | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 | Natasha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 | Ridhima | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
-| Samhitha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
+| Samhitha | Unit 4 and Journal is 5 points | [Individual Journals](https://docs.google.com/document/d/1W86g0bk3poXqshe1gM5snJrwr-bu23_7WzizjFT6P58/edit?usp=sharing) | -/5 |
 | Adi | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 
 
