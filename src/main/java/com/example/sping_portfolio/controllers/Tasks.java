@@ -3,23 +3,20 @@ package com.example.sping_portfolio.controllers;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import java.io.Serializable;
 import java.util.ArrayList;
 
 @Controller
 public class Tasks implements Serializable {
-
-    int id;
     String title;
     String description;
     Boolean complete;
 
-    public void taskAssign(int i, String t, String d, Boolean c) {
-        id = i;
+    public void taskAssign(String t, String d) {
         title = t;
         description = d;
-        complete = c;
     }
 
     public String getTitle(){
@@ -33,8 +30,8 @@ public class Tasks implements Serializable {
     public ArrayList<Tasks> taskslist(){
         Tasks task1 = new Tasks();//creating an object of Student
         Tasks task2 = new Tasks();
-        task1.taskAssign(1, "Math homework", "DO YOUR MATH!!!!!", false);
-        task2.taskAssign(2, "English Homework", "Write a whole essay boyyyyy", false);
+        task1.taskAssign( "Math homework", "DO YOUR MATH!!!!!");
+        task2.taskAssign( "English Homework", "Write a whole essay boyyyyy");
 
         ArrayList<Tasks> list = new ArrayList<>();
         list.add(task1);
@@ -52,9 +49,14 @@ public class Tasks implements Serializable {
 
     @GetMapping("/tasks")
     // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String tasks(Model model) {
+    public String tasks(@RequestParam(name="title", required=false, defaultValue="Task title") String title,
+                        @RequestParam(name="description", required=false, defaultValue="Task description") String description,
+                        Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         //model.addAttribute("list", taskslist());
+
+        Tasks task10 = new Tasks();
+        task10.taskAssign(title, description);
 
         Tasks task1 = new Tasks();//creating an object of Student
         Tasks task2 = new Tasks();
@@ -66,15 +68,16 @@ public class Tasks implements Serializable {
         Tasks task8 = new Tasks();
         Tasks task9 = new Tasks();
 
-        task1.taskAssign(1, "Math homework", "DO YOUR MATH!!!!!", false);
-        task2.taskAssign(2, "English Homework", "Write a whole essay", false);
-        task3.taskAssign(3, "CompSci Homework", "Doing it right now :)", false);
-        task4.taskAssign(4, "Math homework", "DO YOUR MATH!!!!!", false);
-        task5.taskAssign(5, "English Homework", "Write a whole essay", false);
-        task6.taskAssign(6, "CompSci Homework", "Doing it right now :)", false);
-        task7.taskAssign(7, "Math homework", "DO YOUR MATH!!!!!", false);
-        task8.taskAssign(8, "English Homework", "Write a whole essay", false);
-        task9.taskAssign(9, "CompSci Homework", "Doing it right now :)", false);
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!");
+        task2.taskAssign("English Homework", "Write a whole essay");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)");
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!");
+        task2.taskAssign("English Homework", "Write a whole essay");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)");
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!");
+        task2.taskAssign("English Homework", "Write a whole essay");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)");
+
 
         ArrayList<Tasks> list = new ArrayList<>();
         list.add(task1);
@@ -86,6 +89,7 @@ public class Tasks implements Serializable {
         list.add(task7);
         list.add(task8);
         list.add(task9);
+        list.add(task10);
         model.addAttribute("list", list);
 
         return "tasks"; // returns HTML VIEW (greeting)

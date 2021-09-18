@@ -2,7 +2,7 @@
 <html lang="en" xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>Tasks Page</title>
 
 </head>
 <!-- Latest compiled and minified CSS -->
@@ -19,6 +19,16 @@
 
 
 <body>
+
+<div>
+    <form action="/tasks" method="GET" id="samForm">
+        <div>
+            <input name="title" id="number1">
+            <input name="description" id="number2">
+            <button>Add</button>
+        </div>
+    </form>
+</div>
 
 <div style=" width: 1500px; padding:30px;">
 <div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each="tasks : ${list}">
