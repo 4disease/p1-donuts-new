@@ -40,7 +40,7 @@
 | Kira | Individual Technicals 2 point.  Code commits is required on something Technical. | [Ticket](https://github.com/4disease/p1-donuts-new/projects/1#card-68302060) | 2/2 |
 | Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | -/2 |
 | Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. | [Ticket 1](https://github.com/4disease/p1-donuts-new/projects/1#card-68848759) and [Ticket 2](https://github.com/4disease/p1-donuts-new/projects/1#card-67978519) | 2/2 |
-| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | [Ticket](https://github.com/4disease/p1-donuts-new/projects/1#card-68677311) | 2/2 |
+| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. | [Ticket1](https://github.com/4disease/p1-donuts-new/projects/1#card-68677311) & [Ticket2](https://github.com/4disease/p1-donuts-new/projects/1#card-68848759) | 2/2 |
 | Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | Tickets & Screenshots | 2/2 |
 | Kira | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 | Natasha | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
