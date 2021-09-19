@@ -49,7 +49,7 @@
 | Adi | Unit 4 and Journal is 5 points | Individual Journals | -/5 |
 
 ### Overview Video 
-"https://www.youtube.com/watch?v=g5CSwQPwKAw&ab_channel=NatashaKapoor"
+https://www.youtube.com/watch?v=g5CSwQPwKAw&ab_channel=NatashaKapoor
 
 ## Week 3
 ### Team PBL
