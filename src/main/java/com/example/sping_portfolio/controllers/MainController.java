@@ -5,11 +5,15 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import javax.swing.text.html.HTMLDocument;
+import javax.validation.constraints.DecimalMax;
+
 @Controller
 public class MainController {
 
-    @GetMapping("/aboutus")
-    public String aboutus() { return "aboutus";
+    @GetMapping("/about")
+    public String about() {
+        return "about";
     }
 
     @GetMapping("/greet")
@@ -61,12 +65,11 @@ public class MainController {
     }
 
     @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
-    public String binary(@RequestParam(name = "bit", required = false, defaultValue = "8") String bit,
-                         @RequestParam(name = "decimal", required = false, defaultValue = "0") String decimal, Model model) {
+    public String binary(@RequestParam(name = "bit", required = false, defaultValue = "8") String bit, Model model) {
         model.addAttribute( "bit", bit);
         int newbit = Integer.valueOf(bit);
         model.addAttribute("newbit", newbit);
-        int decimalValue = 57;
+        int decimalValue = 60;
         char asciiValue = (char) decimalValue;
         model.addAttribute("asciiValue", asciiValue);
         return "binary";
