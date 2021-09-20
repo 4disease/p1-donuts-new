@@ -21,10 +21,16 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
   - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
-  - [Week 2 Grading](https://github.com/4disease/p1-donuts-new#week-2-grading)
+  - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Week 5
+| Name | Requirement | Evidence | Grade |
+| ---  | ---         | ---      | ---   |
+| Kira | View/Frontend improvements Control improvements |
 
 
 ## Week 4
@@ -87,7 +93,7 @@ https://www.youtube.com/watch?v=g5CSwQPwKAw&ab_channel=NatashaKapoor
 
 [Kira](https://docs.google.com/document/d/14GF9RhA9naTa_XoukQUV8AowLPUaWgmbewJRQaYMQAk/edit?usp=sharing)
 
-## Week 2 Grading
+## Week 2
 ### Team PBL Points: 3/3
 
 | Requirment | Evidence |
