@@ -28,10 +28,23 @@
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
 ## Week 5
+### Modeling
 | Name | Requirement | Evidence | Grade |
 | ---  | ---         | ---      | ---   |
-| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements |
+| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
+| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
+| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
+| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
+| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
 
+### Individual Scoring
+| Name | Unit 5 Journal | TT & TPT Notes | Grade |
+| ---  | ---            | ---            | ---   |
+| Kira | Journal | Notes | -/5 |
+| Natasha | Journal | Notes | -/5 |
+| Adi | Journal | Notes | -/5 |
+| Ridhima | Journal | Notes | -/5 |
+| Samhitha | Journal | Notes | -/5 |
 
 ## Week 4
 ### Team Scoring
