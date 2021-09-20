@@ -31,7 +31,7 @@
 | Name | Requirement | Evidence | Grade |
 | ---  | ---         | ---      | ---   |
 | Kira | View/Frontend improvements 
-        Control improvements |
+| ---  |Control improvements |
 
 
 ## Week 4
