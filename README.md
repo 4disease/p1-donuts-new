@@ -31,11 +31,11 @@
 ### Modeling
 | Name | Requirement | Evidence | Grade |
 | ---  | ---         | ---      | ---   |
-| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
-| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
-| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
-| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
-| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br> | -/1<br>-/1<br>-/3 |
+| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
 ### Individual Scoring
 | Name | Unit 5 Journal | TT & TPT Notes | Grade |
