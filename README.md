@@ -30,7 +30,8 @@
 ## Week 5
 | Name | Requirement | Evidence | Grade |
 | ---  | ---         | ---      | ---   |
-| Kira | View/Frontend improvements Control improvements |
+| Kira | View/Frontend improvements 
+        Control improvements |
 
 
 ## Week 4
