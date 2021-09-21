@@ -69,9 +69,6 @@ public class MainController {
         model.addAttribute( "bit", bit);
         int newbit = Integer.valueOf(bit);
         model.addAttribute("newbit", newbit);
-        int decimalValue = 60;
-        char asciiValue = (char) decimalValue;
-        model.addAttribute("asciiValue", asciiValue);
         return "binary";
 
     }
