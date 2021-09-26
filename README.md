@@ -36,7 +36,7 @@
 | Natasha | Journal | Notes | -/5 |
 | Adi | Journal | Notes | -/5 |
 | Ridhima | Journal | Pair Notes | -/5 |
-| Samhitha | Journal | Pair Notes | -/5 
+| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) | [Pair Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.bdsznobmw57l) | 5/5 
 
 ## Week 4
 ### Team Scoring
