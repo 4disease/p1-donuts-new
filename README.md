@@ -28,14 +28,6 @@
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
 ## Week 5
-### Modeling
-| Name | Requirement | Evidence | Grade |
-| ---  | ---         | ---      | ---   |
-| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
 ### Individual Scoring
 | Name | Unit 5 Journal | TT & TPT Notes | Grade |
@@ -43,8 +35,8 @@
 | Kira | Journal | Notes | -/5 |
 | Natasha | Journal | Notes | -/5 |
 | Adi | Journal | Notes | -/5 |
-| Ridhima | Journal | Notes | -/5 |
-| Samhitha | Journal | Notes | -/5 |
+| Ridhima | Journal | Pair Notes | -/5 |
+| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) | [Pair Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.bdsznobmw57l) | 5/5 
 
 ## Week 4
 ### Team Scoring
@@ -134,6 +126,16 @@ https://www.youtube.com/watch?v=g5CSwQPwKAw&ab_channel=NatashaKapoor
 | Kira | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/kira.html), [Unit 2 Journal](https://docs.google.com/document/d/12eXZS0i8E9GRPjdFEagZcaeR4yZ9VsZz0ILtXA66BPs/edit)| will use personal laptop at home and school |
 | Ridhima | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/ridhima.html), [Unit 2 Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit)| will use personal laptop at home and school |
 | Adi | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/adi.html), [Unit 2 Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6)| will use personal laptop at home and school |
+
+## Week 7
+### Modeling
+| Name | Requirement | Evidence | Grade |
+| ---  | ---         | ---      | ---   |
+| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
+| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
 ## Ideation
 Our idea is to create a website that would be a to do list or planner for students in order to organize their tasks and their schedules. We wanted to help them organize their lives and keep them on track. We are planning on having different features such as notifications that would alert them of future tasks that need to be done, also a calendar that would list the tasks, and a login page that would require the user to create a username/password in order to enter the website. 
