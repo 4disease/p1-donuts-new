@@ -57,9 +57,34 @@
       return conversion;
     }
 
+    // convert a number to color
+    function numberToColour(number) {
+      const r = (number & 0xff0000) >> 16;
+      const g = (number & 0x00ff00) >> 8;
+      const b = (number & 0x0000ff);
+
+      //return [b, g, r];
+      return `rgb(${b},${g},${r})`;
+    }
+
+    // depending upon the bits hide the color box
+    function hideColor()
+    {
+     if (BITS === 24) {
+       // alert(BITS);
+       // alert("Decimal Value= " + document.getElementById('decimal').innerHTML);
+       // alert(numberToColour(229376));
+       document.getElementById('color').style.backgroundColor = numberToColour(document.getElementById('decimal').innerHTML);
+     }
+     else
+     {
+       document.getElementById('color').style.backgroundColor = "initial";
+     }
+    }
+
     // toggle selected bit and recalculate
     function toggleBit(i) {
-      //alert("Digit action: " + i );
+      // alert("Digit action: " + i );
       const dig = document.getElementById('digit' + i);
       const image = document.getElementById('bulb' + i);
       const butt = document.getElementById('butt' + i);
@@ -76,7 +101,9 @@
       // Binary numbers
       const binary = getBits();
       setConversions(binary);
+      hideColor();
     }
+
     // add is positive integer, subtract is negative integer
     function add(n) {
       let binary = getBits();
@@ -113,7 +140,7 @@
 <div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
   <h1 class="text-center">Binary Math with Conversions</h1>
   <div class="container">
-    <div class="row justify-content-md-center">
+    <div class="row justify-content-md-center" id="maindiv">
 
       <div class="col-8">
         <table class="table">
@@ -168,6 +195,7 @@
               <input name="bit" id="bit">
               <button>Submit</button>
               <p th:text="'The number of bits you have entered are, ' + ${bit} + '!'"></p>
+               <input type="text" id="color" name="color" class="form-control" style="height: 70px; border: 0px; background-color: initial" readonly="">
             </div>
           </form>
         </div>

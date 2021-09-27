@@ -11,9 +11,9 @@ import javax.validation.constraints.DecimalMax;
 @Controller
 public class MainController {
 
-    @GetMapping("/about")
-    public String about() {
-        return "about";
+    @GetMapping("/aboutus")
+    public String aboutus() {
+        return "aboutus";
     }
 
     @GetMapping("/greet")

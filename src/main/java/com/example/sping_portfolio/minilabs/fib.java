@@ -35,7 +35,7 @@ public class fib {
 		int next = count + 1; 
 
 		System.out.print("It took " + count + " iterations of the while loop.");
-		System.out.print("the " + next + "th number of the fibonacci sequence is " + num1);
+		System.out.println("the " + next + "th number of the fibonacci sequence is " + num1);
 
 		//Your goal: Using the for iteration, create a list that will list all 
 

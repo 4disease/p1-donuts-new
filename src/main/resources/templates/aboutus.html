@@ -1,24 +1,23 @@
-<!-- This page is illustrative and contains ideas about HTML formatting -->
 <!DOCTYPE HTML>
-<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
     <title>About Us</title>
+    <!-- End of head content specific to page -->
 </div></head>
 
-<body><div layout:fragment="content" th:remove="tag">
-
-    <div style="text-align: center; margin: 20%;">
-        <a style=" color: Black; font-size: 50px;">About Us</a>
-        <a>We are the P1-Donuts. Watch this video to learn about our project!</a>
+<div style="text-align: center; margin: 20%;">
+    <a style=" color: Black; font-size: 50px;">About Us</a> </br>
+    <a>We are the P1-Donuts. Watch this video to learn about our project!</a>
+    <iframe width="420" height="315"
+            src="https://www.youtube.com/watch?v=lgSEf8-F7TE">
         <iframe
                 width="900" height="700" src="https://www.youtube.com/embed/lgSEf8-F7TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
 
         </iframe>
 
-    </div>
-
-</div></body>
+</div>
 </html>

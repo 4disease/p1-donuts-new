@@ -1,0 +1,37 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Geometric</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/geo" method="GET" id="greetForm">
+                <div>
+                    <p th:text= "'Welcome to Geometric. Make your purchase here.'" ></p>
+                    <label for="start">What would be your starting number?</label>
+                    <input name="start" id="start">
+                    <p> <label for="mult">What would be your multiplier?</label>
+                    <input name="mult" id="mult"> </p>
+                    <p> <label for="count">How many terms would you like?</label>
+                     <input name="count" id="count"></p>
+                    <button>Order Geometric Sequence</button>
+
+                    <p th:text= "'The geometric sequence is:' + ${result}"></p>
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
