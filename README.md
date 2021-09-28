@@ -34,7 +34,7 @@
 | ---  | ---            | ---            | ---   |
 | Kira | [Journal](https://docs.google.com/document/d/1vOl7l3sy8ZhL46aA3WP68C5Jl66HzPFCUyYZ5i2bxKw/edit) | [Pair Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit) | 5/5 |
 | Natasha | [Journal](https://docs.google.com/document/d/1WgQCz697EYzD1X2MxO5eC4HXS0NeKcfiCOxDDzAP--k/edit) | [Pair Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit) | 5/5 |
-| Adi | Journal | Notes | -/5 |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | [Pair Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.bdsznobmw57l) | 5/5 |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) | [Pair Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.bdsznobmw57l) | 5/5 |
 | Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) | [Pair Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.bdsznobmw57l) | 5/5 
 
