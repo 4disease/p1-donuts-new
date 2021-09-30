@@ -1,0 +1,52 @@
+<!DOCTYPE HTML>
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+    
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <!-- Start of head content specific to page -->
+    <title>Fibonacci Fun</title>
+    <!-- End of head content specific to page -->
+</div></head>
+
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+
+<body><div layout:fragment="content" th:remove="tag">
+    <!-- Start of body content specific to page -->
+    <div class="contact" style="height: 35vh;">
+        <div class="row justify-content-left" style="margin: 2%;">
+            <form action="/fib" method="GET" id="greetForm">
+                <div>
+                    <p th:text= "'Welcome to Fibonacci Fun!'" ></p>
+                    <label for="start">How many numbers of the Fibonacci series do you need? </label>
+                    <input name="start" id="start">
+                    
+                    <button> Have Fun with Fibonacci!</button>
+
+                    <p th:text= "'The fibonacci sequence is:' + ${fibList}"></p>
+
+                    <table class="w3-table-all w3-card-4">
+                        <tr>
+                          <th>First Name</th>
+                          <th>Last Name</th>
+                          <th>Points</th>
+                        </tr>
+                        <tr>
+                          <td>Jill</td>
+                          <td>Smith</td>
+                          <td>50</td>
+                        </tr>
+                        </table>
+
+
+
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of body content specific to page -->
+</div></body>
+
+</html>
