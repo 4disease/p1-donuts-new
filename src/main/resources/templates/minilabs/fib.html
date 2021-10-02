@@ -19,26 +19,16 @@
         <div class="row justify-content-left" style="margin: 2%;">
             <form action="/fib" method="GET" id="greetForm">
                 <div>
-                    <p th:text= "'Welcome to Fibonacci Fun!'" ></p>
-                    <label for="start">How many numbers of the Fibonacci series do you need? </label>
+                    <p th:text= "'Welcome to Perrin!'" ></p>
+                    <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Perrin_triangles.png/350px-Perrin_triangles.png"> </img>
+                    <label for="start">How many numbers of the Perrin series do you need? </label>
                     <input name="start" id="start">
                     
-                    <button> Have Fun with Fibonacci!</button>
+                    <button> Perrin Me !</button>
 
-                    <p th:text= "'The fibonacci sequence is:' + ${fibList}"></p>
+                    <p th:text= "'The perrin sequence is:' + ${perList}"></p>
 
-                    <table class="w3-table-all w3-card-4">
-                        <tr>
-                          <th>First Name</th>
-                          <th>Last Name</th>
-                          <th>Points</th>
-                        </tr>
-                        <tr>
-                          <td>Jill</td>
-                          <td>Smith</td>
-                          <td>50</td>
-                        </tr>
-                        </table>
+                    
 
 
 

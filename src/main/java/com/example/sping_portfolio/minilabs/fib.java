@@ -22,15 +22,17 @@ public class fib {
         int fnum = Integer.parseInt(start);
         int count = 0;
 
-        List<String> fibList = new ArrayList<String>();
+        List<String> perList = new ArrayList<String>();
 
-        int num1 = 0;
-        int num2 = 1;
+        int num1 = 3;
+        int num2 = 0;
+        int num3 = 2;
 
-        fibList.add("0");
-        fibList.add("1");
+        perList.add("3");
+        perList.add("0");
+        perList.add("2");
 
-        while (count < (fnum - 2)) {
+        while (count < (fnum - 3)) {
   
             
             
@@ -38,20 +40,21 @@ public class fib {
             System.out.print(num1 + " ");
   
             // Swap
-            int num3 = num2 + num1;
+            int num4 = num2 + num1;
             num1 = num2;
             num2 = num3;
-            String numstr3 = String.valueOf(num3); // changes integer to string 
+            num3 = num4;
+            String numstr4 = String.valueOf(num4); // changes integer to string 
             count += 1;
 
-            fibList.add(numstr3);
+            perList.add(numstr4);
 
 
 
         }
 
 
-        model.addAttribute("fibList", fibList);
+        model.addAttribute("perList", perList);
 
         return "/minilabs/fib";
     }
@@ -89,13 +92,15 @@ public class fib {
         System.out.println("Here is the geometric sequence you ordered: ");
         int fnum = start;
         int count = 0;
-        List<String> fibList = new ArrayList<String>();
+        List<String> perList = new ArrayList<String>();
 
-        int num1 = 0;
-        int num2 = 1;
+        int num1 = 3;
+        int num2 = 0;
+        int num3 = 2;
 
-        fibList.add("0");
-        fibList.add("1");
+        perList.add("3");
+        perList.add("0");
+        perList.add("2");
         
 
         while (count < (fnum - 2)) {
@@ -106,21 +111,22 @@ public class fib {
             System.out.print(num1 + " ");
   
             // Swap
-            int num3 = num2 + num1;
+            int num4 = num2 + num1;
             num1 = num2;
             num2 = num3;
-            String numstr3 = String.valueOf(num3); // changes integer to string 
+            num3 = num4;
+            String numstr4 = String.valueOf(num4); // changes integer to string 
             count += 1;
 
-            fibList.add(numstr3);
+            perList.add(numstr4);
+
 
 
         }
 
-        System.out.println(fibList);
+        System.out.println(perList);
 
 
-        System.out.println("Thank you for shopping at Geometric. Have a good day!");
 
 		
     }

@@ -1,14 +1,20 @@
-package com.example.sping_portfolio.minilabs;
-//import com.nighthawk.csa.algorithm.fibonacciModel.*;
-//import com.models.*;
+package com.example.sping_portfolio.controllers;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
+import models.PerrinFor;
+import models.PerrinRecurse;
+import models.PerrinStream;
+import models.PerrinWhile;
+import models._Perrin;
+
 import java.util.ArrayList;
 import java.util.List;
 
+@Controller 
 public class perrincontrol {
     public List<_Perrin> perInit(int nth) {
         //Perrin objects created with different initializers
@@ -30,7 +36,7 @@ public class perrincontrol {
         //MODEL attributes are passed back html
         model.addAttribute("PerrinList", perInit(nth));
 
-        return "algorithm/perrin"; //HTML render fibonacci results
+        return "models/perrin"; //HTML render fibonacci results
 
     }
 
@@ -38,8 +44,8 @@ public class perrincontrol {
     public static void main(String[] args) {
         int nth = 20; //!!!make dynamic using consoleUI inputInt!!! 92 is max for long
 
-        List<_Perrin> fibList = new perrincontrol().perInit(nth);
-        for (_Perrin fibonacci : fibList)
-            fibonacci.print();  //Console output fibonacci results
+        List<_Perrin> PerrinList = new perrincontrol().perInit(nth);
+        for (_Perrin perrin : PerrinList)
+            perrin.print();  //Console output fibonacci results
     }
 }
