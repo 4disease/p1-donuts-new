@@ -21,13 +21,47 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
   - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
   - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+## Week 6 
+
+### Individual Code
+| Name | Requirment | Evidence |
+| --- | ---        | ---      |
+| Kira | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend |  |
+| Natasha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  |  |
+| Ridhima | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  |  | 
+| Samhitha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-69981970) |
+| Adi | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | |
+
+| Name | 30 second Runtime video|
+| --- | ---        |
+| Kira | |
+| Natasha | |
+| Ridhima | https://www.youtube.com/watch?v=1GgoGGjDolY&ab_channel=Ridhimainukurti | 
+| Samhitha | |
+| Adi | | 
+### Individual Jounrals 
+| Name | Unit 5 Journal |
+| ---  | ---            |
+| Kira | [Journal](https://docs.google.com/document/d/1vOl7l3sy8ZhL46aA3WP68C5Jl66HzPFCUyYZ5i2bxKw/edit) |
+| Natasha | [Journal](https://docs.google.com/document/d/1WgQCz697EYzD1X2MxO5eC4HXS0NeKcfiCOxDDzAP--k/edit) |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
+| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) |
 
 ## Week 5
+| Name | Unit 5 Journal |
+| ---  | ---            |
+| Kira | [Journal](https://docs.google.com/document/d/1vOl7l3sy8ZhL46aA3WP68C5Jl66HzPFCUyYZ5i2bxKw/edit) |
+| Natasha | [Journal](https://docs.google.com/document/d/1WgQCz697EYzD1X2MxO5eC4HXS0NeKcfiCOxDDzAP--k/edit) |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
+| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) | 
 
 ### Individual Scoring
 | Name | Unit 5 Journal | TT & TPT Notes | Grade |
