@@ -21,11 +21,22 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 6]()
   - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
   - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+## Week 6 
+
+### Individual Scoring 
+| Name | Requirment | Evidence |
+| --- | ---        | ---      |
+| Kira |  |  |
+| Natasha | Individual Technicals 2 point.  Code commits is required on something Technical. |  |
+| Ridhima | Individual Technicals 2 point.  Code commits is required on something Technical. |  | 
+| Samhitha | Individual Technicals 2 point.  Code commits is required on something Technical. |  |
+| Adi | Individual Technicals 2 point.  Code commits is required on something Technical. | |
 
 ## Week 5
 
