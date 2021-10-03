@@ -34,7 +34,7 @@
 | --- | ---        | ---      |
 | Kira | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend |  |
 | Natasha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  |  |
-| Ridhima | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-70021194)  | 
+| Ridhima | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend | [Scrum Card](https://github.com/4disease/p1-donuts-new/issues/26) |
 | Samhitha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-69981970) |
 | Adi | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | |
 
@@ -43,16 +43,17 @@
 | Kira | |
 | Natasha | |
 | Ridhima | https://www.youtube.com/watch?v=1GgoGGjDolY&ab_channel=Ridhimainukurti | 
-| Samhitha | |
+| Samhitha | https://drive.google.com/file/d/1zborKLYYGFdFKtF1d3ELHbL8Upn09iXi/view?usp=drivesdk |
 | Adi | | 
-### Individual Jounrals 
-| Name | Unit 5 Journal |
+
+### Individual Journals 
+| Name | Unit 6 Journal |
 | ---  | ---            |
 | Kira | [Journal](https://docs.google.com/document/d/1vOl7l3sy8ZhL46aA3WP68C5Jl66HzPFCUyYZ5i2bxKw/edit) |
 | Natasha | [Journal](https://docs.google.com/document/d/1WgQCz697EYzD1X2MxO5eC4HXS0NeKcfiCOxDDzAP--k/edit) |
 | Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
-| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) |
+| Samhitha | [Journal](https://docs.google.com/document/d/1SzmT_OWBZ-DKrdi6pSNcXcblObJIIVP_gQxNncC0azE/edit?usp=drivesdk) |
 
 ## Week 5
 | Name | Unit 5 Journal |
