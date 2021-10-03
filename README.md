@@ -39,6 +39,13 @@
 | Adi | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | |
 
 ### Individual Jounrals 
+| Name | Unit 5 Journal |
+| ---  | ---            |
+| Kira | [Journal](https://docs.google.com/document/d/1vOl7l3sy8ZhL46aA3WP68C5Jl66HzPFCUyYZ5i2bxKw/edit) |
+| Natasha | [Journal](https://docs.google.com/document/d/1WgQCz697EYzD1X2MxO5eC4HXS0NeKcfiCOxDDzAP--k/edit) |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
+| Samhitha | [Journal](https://docs.google.com/document/d/1p9yVZaly-h2uP4HZWTEo45JeDVDSxdcriUtkxUZIbB0/edit?usp=sharing) |
 
 ## Week 5
 | Name | Unit 5 Journal |
