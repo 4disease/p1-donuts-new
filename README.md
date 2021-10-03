@@ -21,7 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
-  - [Week 6]()
+  - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
   - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
   - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
@@ -38,6 +38,13 @@
 | Samhitha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  |  |
 | Adi | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | |
 
+| Name | 30 second Runtime video|
+| --- | ---        |
+| Kira | |
+| Natasha | |
+| Ridhima | https://www.youtube.com/watch?v=1GgoGGjDolY&ab_channel=Ridhimainukurti | 
+| Samhitha | |
+| Adi | | 
 ### Individual Jounrals 
 | Name | Unit 5 Journal |
 | ---  | ---            |
