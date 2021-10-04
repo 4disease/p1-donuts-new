@@ -21,14 +21,32 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
   - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
   - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
   - [Week 4](https://github.com/4disease/p1-donuts-new#week-4)
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
-## Week 6 
 
+## Week 7
+### Modeling
+| Requirement | Evidence | Grade |
+| ---         | ---      | ---   |
+| View/Frontend improvements | Ticket | -/1 |
+| Control improvements | Ticket | -/1 |
+| Model improvements | Ticket | -/3 |
+
+### Individual Journals
+| Name | Unit 6 Journal |
+| ---  | ---            |
+| Kira | Journal |
+| Natasha | Journal |
+| Adi | Journal |
+| Ridhima | Journal |
+| Samhitha | Journal |
+
+## Week 6 
 ### Individual Code
 | Name | Requirment | Evidence |
 | --- | ---        | ---      |
@@ -161,16 +179,6 @@ https://www.youtube.com/watch?v=g5CSwQPwKAw&ab_channel=NatashaKapoor
 | Kira | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/kira.html), [Unit 2 Journal](https://docs.google.com/document/d/12eXZS0i8E9GRPjdFEagZcaeR4yZ9VsZz0ILtXA66BPs/edit)| will use personal laptop at home and school |
 | Ridhima | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/ridhima.html), [Unit 2 Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit)| will use personal laptop at home and school |
 | Adi | 7/7 | [Individual page](https://github.com/4disease/p1-donuts-new/blob/master/src/main/resources/templates/minilabs/adi.html), [Unit 2 Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6)| will use personal laptop at home and school |
-
-## Week 7
-### Modeling
-| Name | Requirement | Evidence | Grade |
-| ---  | ---         | ---      | ---   |
-| Kira | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Natasha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Adi | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Ridhima | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
-| Samhitha | View/Frontend improvements<br>Control improvements<br>Model improvements | Ticket<br>Ticket<br>Ticket | -/1<br>-/1<br>-/3 |
 
 ## Ideation
 Our idea is to create a website that would be a to do list or planner for students in order to organize their tasks and their schedules. We wanted to help them organize their lives and keep them on track. We are planning on having different features such as notifications that would alert them of future tasks that need to be done, also a calendar that would list the tasks, and a login page that would require the user to create a username/password in order to enter the website. 
