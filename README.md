@@ -33,18 +33,18 @@
 ### Modeling
 | Requirement | Evidence | Grade |
 | ---         | ---      | ---   |
-| View/Frontend improvements | Ticket | -/1 |
-| Control improvements | Ticket | -/1 |
-| Model improvements | Ticket | -/3 |
+| View/Frontend improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/22) | -/1 |
+| Control improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/23) | -/1 |
+| Model improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/24) | -/3 |
 
 ### Individual Journals
-| Name | Unit 6 Journal |
+| Name | Unit 7 Journal |
 | ---  | ---            |
 | Kira | Journal |
 | Natasha | Journal |
 | Adi | Journal |
 | Ridhima | Journal |
-| Samhitha | Journal |
+| Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) |
 
 ## Week 6 
 ### Individual Code
