@@ -42,7 +42,7 @@
 | ---  | ---            |
 | Kira | Journal |
 | Natasha | Journal |
-| Adi | Journal |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | Journal |
 | Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) |
 
