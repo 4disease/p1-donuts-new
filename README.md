@@ -50,7 +50,7 @@
 ### Individual Code
 | Name | Requirment | Evidence |
 | --- | ---        | ---      |
-| Kira | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend |  |
+| Kira | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend | [Card](https://github.com/4disease/p1-donuts-new/projects/1#card-70190670)  |
 | Natasha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  |  |
 | Ridhima | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-70021194) |
 | Samhitha | Must create an abstract Class, abstract Interface, polymorphic Behavior in Class that extends and a screen allowing input and showing analysis on HTML frontend  | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-69981970) |
