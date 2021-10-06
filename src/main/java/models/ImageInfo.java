@@ -1,6 +1,7 @@
-package com.example.sping_portfolio.minilabs;
+package models;
 
 
+import com.example.sping_portfolio.minilabs.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.apache.tomcat.util.codec.binary.StringUtils;
 
