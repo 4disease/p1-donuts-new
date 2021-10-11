@@ -1,23 +1,115 @@
-<!DOCTYPE HTML>
+<!-- <!DOCTYPE HTML>
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <!-- Start of head content specific to page -->
+
     <title>About Us</title>
-    <!-- End of head content specific to page -->
+
 </div></head>
 
-<div style="text-align: center; margin: 20%;">
-    <a style=" color: Black; font-size: 50px;">About Us</a> </br>
-    <a>We are the P1-Donuts. Watch this video to learn about our project!</a>
-    <iframe width="420" height="315"
-            src="https://www.youtube.com/watch?v=lgSEf8-F7TE">
-        <iframe
-                width="900" height="700" src="https://www.youtube.com/embed/lgSEf8-F7TE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+<body>
+<div class="contact" style="height: 35vh;">
+    <div class="row justify-content-left" style="margin: 2%;">
+        <form action="/greet" method="GET" id="greetForm">
+            <div>
+                <img class="img-responsive py-3" th:id="'kira' + ${i}" src="" th:src="@{'/images/kira.png'}" alt="" width="40" height="Auto">
+                <img class="img-responsive py-3" th:id="'natasha' + ${i}" src="" th:src="@{'/images/natasha.png'}" alt="" width="40" height="Auto">
+                <img class="img-responsive py-3" th:id="'ridhima' + ${i}" src="" th:src="@{'/images/ridhima.png'}" alt="" width="40" height="Auto">
+                <img class="img-responsive py-3" th:id="'sam' + ${i}" src="" th:src="@{'/images/sam.png'}" alt="" width="40" height="Auto">
+                <input name="name" id="greetField">
+                <button>GrayScale</button>
 
-        </iframe>
+            </div>
+        </form>
+    </div>
+</div>
+<div style="text-align: center; margin: 20%;">
+    <a style=" color: Black; font-size: 50px;">About Us</a>
+    <p>We are the P1-Donuts. Watch this video to learn about our project!</p>
 
 </div>
+</body>
+
+</html> -->
+
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<head>
+    <div layout:fragment="metadata" th:remove="tag">
+        <title>About Us</title>
+    </div>
+</head>
+
+<body>
+<div layout:fragment="content" th:remove="tag">
+    <div class="container">
+        <h1 class="text-center">About Us</h1>
+        <p><small><a href="/image/grayscale">Grayscale</a></small></p>
+        <div class="row justify-content-md-center">
+            <table class="table">
+                <thead>
+                <tr>
+                    <th>Image</th>
+                    <th>Grayscale Image</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/kira.png'}" alt=""
+                             width="175" height="200">
+                    </td>
+
+                </tr>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/natasha.jpg'}"  alt=""  width="175" height="200" >
+                    </td>
+
+                </tr>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/ridhima.png'}" alt=""  width="175" height="200">
+                    </td>
+
+                </tr>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="210">
+                    </td>
+
+                </tr>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="210">
+                    </td>
+
+                </tr>
+
+                <!--<tr th:each="ii: ${lii}">
+                   <td>
+                       <div th:text="${ii.getFile()}">File name</div>
+                       <div th:text="'(' + ${ii.getHeight()} + ',' + ${ii.getWidth()} + ')'">Height,Width</div>
+                   </td>
+                   <td>
+                      <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
+
+                    </td>
+
+                </tr>-->
+                </tbody>
+            </table>
+
+        </div>
+
+    </div>
+</div>
+</body>
+
 </html>

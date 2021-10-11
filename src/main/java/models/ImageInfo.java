@@ -17,7 +17,7 @@ import javax.imageio.ImageIO;
 @Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
 
 public class ImageInfo {
-    public int scale_factor;
+    public int scale_factor = 1;
     public String file, url;
     public int height, scaled_height;
     public int width, scaled_width;

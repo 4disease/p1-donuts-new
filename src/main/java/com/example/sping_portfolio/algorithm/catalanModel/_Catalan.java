@@ -7,7 +7,8 @@ import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import lombok.Getter;
+import com.example.sping_portfolio.minilabs.Getter;
+// import lombok.Getter;
 
 /*
  _Fibonacci class contains generalized logic to capture and analyze a Fibonacci sequence.
@@ -89,8 +90,8 @@ public abstract class _Catalan {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
         ConsoleMethods.println("Fibonacci Number " + this.size + " = " + this.getNth());
-        ConsoleMethods.println("Fibonacci List = " + this.getList());
-        ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash());
+        /* ConsoleMethods.println("Fibonacci List = " + this.getList());
+        ConsoleMethods.println("Fibonacci Hashmap = " + this.getHash()); */
         for (int i=0 ; i<this.size; i++ ) {
             ConsoleMethods.println("Fibonacci Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
