@@ -31,7 +31,7 @@
 </div>
 
 <div style=" width: 1500px; padding:30px;">
-<div class="card" style="width: 18rem; margin:50px; display: inline-block;" th: ="tasks : ${list}">
+<div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each ="tasks : ${list}">
     <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Gdvlusp63LdHQbO97TNk5AHaEK%26pid%3DApi&f=1" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title" th:text="${tasks.title}">Card title</h5>
