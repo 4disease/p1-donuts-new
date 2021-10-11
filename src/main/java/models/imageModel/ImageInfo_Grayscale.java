@@ -1,4 +1,7 @@
-package models;
+package models.imageModel;
+
 
 public class ImageInfo_Grayscale {
+
+
 }

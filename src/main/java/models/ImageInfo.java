@@ -1,7 +1,16 @@
 package models;
-
-
-import com.example.sping_portfolio.minilabs.Getter;
+import com.example.sping_portfolio.algorithm.catalanModel.CatFor;
+import com.example.sping_portfolio.algorithm.catalanModel.CatRecurse;
+import com.example.sping_portfolio.algorithm.catalanModel.CatStream;
+import com.example.sping_portfolio.algorithm.catalanModel.CatWhile;
+import com.example.sping_portfolio.models.ImageInfo.*;
+import models.imageModel.ImageInfo_Grayscale;
+import models.imageModel.ImageInfo_RGB;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import java.util.ArrayList;
+import java.util.List;
 import org.apache.tomcat.util.codec.binary.Base64;
 import org.apache.tomcat.util.codec.binary.StringUtils;
 
@@ -14,7 +23,7 @@ import java.awt.Color;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
-@Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
+@Controller // automatic getter, https://projectlombok.org/features/GetterSetter
 
 public class ImageInfo {
     public int scale_factor = 1;
@@ -23,12 +32,20 @@ public class ImageInfo {
     public int width, scaled_width;
     public int[][][] rgb_matrix;
 
+    public List<com.example.sping_portfolio.models.imageModel.ImageInfo> imageInit(int nth) {
+        //ImageInfo objects created with different initializers
+        List<com.example.sping_portfolio.models.imageModel.ImageInfo> imageList = new ArrayList<>();
+        imageList.add(new ImageInfo_RGB(nth));
+        imageList.add(new ImageInfo_Grayscale(nth));
+
+        return imageList;
+
     // basic constructor
     public void ImageInfo(String file, String url, int scale_factor) {
         this.file = file;
         this.url = url;
         this.scale_factor = scale_factor;
-    }
+        }
 
     // sets for properties of the image, including pixels and colors
     public Exception read_image() {
