@@ -17,8 +17,8 @@ public class MainController {
 
     @GetMapping("/aboutus")
     public String aboutus(Model model) {
-        String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
-        ImageInfo_Model ai = new ImageInfo_Model(url);
+    //    String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
+      //  ImageInfo_Model ai = new ImageInfo_Model(url);
         //String[] rows = ai.pixelgrayscale();
         //model.addAttribute("rows", rows);
 

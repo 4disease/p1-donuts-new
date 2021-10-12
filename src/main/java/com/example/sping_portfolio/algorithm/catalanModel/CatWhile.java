@@ -25,7 +25,7 @@ public class CatWhile extends com.example.sping_portfolio.algorithm.catalanModel
     }
 
     /*
-    Class method "main" with purpose of testing FibWhile
+    Class method "main" with purpose of testing CatWhile
      */
     public static void main(String[] args) {
         com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatWhile();

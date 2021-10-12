@@ -22,10 +22,10 @@ public class CatFor extends com.example.sping_portfolio.algorithm.catalanModel._
     }
 
     /*
-    Class method "main" with purpose of testing FibFor
+    Class method "main" with purpose of testing CatFor
      */
     public static void main(String[] args) {
-        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatFor(); // "FibFor" is used as initializer for the "_Fibonacci fibonacci"  object
+        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatFor(); // "CatFor" is used as initializer for the "_Catalan catalan"  object
         catalan.print();
     }
 }

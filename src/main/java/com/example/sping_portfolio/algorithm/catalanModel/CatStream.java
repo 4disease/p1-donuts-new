@@ -26,7 +26,7 @@ public class CatStream extends com.example.sping_portfolio.algorithm.catalanMode
     }
 
     /*
-    Class method "main" with purpose of testing FibStream
+    Class method "main" with purpose of testing CatStream
      */
     public static void main(String[] args) {
         com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatStream();

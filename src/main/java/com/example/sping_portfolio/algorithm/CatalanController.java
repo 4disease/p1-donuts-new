@@ -13,7 +13,7 @@ import java.util.List;
 public class CatalanController {
 
     public List<com.example.sping_portfolio.algorithm.catalanModel._Catalan> catInit(int nth) {
-        //Fibonacci objects created with different initializers
+        //Catalan objects created with different initializers
         List<com.example.sping_portfolio.algorithm.catalanModel._Catalan> catList = new ArrayList<>();
         catList.add(new CatFor(nth));
         catList.add(new CatWhile(nth));
@@ -26,13 +26,13 @@ public class CatalanController {
     // GET request,, parameters are passed within the URI
     @GetMapping("/cat")
     public String cat(@RequestParam(name="catseq", required=false,  defaultValue="2") String catseq, Model model) {
-        //nth is fibonacci request
+        //nth is catalan request
         int nth = Integer.parseInt(catseq);
 
         //MODEL attributes are passed back html
         model.addAttribute("catList", catInit(nth));
 
-        return "algorithm/cat"; //HTML render fibonacci results
+        return "algorithm/cat"; //HTML render catalan results
 
     }
 
@@ -42,6 +42,6 @@ public class CatalanController {
 
         List<com.example.sping_portfolio.algorithm.catalanModel._Catalan> catList = new CatalanController().catInit(nth);
         for (com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan : catList)
-            catalan.print();  //Console output fibonacci results
+            catalan.print();  //Console output catalan results
     }
 }

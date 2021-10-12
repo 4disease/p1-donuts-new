@@ -33,7 +33,7 @@ public abstract class _Catalan {
     }
 
     /*
-     Construct the nth fibonacci number
+     Construct the nth catalan number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
     public _Catalan(int nth) {
@@ -41,7 +41,7 @@ public abstract class _Catalan {
         this.list = new ArrayList<>();
         this.hashID = 0;
         this.hash = new HashMap<>();
-        //initialize fibonacci and time algorithm
+        //initialize catalan and time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
         Instant end = Instant.now();    // time capture -- end
@@ -70,14 +70,14 @@ public abstract class _Catalan {
     }
 
     /*
-     Custom Getter to return last element in Fibonacci sequence
+     Custom Getter to return last element in Catalan sequence
      */
     public long getNth() {
         return list.get(size - 1);
     }
 
     /*
-     Custom Getter to return last Fibonacci sequence in HashMap
+     Custom Getter to return last Catalan sequence in HashMap
      */
     public Object getNthSeq(int i) {
         return hash.get(i);

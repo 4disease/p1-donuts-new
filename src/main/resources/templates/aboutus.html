@@ -2,13 +2,9 @@
 <!DOCTYPE HTML>
 <html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
       layout:decorate="~{layout}" lang="en">
-
 <head><div layout:fragment="metadata" th:remove="tag">
-
     <title>About Us</title>
-
 </div></head>
-
 <body>
 <div class="contact" style="height: 35vh;">
     <div class="row justify-content-left" style="margin: 2%;">
@@ -20,7 +16,6 @@
                 <img class="img-responsive py-3" th:id="'sam' + ${i}" src="" th:src="@{'/images/sam.png'}" alt="" width="40" height="Auto">
                 <input name="name" id="greetField">
                 <button>GrayScale</button>
-
             </div>
         </form>
     </div>
@@ -28,10 +23,8 @@
 <div style="text-align: center; margin: 20%;">
     <a style=" color: Black; font-size: 50px;">About Us</a>
     <p>We are the P1-Donuts. Watch this video to learn about our project!</p>
-
 </div>
 </body>
-
 </html> -->
 
 <!DOCTYPE HTML>
@@ -93,7 +86,7 @@
 
                     <td>
                         <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row1}}" />" alt=""
-                             width="175" height="200">
+                        width="175" height="200">
                     </td>
 
                     <td>
@@ -110,16 +103,16 @@
                                 </tr>
                                 </thead>
                                 <tbody>
-                              <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
-                                        <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
-                                            <td th:text="${ii.getScaled_height(row)}">row</td>
-                                            <td th:text="${ii.getScaled_width(col)}">column</td>
-                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
-                                            <td th:text="${ii.getDecimal(row,col)}">cell</td>
-                                            <td th:text="${ii.getHexCode(row,col)}">cell</td>
-                                            <td th:text="${ii.getBinary(row,col)}">cell</td>
-                                        </tr>
-                                    </span> -->
+                                      <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                          <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                              <td th:text="${ii.getScaled_height(row)}">row</td>
+                                              <td th:text="${ii.getScaled_width(col)}">column</td>
+                                              <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                              <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                              <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                              <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                          </tr> -->
+                                      </span>
                                 </tbody>
                             </table>
                         </div>
@@ -285,9 +278,7 @@
                    </td>
                    <td>
                       <img class="img-responsive py-3" th:src="@{${ii.getFile()}}" alt="" src="${ii.getFile()}" width=128 height="Auto">
-
                     </td>
-
                 </tr>-->
                 </tbody>
             </table>

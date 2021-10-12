@@ -33,10 +33,10 @@ public class CatRecurse extends com.example.sping_portfolio.algorithm.catalanMod
     }
 
     /*
-    Class method "main" with purpose of testing FibRecurse
+    Class method "main" with purpose of testing CatRecurse
      */
     public static void main(String[] args) {
-        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatRecurse();  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
+        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatRecurse();  // "CatRecurse" is used as initializer for the "_Catalan catalan"  object
         catalan.print();
     }
 }
