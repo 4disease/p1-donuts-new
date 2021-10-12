@@ -58,6 +58,8 @@ Samhitha: https://www.loom.com/share/fb8e0182624d4da29a0f0cbb3798c440
 Kira: 
 https://drive.google.com/file/d/1U8r9S0k1fjw7bBKVBQxHISkrJlDJ1gQc/view?usp=sharing
 
+Natasha: https://drive.google.com/file/d/1WXB54fixHijI9dBokFGG1LYxjz1iJOj7/view
+
 ## Week 6 
 ### Individual Code
 | Name | Requirment | Evidence |
