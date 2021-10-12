@@ -41,8 +41,8 @@
 ### Individual Journals
 | Name | Unit 7 Journal | TT & TPT Notes |
 | ---  | ---            | ---            |
-| Kira | Journal | |
-| Natasha | Journal | |
+| Kira | [Journal](https://docs.google.com/document/d/1zcjLXf_xPZ-fiCSDmYGLwLZpHry-KAzI9n4SCK8Wre4/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
+| Natasha | Journal | [Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)|
 | Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90)|
@@ -54,6 +54,9 @@ Adhithi - Grayscale + Watermark:
 https://user-images.githubusercontent.com/71796291/136975192-c79ebf78-dfcb-49a4-8475-8536561b1212.mp4
 
 Samhitha: https://www.loom.com/share/fb8e0182624d4da29a0f0cbb3798c440
+
+Kira: 
+https://drive.google.com/file/d/1U8r9S0k1fjw7bBKVBQxHISkrJlDJ1gQc/view?usp=sharing
 
 ## Week 6 
 ### Individual Code
