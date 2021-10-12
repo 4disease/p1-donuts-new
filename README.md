@@ -15,7 +15,7 @@
 | Name | Github Profile | Tasks | Scrum Board | Commits |
 |  --- |  ---           | ---   | ---         | ---     |
 | Samhitha | [@dsblack0](https://github.com/dsblack0)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/dsblack0) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Adsblack0) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=dsblack0) | 
-| Natasha | [@mistylavender](https://github.com/mistylavender)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/mistylavender) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Amistylavender) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=mistylavender) |
+| Natasha | [@mistylavender](https://github.com/mistylavender)  | [Tickets](https://github.com/4disease/p1-donuts-new/projects/1#card-69141808) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Amistylavender) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=mistylavender) |
 | Kira | [@4disease](https://github.com/4disease) | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/4disease) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3A4disease) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=4disease) |
 | Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=ridhimainukurti) |
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
@@ -42,7 +42,7 @@
 | Name | Unit 7 Journal | TT & TPT Notes |
 | ---  | ---            | ---            |
 | Kira | [Journal](https://docs.google.com/document/d/1zcjLXf_xPZ-fiCSDmYGLwLZpHry-KAzI9n4SCK8Wre4/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
-| Natasha | Journal | [Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)|
+| Natasha | [Journal](https://docs.google.com/document/d/1eW9JMCn942T8RhcvAoV33udGIoOmWzR9-KI8RoiQ62M/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing)|
 | Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90)|
