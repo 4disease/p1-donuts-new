@@ -33,6 +33,7 @@
 ### Modeling
 | Requirement | Evidence |
 | ---         | ---      |
+| Week 7 Review Ticket | [Scrum Card](https://github.com/4disease/p1-donuts-new/projects/1#card-70268682) |
 | View/Frontend improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/22) |
 | Control improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/23) |
 | Model improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/24) |
