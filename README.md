@@ -31,20 +31,22 @@
 
 ## Week 7
 ### Modeling
-| Requirement | Evidence | Grade |
-| ---         | ---      | ---   |
-| View/Frontend improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/22) | -/1 |
-| Control improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/23) | -/1 |
-| Model improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/24) | -/3 |
+| Requirement | Evidence |
+| ---         | ---      |
+| View/Frontend improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/22) |
+| Control improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/23) |
+| Model improvements | [Ticket](https://github.com/4disease/p1-donuts-new/issues/24) |
 
 ### Individual Journals
-| Name | Unit 7 Journal |
-| ---  | ---            |
-| Kira | Journal |
-| Natasha | Journal |
-| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
-| Ridhima | Journal |
-| Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) |
+| Name | Unit 7 Journal | TT & TPT Notes |
+| ---  | ---            | ---            |
+| Kira | Journal | |
+| Natasha | Journal | |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | |
+| Ridhima | Journal | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90) |
+| Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90)|
+
+### Runtime Video
 
 ## Week 6 
 ### Individual Code
