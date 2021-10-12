@@ -50,6 +50,11 @@
 ### Runtime Video
 Ridhima : https://watch.screencastify.com/v/BuDACWcIOaKxIUVC5JPP 
 
+Adhithi - Grayscale + Watermark: 
+https://user-images.githubusercontent.com/71796291/136975192-c79ebf78-dfcb-49a4-8475-8536561b1212.mp4
+
+
+
 ## Week 6 
 ### Individual Code
 | Name | Requirment | Evidence |
