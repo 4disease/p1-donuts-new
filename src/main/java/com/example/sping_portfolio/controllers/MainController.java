@@ -1,6 +1,6 @@
 package com.example.sping_portfolio.controllers;
 
-import models.AsciiImage;
+import models.ImageInfo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -9,15 +9,13 @@ import org.springframework.web.bind.annotation.RequestParam;
 import javax.swing.text.html.HTMLDocument;
 import javax.validation.constraints.DecimalMax;
 import java.io.IOException;
-import java.net.MalformedURLException;
-import java.nio.charset.StandardCharsets;
-import java.util.Base64;
 
 @Controller
 public class MainController {
 
     @GetMapping("/aboutus")
     public String aboutus(Model model) {
+
         return "aboutus";
     }
 
@@ -78,12 +76,12 @@ public class MainController {
 
     }
 
-//    @GetMapping("/image")
-//    public String image(Model model) throws IOException {
-//        String url = "http://localhost:8080/images/kira.png";
-//        ImageInfo ai = new ImageInfo("", url, 16);
-//        String[] rows = ai.convert_to_ascii();
-//        model.addAttribute("rows", rows);
-//        return "minilabs/image";
-//    }
+    @GetMapping("/image")
+    public String image(Model model) throws IOException {
+        String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
+        ImageInfo ai = new ImageInfo();
+        String[] rows = ai.convert_to_ascii();
+        model.addAttribute("rows", rows);
+        return "minilabs/image";
+    }
 }
