@@ -93,6 +93,14 @@ public abstract class _Arithmetic {
         }
     }
 
+    private String getHash() {
+        return null;
+    }
+
+    private String getList() {
+        return null;
+    }
+
     /*
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */

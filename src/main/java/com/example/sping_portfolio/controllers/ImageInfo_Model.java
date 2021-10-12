@@ -1,4 +1,4 @@
-package models.imageModel;
+package com.example.sping_portfolio.controllers;
 import lombok.Getter;
 
 import java.net.URL;
@@ -6,6 +6,10 @@ import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 import java.util.ArrayList;
 import java.util.List;
+
+import javax.swing.text.html.HTMLDocument;
+import javax.validation.constraints.DecimalMax;
+import java.io.IOException;
 
 
 @Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
@@ -28,10 +32,14 @@ public class ImageInfo_Model {
 }
 
 
+public ImageInfo_Model(BufferedImage img) {
+    }
+
+
 public byte[] Grayscale() {
     try {
         BufferedImage img = ImageIO.read(new URL(this.imagefileurl));for (int x = 0; x < img.getWidth(); ++x){
-            for (int x = 0; x < img.getWidth(); ++x){
+            for (int thisx = 0; x < img.getWidth(); ++x){
                 for (int y = 0; y < img.getHeight(); ++y)
                 {
                     int rgb = img.getRGB(x, y);
@@ -54,13 +62,14 @@ public byte[] Grayscale() {
                 }
             }
 
-            imginfo_modelList.add(new ImageInfo_Model(img));
-        } catch (IOException e) {
+            imginfo_modelList.add(new ImageInfo_Model(img));}}
+         catch (IOException e) {
             e.printStackTrace();
         }
+    return null;
     }
 
-    public byte[] pixelgrayscale(byte[] pixelsIn){
+    byte[] pixelgrayscale(byte[] pixelsIn){
         byte[] newPixelByte = new byte[pixelsIn.length];
         for(int i=0;i<pixelsIn.length;i+=4) {
             float val = 0;
@@ -75,9 +84,9 @@ public byte[] Grayscale() {
         return newPixelByte;
     }
 
-    public List<ImageInfo_Model>
+    //public List<ImageInfo_Model>;
     }
-}
+
 
 
 

@@ -1,22 +1,29 @@
 package com.example.sping_portfolio.controllers;
 
-import models.imageModel.ImageInfo_Model;
-import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
 
 import javax.swing.text.html.HTMLDocument;
 import javax.validation.constraints.DecimalMax;
 import java.io.IOException;
+
+//import com.example.sping_portfolio.controllers.ImageInfo_Model.java;
 
 @Controller
 public class MainController {
 
     @GetMapping("/aboutus")
     public String aboutus(Model model) {
+        String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
+        ImageInfo_Model ai = new ImageInfo_Model(url);
+        //String[] rows = ai.pixelgrayscale();
+        //model.addAttribute("rows", rows);
 
         return "aboutus";
+
     }
 
     @GetMapping("/greet")
@@ -76,7 +83,7 @@ public class MainController {
 
     }
 
-    @GetMapping("/image")
+    /* @GetMapping("/image")
     public String image(Model model) throws IOException {
         String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
         ImageInfo ai = new ImageInfo();
@@ -84,4 +91,5 @@ public class MainController {
         model.addAttribute("rows", rows);
         return "minilabs/image";
     }
+    */
 }
