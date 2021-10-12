@@ -44,10 +44,11 @@
 | Kira | Journal | |
 | Natasha | Journal | |
 | Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) | |
-| Ridhima | Journal | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90) |
+| Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1VYlZf0ovKDMiygszVDESmJkCnPGF16Y9h0jVOeHrFmE/edit?usp=sharing) | [Notes](https://docs.google.com/document/d/16K6aheHJTJdytH5vH_9Q-GDjV7uvpKgQ-4cHytyWjlo/edit#bookmark=id.6chj6mk1pj90)|
 
 ### Runtime Video
+Ridhima : https://watch.screencastify.com/v/BuDACWcIOaKxIUVC5JPP 
 
 ## Week 6 
 ### Individual Code
