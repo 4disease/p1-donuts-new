@@ -57,6 +57,7 @@
                 <tr>
                     <th>Image</th>
                     <th>Grayscale Image</th>
+                    <th>Samples of Data</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -66,30 +67,191 @@
                              width="175" height="200">
                     </td>
 
-                </tr>
-                <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/natasha.jpg'}"  alt=""  width="175" height="200" >
+                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row1}}" />" alt=""
+                             width="175" height="200">
+                    </td>
+
+                    <td>
+                        <div class="overflow-auto" style="height: 256px">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Row</th>
+                                    <th>Column</th>
+                                    <th>RGB</th>
+                                    <th>Decimal</th>
+                                    <th>Hex Code</th>
+                                    <th>Binary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                              <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                        <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                            <td th:text="${ii.getScaled_height(row)}">row</td>
+                                            <td th:text="${ii.getScaled_width(col)}">column</td>
+                                            <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                            <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                            <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                            <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                        </tr>
+                                    </span> -->
+                                </tbody>
+                            </table>
+                        </div>
                     </td>
 
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/ridhima.png'}" alt=""  width="175" height="200">
+                        <img class="img-responsive py-3"  th:src="@{'/images/natasha.png'}"  alt=""  width="175" height="AUTO" >
+                    </td>
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row2}}" />" alt=""
+                        width="175" height="200">
+                    </td>
+                    <td>
+                        <div class="overflow-auto" style="height: 256px">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Row</th>
+                                    <th>Column</th>
+                                    <th>RGB</th>
+                                    <th>Decimal</th>
+                                    <th>Hex Code</th>
+                                    <th>Binary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                          <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                              <td th:text="${ii.getScaled_height(row)}">row</td>
+                                              <td th:text="${ii.getScaled_width(col)}">column</td>
+                                              <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                              <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                              <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                              <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                          </tr>
+                                      </span> -->
+                                </tbody>
+                            </table>
+                        </div>
                     </td>
 
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="210">
+                        <img class="img-responsive py-3"  th:src="@{'/images/ridhima.png'}" alt=""  width="175" height="AUTO">
+                    </td>
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row3}}" />" alt=""
+                        width="175" height="200">
+                    </td>
+                    <td>
+                        <div class="overflow-auto" style="height: 256px">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Row</th>
+                                    <th>Column</th>
+                                    <th>RGB</th>
+                                    <th>Decimal</th>
+                                    <th>Hex Code</th>
+                                    <th>Binary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                          <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                              <td th:text="${ii.getScaled_height(row)}">row</td>
+                                              <td th:text="${ii.getScaled_width(col)}">column</td>
+                                              <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                              <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                              <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                              <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                          </tr>
+                                      </span> -->
+                                </tbody>
+                            </table>
+                        </div>
                     </td>
 
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="210">
+                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="AUTO">
+                    </td>
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row4}}" />" alt=""
+                        width="175" height="200">
+                    </td>
+                    <td>
+                        <div class="overflow-auto" style="height: 256px">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Row</th>
+                                    <th>Column</th>
+                                    <th>RGB</th>
+                                    <th>Decimal</th>
+                                    <th>Hex Code</th>
+                                    <th>Binary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                          <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                              <td th:text="${ii.getScaled_height(row)}">row</td>
+                                              <td th:text="${ii.getScaled_width(col)}">column</td>
+                                              <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                              <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                              <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                              <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                          </tr>
+                                      </span> -->
+                                </tbody>
+                            </table>
+                        </div>
                     </td>
 
+                </tr>
+                <tr >
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'/images/adi.png'}" alt=""  width="175" height="AUTO">
+                    </td>
+                    <td>
+                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row5}}" />" alt=""
+                        width="175" height="200">
+                    </td>
+                    <td>
+                        <div class="overflow-auto" style="height: 256px">
+                            <table class="table">
+                                <thead>
+                                <tr>
+                                    <th>Row</th>
+                                    <th>Column</th>
+                                    <th>RGB</th>
+                                    <th>Decimal</th>
+                                    <th>Hex Code</th>
+                                    <th>Binary</th>
+                                </tr>
+                                </thead>
+                                <tbody>
+                                <!--  <span th:each="row1: ${#numbers.sequence(0, ii.getScaled_height()-1)}">
+                                          <tr th:each="col: ${#numbers.sequence(0, ii.getScaled_width()-1)}">
+                                              <td th:text="${ii.getScaled_height(row)}">row</td>
+                                              <td th:text="${ii.getScaled_width(col)}">column</td>
+                                              <td th:text="${ii.getRGB(row,col)}">cell</td>
+                                              <td th:text="${ii.getDecimal(row,col)}">cell</td>
+                                              <td th:text="${ii.getHexCode(row,col)}">cell</td>
+                                              <td th:text="${ii.getBinary(row,col)}">cell</td>
+                                          </tr>
+                                      </span> -->
+                                </tbody>
+                            </table>
+                        </div>
+                    </td>
                 </tr>
 
                 <!--<tr th:each="ii: ${lii}">
