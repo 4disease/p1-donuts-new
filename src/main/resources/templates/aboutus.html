@@ -44,14 +44,39 @@
     <div layout:fragment="metadata" th:remove="tag">
         <title>About Us</title>
     </div>
+
 </head>
 
 <body>
+
 <div layout:fragment="content" th:remove="tag">
+    <script th:inline="javascript">
+
+        function changeImageWatermark()
+        {
+            document.getElementById("kira").src="images/kira_water.png";
+            document.getElementById("natasha").src="images/natasha_water.png";
+            document.getElementById("ridhima").src="images/ridhima_water.jpg";
+            document.getElementById("sam").src="images/sam_water.png";
+            document.getElementById("adi").src="images/adi_water.png";
+        }
+
+        function changeImageWatermarkGrey()
+        {
+            document.getElementById("kira").src="images/kira_greywater.png";
+            document.getElementById("natasha").src="images/natasha_greywater.png";
+            document.getElementById("ridhima").src="images/ridhima_greywater.jpg";
+            document.getElementById("sam").src="images/sam_greywater.png";
+            document.getElementById("adi").src="images/adi_greywater.png";
+        }
+    </script>
     <div class="container">
         <h1 class="text-center">About Us</h1>
         <div class="row justify-content-md-center">
             <table class="table">
+
+                <input type="button"  onclick="changeImageWatermark();" value="Watermark">
+                <input type="button"  onclick="changeImageWatermarkGrey();" value="Watermark+Greyscale">
                 <thead>
                 <tr>
                     <th>Image</th>
@@ -62,7 +87,7 @@
                 <tbody>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/kira.png'}" alt=""
+                        <img class="img-responsive py-3" id="kira"  src="images/kira.png" alt=""
                              width="175" height="200">
                     </td>
 
@@ -103,7 +128,7 @@
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/natasha.png'}"  alt=""  width="175" height="AUTO" >
+                        <img id="natasha" class="img-responsive py-3"  src="images/natasha.png"  alt=""  width="175" height="AUTO" >
                     </td>
                     <td>
                         <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row2}}" />" alt=""
@@ -141,7 +166,7 @@
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/ridhima.png'}" alt=""  width="175" height="AUTO">
+                        <img id="ridhima" class="img-responsive py-3"  src="images/ridhima.png" alt=""  width="175" height="AUTO">
                     </td>
                     <td>
                         <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row3}}" />" alt=""
@@ -179,7 +204,7 @@
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/sam.png'}" alt=""  width="175" height="AUTO">
+                        <img id="sam" class="img-responsive py-3"  src="images/sam.png" alt=""  width="175" height="AUTO">
                     </td>
                     <td>
                         <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row4}}" />" alt=""
@@ -217,7 +242,7 @@
                 </tr>
                 <tr >
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'/images/adi.png'}" alt=""  width="175" height="AUTO">
+                        <img id="adi" class="img-responsive py-3"  src="images/adi.png" alt=""  width="175" height="AUTO">
                     </td>
                     <td>
                         <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row5}}" />" alt=""
