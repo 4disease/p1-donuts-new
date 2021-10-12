@@ -6,19 +6,19 @@ import org.apache.tomcat.util.codec.binary.StringUtils;
 import java.awt.image.DataBufferByte;
 import java.awt.image.WritableRaster;
 import java.io.*;
-import java.net.MalformedURLException;
 import java.net.URL;
-import java.awt.Color;
 import java.awt.image.BufferedImage;
 import javax.imageio.ImageIO;
 
 @Getter  // automatic getter, https://projectlombok.org/features/GetterSetter
 public class ImageInfo_Model {
-    public int scale_factor;
     public String file, url;
-    public int height, scaled_height;
-    public int width, scaled_width;
-    public int[][][] rgb_matrix;
+    public int height;
+    public int width;
+    public int[][][] rgbbinary;
+    public int[][][] rgbdecimal;
+    public int[][][] rbghex;
+
 
     // basic constructor
     public ImageInfo_Model(String file, String url, int scale_factor) {
