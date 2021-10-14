@@ -2,6 +2,7 @@
 
 ## Scrum Board
 [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1)
+[Run Time Video](https://youtube.com/playlist?list=PLuV_VubgVyz8yCuSF1aQxbVFP_xoPUizy)
 
 [Contributors](https://github.com/4disease/p1-donuts-new/graphs/contributors)
 
