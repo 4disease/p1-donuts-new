@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
 <head>
-    <meta charset="UTF-8">
+    <div layout:fragment="metadata" th:with="bits=${newbit}" th:remove="tag">
     <title>Tasks Page</title>
 
-</head>
+    </div></head>
 <!-- Latest compiled and minified CSS -->
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
 
@@ -19,7 +20,7 @@
 
 
 <body>
-
+<div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
 <div>
     <form action="/tasks" method="GET" id="samForm">
         <div>
@@ -32,14 +33,14 @@
 
 <div style=" width: 1500px; padding:30px;">
 <div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each ="tasks : ${list}">
-    <img class="card-img-top" src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse1.mm.bing.net%2Fth%3Fid%3DOIP.Gdvlusp63LdHQbO97TNk5AHaEK%26pid%3DApi&f=1" alt="Card image cap">
+    <img class="card-img-top" th:src="@{/images/tasks_waterlily.jpg}" alt="Card image cap">
     <div class="card-body">
         <h5 class="card-title" th:text="${tasks.title}">Card title</h5>
         <p class="card-text" th:text="${tasks.description}">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary">More details</a>
+        <a href="#" class="btn btn-primary" style="width:9rem; height:4rem; font-size: small;">More details</a>
     </div>
 </div>
 </div>
-
+</div>
 </body>
 </html>
