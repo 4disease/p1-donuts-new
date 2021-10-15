@@ -1,4 +1,4 @@
-package models;
+package models.asciiart;
 
 import java.io.File;
 import java.io.FileWriter;

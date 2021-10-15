@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.perrinModel;
 
 public class PerrinWhile extends _Perrin {
     public PerrinWhile() {

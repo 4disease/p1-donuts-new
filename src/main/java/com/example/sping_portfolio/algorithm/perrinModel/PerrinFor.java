@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.perrinModel;
 
 public class PerrinFor extends _Perrin {
     // zero and one argument constructors, both defer to super

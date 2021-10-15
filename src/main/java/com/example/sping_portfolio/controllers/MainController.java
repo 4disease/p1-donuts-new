@@ -4,23 +4,25 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.stereotype.Controller;
-import org.springframework.ui.Model;
 
-import javax.swing.text.html.HTMLDocument;
-import javax.validation.constraints.DecimalMax;
-import java.io.IOException;
-
-//import com.example.sping_portfolio.controllers.ImageInfo_Model.java;
+//import models.ImageInfo_Model.java;
 
 @Controller
 public class MainController {
 
     @GetMapping("/aboutus")
     public String aboutus(Model model) {
-    //    String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
-      //  ImageInfo_Model ai = new ImageInfo_Model(url);
-        //String[] rows = ai.pixelgrayscale();
-        //model.addAttribute("rows", rows);
+     /*  List<ImageInfo_Model> imageInfoList = new ArrayList<>();
+        String image0 = "http://localhost:8080/images/kira.PNG";
+        ImageInfo_Model if0 = new ImageInfo_Model(image0); if0.getOriginalImg(); if0.getGrayscaleImg();
+        imageInfoList.add(if0);
+
+        String image1 = "http://localhost:8080/images/natasha.png";
+        ImageInfo_Model if1 = new ImageInfo_Model(image1); if1.getOriginalImg(); if1.getGrayscaleImg();
+        imageInfoList.add(if1);
+
+
+        model.addAttribute("iiList", imageInfoList); */
 
         return "aboutus";
 
@@ -29,12 +31,13 @@ public class MainController {
     @GetMapping("/greet")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
         model.addAttribute("name", name);
-        return "greet";
+        return "minilabs/greet";
     }
 
     @GetMapping("/birds")
     public String birds() {
-        return "birds";
+
+        return "minilabs/birds";
     }
 
     @GetMapping("/adi")
@@ -79,17 +82,36 @@ public class MainController {
         model.addAttribute( "bit", bit);
         int newbit = Integer.valueOf(bit);
         model.addAttribute("newbit", newbit);
-        return "binary";
+        return "minilabs/binary";
 
     }
 
-    /* @GetMapping("/image")
-    public String image(Model model) throws IOException {
-        String url = "https://upload.wikimedia.org/wikipedia/commons/thumb/a/ab/Abraham_Lincoln_O-77_matte_collodion_print.jpg/1200px-Abraham_Lincoln_O-77_matte_collodion_print.jpg";
-        ImageInfo ai = new ImageInfo();
-        String[] rows = ai.convert_to_ascii();
-        model.addAttribute("rows", rows);
-        return "minilabs/image";
+    @GetMapping("/")
+    public String notificationString(@RequestParam(name="name", required=false, defaultValue="World") String name, String email, Model model) {
+        // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
+        model.addAttribute("name", name); // MODEL is passed to html
+        model.addAttribute("name", email); // MODEL is passed to html
+        return "index"; // returns HTML VIEW (greeting)
     }
-    */
+
+    @GetMapping("/profile")
+    public String profile() {
+
+        return "profile";
+    }
+
+    @GetMapping("/unitone")
+    public String greeting(@RequestParam(name="name", required=false, defaultValue="Human") String name,
+                           @RequestParam(name="animal", required=false, defaultValue="Animal") String animal,
+                           @RequestParam(name="number1", required=false, defaultValue="3") String number1,
+                           @RequestParam(name="number2", required=false, defaultValue="2") String number2, Model model) {
+        model.addAttribute("name", name);
+        model.addAttribute("animal", animal);
+        model.addAttribute("number1", number1);
+        model.addAttribute("number2", number2);
+        int result = Integer.valueOf(number1) * Integer.valueOf(number2) ;
+        model.addAttribute("result", result);
+        return "minilabs/unitone";
+
+    }
 }

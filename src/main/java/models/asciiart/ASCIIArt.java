@@ -1,4 +1,4 @@
-package models;
+package models.asciiart;
 import java.awt.Color;
 //import java.awt.FileDialog;
 //import java.awt.Toolkit;
@@ -18,7 +18,7 @@ import javax.imageio.ImageIO;
 //import javax.swing.JMenuItem;
 //import javax.swing.JPanel;
 //import javax.swing.KeyStroke;
-//import com.example.sping_portfolio.controllers.ImageInfo_Model;
+//import models.ImageInfo_Model;
 import lombok.Getter;
 
 @Getter 

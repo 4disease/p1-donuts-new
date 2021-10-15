@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.minilabs.geometricModel;
+package com.example.sping_portfolio.algorithm.geometricModel;
 
 import java.util.stream.Stream;
 

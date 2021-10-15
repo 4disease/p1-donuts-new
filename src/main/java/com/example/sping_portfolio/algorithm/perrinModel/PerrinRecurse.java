@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.perrinModel;
 
 public class PerrinRecurse extends _Perrin {
     public PerrinRecurse() {

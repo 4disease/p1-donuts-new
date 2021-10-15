@@ -1,4 +1,5 @@
-package models;
+package com.example.sping_portfolio.algorithm.arithmeticModel;
+
 import java.util.stream.Stream;
 
 public class ArithmeticStream extends _Arithmetic {

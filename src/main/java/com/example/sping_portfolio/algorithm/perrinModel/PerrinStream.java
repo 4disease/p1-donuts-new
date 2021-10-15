@@ -1,4 +1,5 @@
-package models;
+package com.example.sping_portfolio.algorithm.perrinModel;
+
 import java.util.stream.Stream;
 
 public class PerrinStream extends _Perrin {

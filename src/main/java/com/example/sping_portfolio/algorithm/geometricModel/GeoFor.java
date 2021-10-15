@@ -1,27 +1,26 @@
-package com.example.sping_portfolio.minilabs.geometricModel;
+package com.example.sping_portfolio.algorithm.geometricModel;
 
-public class GeoWhile extends _Geometric {
-    public GeoWhile(int nth) {
+public class GeoFor extends _Geometric {
+    public GeoFor(int nth) {
         super(nth);
     }
 
     @Override
     protected void init() {
-        super.name = "While";
+        super.name = "For";
         long limit = super.size;
-
-        int i = 0;
         int terms = 1;
-        while (i < limit) {
+        for (int i = 0; i < limit; i++)
+        {
             super.setData(terms);
             terms *= 2;
-            i++;
+
         }
     }
 
     public static void main(String[] args) {
         int num = 92;   //number of Fibs, 92 is max for long
-        _Geometric geometric = new GeoWhile(num);
+        _Geometric geometric = new GeoFor(num);
         geometric.print();
     }
 }

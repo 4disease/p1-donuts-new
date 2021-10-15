@@ -1,4 +1,4 @@
-package com.example.sping_portfolio.controllers;
+package models;
 import lombok.Getter;
 import org.apache.tomcat.util.codec.binary.Base64;
 
@@ -61,6 +61,8 @@ public class ImageInfo_Model {
             try {
                 img = _img;
                 rgbProperties = new ImageInfo_Model(img);
+                width = img.getWidth();
+                height = img.getHeight();
                 base64Img = toBase64();
             } catch (Exception ignore) {}
         }

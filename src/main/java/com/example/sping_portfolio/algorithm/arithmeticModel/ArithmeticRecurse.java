@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.arithmeticModel;
 
 public class ArithmeticRecurse extends _Arithmetic {
     public ArithmeticRecurse() {

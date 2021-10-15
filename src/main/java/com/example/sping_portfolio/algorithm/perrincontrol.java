@@ -1,15 +1,15 @@
-package com.example.sping_portfolio.controllers;
+package com.example.sping_portfolio.algorithm;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-import models.PerrinFor;
-import models.PerrinRecurse;
-import models.PerrinStream;
-import models.PerrinWhile;
-import models._Perrin;
+import com.example.sping_portfolio.algorithm.perrinModel.PerrinFor;
+import com.example.sping_portfolio.algorithm.perrinModel.PerrinRecurse;
+import com.example.sping_portfolio.algorithm.perrinModel.PerrinStream;
+import com.example.sping_portfolio.algorithm.perrinModel.PerrinWhile;
+import com.example.sping_portfolio.algorithm.perrinModel._Perrin;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -36,7 +36,7 @@ public class perrincontrol {
         //MODEL attributes are passed back html
         model.addAttribute("PerrinList", perInit(nth));
 
-        return "models/perrin"; //HTML render fibonacci results
+        return "algorithm/perrin"; //HTML render fibonacci results
 
     }
 

@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.arithmeticModel;
 
 public class ArithmeticFor extends _Arithmetic {
     // zero and one argument constructors, both defer to super

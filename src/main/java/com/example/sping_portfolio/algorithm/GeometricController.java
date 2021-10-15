@@ -1,7 +1,7 @@
-package com.example.sping_portfolio.minilabs;
+package com.example.sping_portfolio.algorithm;
 
 
-import com.example.sping_portfolio.minilabs.geometricModel.*;
+import com.example.sping_portfolio.algorithm.geometricModel.*;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -33,7 +33,7 @@ public class GeometricController {
         //MODEL attributes are passed back html
         model.addAttribute("geoList", geoInit(nth));
 
-        return "/minilabs/geometric"; //HTML render fibonacci results
+        return "algorithm/geometric"; //HTML render fibonacci results
 
     }
 

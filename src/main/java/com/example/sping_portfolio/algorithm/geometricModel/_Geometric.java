@@ -1,14 +1,11 @@
-package com.example.sping_portfolio.minilabs.geometricModel;
+package com.example.sping_portfolio.algorithm.geometricModel;
 
 import com.example.sping_portfolio.minilabs.ConsoleMethods;
-import com.example.sping_portfolio.minilabs.Getter;
-
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-@Getter
 public abstract class _Geometric {
     int size;
 

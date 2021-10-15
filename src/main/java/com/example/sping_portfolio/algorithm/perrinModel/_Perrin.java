@@ -1,18 +1,16 @@
-package models;
+package com.example.sping_portfolio.algorithm.perrinModel;
+import models.ConsoleMethods;
+
 import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
 
-import lombok.Getter;
 
-/*
- _Fibonacci class contains generalized logic to capture and analyze a Fibonacci sequence.
- _Fibonacci is an "abstract" class, meaning it can't be initialized directly
- The "_" in name is used to push this "Parent" Class to top of package file listing.
- */
-@Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
-public abstract class _Arithmetic {
+
+//import lombok.Getter;
+
+public abstract class _Perrin {
     int size;
     String name;
     int hashID;
@@ -24,7 +22,7 @@ public abstract class _Arithmetic {
      Zero parameter constructor uses Telescoping technique to allow setting of the required value nth
      @param: none
      */
-    public _Arithmetic() {
+    public _Perrin() {
         this( 20);
     }
 
@@ -32,7 +30,7 @@ public abstract class _Arithmetic {
      Construct the nth fibonacci number
      @param: nth number, the value is constrained to 92 because of overflow in a long
      */
-    public _Arithmetic(int nth) {
+    public _Perrin(int nth) {
         this.size = nth;
         this.list = new ArrayList<>();
         this.hashID = 0;
@@ -85,11 +83,11 @@ public abstract class _Arithmetic {
     public void print() {
         ConsoleMethods.println("Init method = " + this.name);
         ConsoleMethods.println("Init time = " + this.getTimeElapsed());
-        ConsoleMethods.println("Arithmetic Number " + this.size + " = " + this.getNth());
-        ConsoleMethods.println("Arithmetic List = " + this.getList());
-        ConsoleMethods.println("Arithmetic Hashmap = " + this.getHash());
+        ConsoleMethods.println("Perrin Number " + this.size + " = " + this.getNth());
+        ConsoleMethods.println("Perrin List = " + this.getList());
+        ConsoleMethods.println("Perrin Hashmap = " + this.getHash());
         for (int i=0 ; i<this.size; i++ ) {
-            ConsoleMethods.println("Arithmetic Sequence " + (i+1) + " = " + this.getNthSeq(i));
+            ConsoleMethods.println("Perrin Sequence " + (i+1) + " = " + this.getNthSeq(i));
         }
     }
 
@@ -105,9 +103,58 @@ public abstract class _Arithmetic {
     Tester class method.  This calls "main" class of each of the extended classes in the package
      */
     public static void main(String[] args) {
-        ArithmeticFor.main(null);
-        ArithmeticRecurse.main(null);
-        ArithmeticStream.main(null);
-        ArithmeticWhile.main(null);
+        PerrinFor.main(null);
+        PerrinRecurse.main(null);
+        PerrinStream.main(null);
+        PerrinWhile.main(null);
+    }
+
+    @Override
+    public int hashCode() {
+        final int prime = 31;
+        int result = 1;
+        result = prime * result + ((hash == null) ? 0 : hash.hashCode());
+        result = prime * result + hashID;
+        result = prime * result + ((list == null) ? 0 : list.hashCode());
+        result = prime * result + ((name == null) ? 0 : name.hashCode());
+        result = prime * result + size;
+        result = prime * result + ((timeElapsed == null) ? 0 : timeElapsed.hashCode());
+        return result;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj)
+            return true;
+        if (obj == null)
+            return false;
+        if (getClass() != obj.getClass())
+            return false;
+        _Perrin other = (_Perrin) obj;
+        if (hash == null) {
+            if (other.hash != null)
+                return false;
+        } else if (!hash.equals(other.hash))
+            return false;
+        if (hashID != other.hashID)
+            return false;
+        if (list == null) {
+            if (other.list != null)
+                return false;
+        } else if (!list.equals(other.list))
+            return false;
+        if (name == null) {
+            if (other.name != null)
+                return false;
+        } else if (!name.equals(other.name))
+            return false;
+        if (size != other.size)
+            return false;
+        if (timeElapsed == null) {
+            if (other.timeElapsed != null)
+                return false;
+        } else if (!timeElapsed.equals(other.timeElapsed))
+            return false;
+        return true;
     }
 }

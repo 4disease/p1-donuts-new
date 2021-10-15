@@ -6,8 +6,6 @@ import java.time.Duration;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.HashMap;
-
-import com.example.sping_portfolio.minilabs.Getter;
 // import lombok.Getter;
 
 /*
@@ -15,7 +13,7 @@ import com.example.sping_portfolio.minilabs.Getter;
  _Fibonacci is an "abstract" class, meaning it can't be initialized directly
  The "_" in name is used to push this "Parent" Class to top of package file listing.
  */
-@Getter  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
+// this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _Catalan {
     int size;
     String name;

@@ -1,4 +1,4 @@
-package models;
+package models.asciiart;
 
 import java.awt.Color;
 import java.awt.FileDialog;

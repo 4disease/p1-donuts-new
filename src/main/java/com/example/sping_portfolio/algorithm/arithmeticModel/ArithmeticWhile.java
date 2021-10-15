@@ -1,4 +1,4 @@
-package models;
+package com.example.sping_portfolio.algorithm.arithmeticModel;
 
 public class ArithmeticWhile extends _Arithmetic {
     public ArithmeticWhile() {
