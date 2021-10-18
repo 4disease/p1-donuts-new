@@ -21,6 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
   - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
   - [Week 5](https://github.com/4disease/p1-donuts-new#week-5)
@@ -28,6 +29,18 @@
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Week 8
+### [Review Ticket](https://github.com/4disease/p1-donuts-new/issues/32)
+
+### Individual Journals
+| Name | Unit 8 Journal |
+| ---  | ---            |
+| Kira | Journal |
+| Natasha | Journal |
+| Adi | Journal |
+| Ridhima | Journal |
+| Samhitha | [Journal](https://docs.google.com/document/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit?usp=sharing) |
 
 ## Week 7
 ### [Review Ticket](https://github.com/4disease/p1-donuts-new/issues/29)
