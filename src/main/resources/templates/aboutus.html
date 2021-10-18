@@ -64,7 +64,7 @@
         }
     </script>
     <div class="container">
-        <h1 class="text-center">About Us</h1>
+        <h1 class="text-center"; style="margin-top: 5%;">About Us</h1>
         <div class="row justify-content-md-center">
             <table class="table">
 
@@ -73,7 +73,6 @@
                 <thead>
                 <tr>
                     <th>Image</th>
-                    <th>Grayscale Image</th>
                     <th>Samples of Data</th>
                 </tr>
                 </thead>
@@ -82,11 +81,6 @@
                     <td>
                         <img class="img-responsive py-3" id="kira"  src="images/kira.png" alt=""
                              width="175" height="200">
-                    </td>
-
-                    <td>
-                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row1}}" />" alt=""
-                        width="175" height="200">
                     </td>
 
                     <td>
@@ -124,10 +118,6 @@
                         <img id="natasha" class="img-responsive py-3"  src="images/natasha.png"  alt=""  width="175" height="AUTO" >
                     </td>
                     <td>
-                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row2}}" />" alt=""
-                        width="175" height="200">
-                    </td>
-                    <td>
                         <div class="overflow-auto" style="height: 256px">
                             <table class="table">
                                 <thead>
@@ -160,10 +150,6 @@
                 <tr >
                     <td>
                         <img id="ridhima" class="img-responsive py-3"  src="images/ridhima.png" alt=""  width="175" height="AUTO">
-                    </td>
-                    <td>
-                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row3}}" />" alt=""
-                        width="175" height="200">
                     </td>
                     <td>
                         <div class="overflow-auto" style="height: 256px">
@@ -199,10 +185,7 @@
                     <td>
                         <img id="sam" class="img-responsive py-3"  src="images/sam.png" alt=""  width="175" height="AUTO">
                     </td>
-                    <td>
-                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row4}}" />" alt=""
-                        width="175" height="200">
-                    </td>
+
                     <td>
                         <div class="overflow-auto" style="height: 256px">
                             <table class="table">
@@ -237,10 +220,7 @@
                     <td>
                         <img id="adi" class="img-responsive py-3"  src="images/adi.png" alt=""  width="175" height="AUTO">
                     </td>
-                    <td>
-                        <img class="img-responsive py-3"  th:src="@{'data:image/jpg;base64,'+${row5}}" />" alt=""
-                        width="175" height="200">
-                    </td>
+
                     <td>
                         <div class="overflow-auto" style="height: 256px">
                             <table class="table">
