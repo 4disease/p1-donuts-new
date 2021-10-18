@@ -21,16 +21,6 @@
 
 <body>
 <div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
-<div>
-    <form action="/tasks" method="GET" id="samForm">
-        <div>
-            <input name="title" id="number1">
-            <input name="description" id="number2">
-            <button>Add</button>
-        </div>
-    </form>
-</div>
-
 <div style=" width: 1500px; padding:30px;">
 <div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each ="tasks : ${list}">
     <img class="card-img-top" th:src="@{/images/tasks_waterlily.jpg}" alt="Card image cap">
@@ -41,6 +31,15 @@
     </div>
 </div>
 </div>
+    <div>
+        <form action="/tasks" method="GET" id="samForm" style="margin-left: 80px">
+            <div>
+                <input name="title" id="number1">
+                <input name="description" id="number2">
+                <button>Add</button>
+            </div>
+        </form>
+    </div>
 </div>
 </body>
 </html>
