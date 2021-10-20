@@ -39,7 +39,7 @@
 | Kira | Journal |
 | Natasha | Journal |
 | Adi | Journal |
-| Ridhima | Journal |
+| Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit?usp=sharing) |
 
 ## Week 7
