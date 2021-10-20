@@ -36,7 +36,7 @@
 ### Individual Journals
 | Name | Unit 8 Journal |
 | ---  | ---            |
-| Kira | Journal |
+| Kira | [Journal](https://docs.google.com/document/d/1R2Vsbk32LfDch_A17a-swNLMlzMb8YeyF36V3AH2670/edit?usp=sharing) |
 | Natasha | Journal |
 | Adi | Journal |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
