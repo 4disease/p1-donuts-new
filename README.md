@@ -37,7 +37,7 @@
 | Name | Unit 8 Journal |
 | ---  | ---            |
 | Kira | [Journal](https://docs.google.com/document/d/1R2Vsbk32LfDch_A17a-swNLMlzMb8YeyF36V3AH2670/edit?usp=sharing) |
-| Natasha | Journal |
+| Natasha | [Journal](https://docs.google.com/document/d/1eW9JMCn942T8RhcvAoV33udGIoOmWzR9-KI8RoiQ62M/edit?usp=sharing)
 | Adi | Journal |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit?usp=sharing) |
