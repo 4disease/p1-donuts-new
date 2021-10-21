@@ -32,7 +32,7 @@
 
 ## Week 8
 ### [Review Ticket](https://github.com/4disease/p1-donuts-new/issues/32)
-[sdf](https://github.com/4disease/p1-donuts-new/issues/32#issuecomment-948747201)
+### [Review Ticket Grading](https://github.com/4disease/p1-donuts-new/issues/32#issuecomment-948747201)
 
 ### Individual Journals
 | Name | Unit 8 Journal |
