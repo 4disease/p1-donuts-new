@@ -153,3 +153,4 @@ public class ASCIIArt {
         // rows and columns in each block
     }
 }
+//system.setout
