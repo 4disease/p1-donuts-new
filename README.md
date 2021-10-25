@@ -21,7 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
-  - [Week 9](https://github.com/4disease/p1-donuts-new#week-8)
+  - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
   - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
   - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
