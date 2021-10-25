@@ -32,8 +32,8 @@
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
 
 ## Week 9
-### [Review Ticket]()
-### [Review Ticket Grading]()
+### [Review Ticket](https://github.com/4disease/p1-donuts-new/projects/1#card-71486648)
+### [Review Ticket Grading](https://github.com/4disease/p1-donuts-new/issues/40)
 
 ### Individual Videos & Scoring 
 | Name | Video | Score |
