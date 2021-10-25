@@ -21,6 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Week 9](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
   - [Week 6](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-6)
@@ -29,6 +30,20 @@
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Week 9
+### [Review Ticket]()
+### [Review Ticket Grading]()
+
+### Individual Videos & Scoring 
+| Name | Video | Score |
+| ---  | ---  |    ---  |
+| Kira | [Video]() | /3 |
+| Natasha | [Video]() | /3 |
+| Adi | [Video]()  | /3  | 
+| Ridhima | [Video](https://youtu.be/Yrg6OT01GAw)  |  /3 |
+| Samhitha | [Video]()  |  /3 |
+
 
 ## Week 8
 ### [Review Ticket](https://github.com/4disease/p1-donuts-new/issues/32)
