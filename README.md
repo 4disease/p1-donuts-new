@@ -42,7 +42,7 @@
 | Natasha | Video | /3 | Journal |
 | Adi | Video  | /3  | Journal |
 | Ridhima | [Video](https://youtu.be/Yrg6OT01GAw)  |  /3 | Journal |
-| Samhitha | [Video](https://drive.google.com/file/d/1dKdhyutDw8F56d1GWB_zoy1ub7cP_asP/view?usp=sharing)  |  /3 | [Journal](https://docs.google.com/document/d/161WC34JAIESTQ5gcLhwGYUsNwUFGxj84jnkRdqqgLrU/edit?usp=sharing) |
+| Samhitha | [Video](https://drive.google.com/file/d/1VBPnd40CVsamgWfbp7BFFv4OznKEJSUF/view?usp=sharing)  |  /3 | [Journal](https://docs.google.com/document/d/161WC34JAIESTQ5gcLhwGYUsNwUFGxj84jnkRdqqgLrU/edit?usp=sharing) |
 
 
 ## Week 8
