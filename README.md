@@ -38,7 +38,7 @@
 ### Individual Videos & Scoring 
 | Name | Video | Score | Unit 9 Journals |
 | ---  | ---   |  ---  | ---             |
-| Kira | Video | /3 | Journal |
+| Kira | [Video](https://drive.google.com/file/d/1Odv1j95FgZliRCQl5IR19Iyu78I_uqaU/view?usp=sharing) | /3 | Journal |
 | Natasha | Video | /3 | Journal |
 | Adi | Video  | /3  | Journal |
 | Ridhima | [Video](https://youtu.be/Yrg6OT01GAw)  |  /3 | Journal |
