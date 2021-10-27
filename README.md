@@ -40,7 +40,7 @@
 | ---  | ---   |  ---  | ---             |
 | Kira | [Video](https://drive.google.com/file/d/1Odv1j95FgZliRCQl5IR19Iyu78I_uqaU/view?usp=sharing) | /3 | Journal |
 | Natasha | Video | /3 | Journal |
-| Adi | Video  | /3  | Journal |
+| Adi | [Video](https://youtu.be/-Eb7NM89BSU)  | /3  | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | [Video](https://youtu.be/Yrg6OT01GAw)  |  /3 | Journal |
 | Samhitha | [Video](https://drive.google.com/file/d/1VBPnd40CVsamgWfbp7BFFv4OznKEJSUF/view?usp=sharing)  |  /3 | [Journal](https://docs.google.com/document/d/161WC34JAIESTQ5gcLhwGYUsNwUFGxj84jnkRdqqgLrU/edit?usp=sharing) |
 
@@ -54,7 +54,7 @@
 | ---  | ---            |
 | Kira | [Journal](https://docs.google.com/document/d/1R2Vsbk32LfDch_A17a-swNLMlzMb8YeyF36V3AH2670/edit?usp=sharing) |
 | Natasha | [Journal](https://docs.google.com/document/d/1eW9JMCn942T8RhcvAoV33udGIoOmWzR9-KI8RoiQ62M/edit?usp=sharing)
-| Adi | Journal |
+| Adi | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
 | Samhitha | [Journal](https://docs.google.com/document/d/1-_D5glkKUbraSpn6xPaHTWJEsxrGIbYkY9OjfNsRWmQ/edit?usp=sharing) |
 
