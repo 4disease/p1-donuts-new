@@ -22,7 +22,7 @@ public class CatStream extends com.example.sping_portfolio.algorithm.catalanMode
         // Streams are prevalent in Big Data, in this example it seems to perform the worst
         Stream.iterate(new long[]{1, 1}, f -> new long[]{f[1], f[1] * 2 * n * (2 * n - 1) / (n * n + n)})
                 .limit(super.size)
-            .forEach(f -> super.setData(f[0]));
+                .forEach(f -> super.setData(f[0]));
     }
 
     /*

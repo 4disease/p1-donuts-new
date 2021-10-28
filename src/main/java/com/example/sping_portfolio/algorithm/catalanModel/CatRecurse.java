@@ -1,9 +1,9 @@
 package com.example.sping_portfolio.algorithm.catalanModel;
 
-public class CatRecurse extends com.example.sping_portfolio.algorithm.catalanModel._Catalan {
-    public CatRecurse() {
-        super();
-    }
+import com.example.sping_portfolio.algorithm.pellModel.PellRecurse;
+
+public class CatRecurse extends _Catalan {
+
     public CatRecurse(int nth) {
         super(nth);
     }
@@ -36,7 +36,7 @@ public class CatRecurse extends com.example.sping_portfolio.algorithm.catalanMod
     Class method "main" with purpose of testing CatRecurse
      */
     public static void main(String[] args) {
-        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatRecurse();  // "CatRecurse" is used as initializer for the "_Catalan catalan"  object
-        catalan.print();
+        com.example.sping_portfolio.algorithm.catalanModel._Catalan cat = new CatRecurse(3);  // "FibRecurse" is used as initializer for the "_Fibonacci fibonacci"  object
+        cat.print();
     }
 }
