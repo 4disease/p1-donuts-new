@@ -43,6 +43,11 @@ public abstract class _Pell {
         //initialize fibonacci and time algorithm
         Instant start = Instant.now();  // time capture -- start
         this.init();
+       try {
+           Thread.sleep(1);
+       } catch (InterruptedException e) {
+           e.printStackTrace();
+       }
         Instant end = Instant.now();    // time capture -- end
         this.timeElapsed = Duration.between(start, end);
     }
@@ -55,8 +60,11 @@ public abstract class _Pell {
     }
 
 
-    public int getTimeElapsed() {
-        return timeElapsed.getNano();
+//    public int getTimeElapsed() {
+//        return timeElapsed.getNano();
+//    }
+    public long getTimeElapsed() {
+        return timeElapsed.toNanos();
     }
 
     public long getNth() {

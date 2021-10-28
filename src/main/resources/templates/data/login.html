@@ -1,0 +1,50 @@
+<!-- This page is illustrative and contains ideas about HTML formatting -->
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+    <title>Login List</title>
+</div></head>
+
+<!-- layout::fragment="content" is heart of ThymeLeaf layout -->
+<body><div layout:fragment="content" th:remove="tag">
+    <div style="margin: 2%;">
+        <div align="center">
+            <h1>SQL Login List</h1>
+            <a href="/data/createlogin/">Create Login</a>
+            <br/><br/>
+
+            <table border="1" cellpadding="10">
+                <thead>
+                <tr>
+                    <th>ID</th>
+                    <th>Email</th>
+                    <th>First Name</th>
+                    <th>Last Name</th>
+                    <th>Username</th>
+                    <th>Password</th>
+                    <th>Gender</th>
+                    <th>DOB</th>
+                </tr>
+                </thead>
+                <tbody>
+                <tr th:each="login : ${list}">
+                    <td th:text="${login.id}">Login ID</td>
+                    <td th:text="${login.email}">Email</td>
+                    <td th:text="${login.firstname}">First Name</td>
+                    <td th:text="${login.lastname}">Last Name</td>
+                    <td th:text="${login.username}">Username</td>
+                    <td th:text="${login.password}">Password</td>
+                    <td th:text="${login.gender}">Gender</td>
+                    <td th:text="${login.dateofbirth}">DOB</td>
+                </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+</div></body>
+
+</html>
