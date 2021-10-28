@@ -122,7 +122,7 @@ public class ASCIIArt {
         return newPixelByte;
     }
 
-    // define what image blcok is using a double for loop 
+    // define what image block is using a double for loop
     byte[] blockImg(byte[] imgBlock){
         byte[] newimgBlock = new byte[imgBlock.length];
         for(int i=0;i<imgBlock.length;i+=4) {
