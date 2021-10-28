@@ -34,7 +34,7 @@ public class MainController {
 
     @GetMapping("/birds")
     public String birds() {
-        return "birds";
+        return "/minilabs/birds";
     }
 
     @GetMapping("/adi")
@@ -79,7 +79,7 @@ public class MainController {
         model.addAttribute( "bit", bit);
         int newbit = Integer.valueOf(bit);
         model.addAttribute("newbit", newbit);
-        return "binary";
+        return "/minilabs/binary";
     }
 
     @GetMapping("/login")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
