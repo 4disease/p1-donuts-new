@@ -6,51 +6,56 @@
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <head>
     <div layout:fragment="metadata" th:remove="tag">
-        <title>Catalan Numbers</title>
+        <title>Catalan Sequence</title>
     </div>
 </head>
 
 <body>
 <div layout:fragment="content" th:remove="tag">
-    `<div class="container" style="height: 150vh;">
+    `<div class="container">
 
-        <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif;">
-            <!-- Title -->
-            <div class="col-12" style="text-align: center;">
-                <h1><strong>4 ways to build Catalan Numbers Sequence in Java</strong></h1>
+    <div class="center-block" style="margin: 2% 3% 3%; font-family: gilroy,serif;">
+        <!-- Title -->
+        <div class="col-12" style="text-align: center;">
+            <h1><strong>4 ways to build a Catalan sequence</strong></h1>
+        </div>
+
+        <!-- Form and Action -->
+        <div class="jumbotron text-center row">
+            <!-- Input -->
+            <div class="col-md-6">
+                <h3>Type the nth number in the fibonacci sequence?</h3>
+                <img class="img-responsive py-3" th:src="@{/images/silver_spiral.svg}" alt="" width="50%" height="Auto">
+                <form id="catForm" action="/cat" method="GET" >
+                    <input name="catseq" id="catseq" type="number" min="2" max="92" >
+                    <button>Go!</button>
+                </form>
             </div>
-
-            <!-- Form and Action -->
-            <div class="jumbotron text-center row">
-                <!-- Input -->
-                <div class="col-md-6">
-                    <h3>Which term do you want?</h3>
-                    <form id="catForm" action="/cat" method="GET" >
-                        <input name="catseq" id="catseq" type="number" min="2" max="92" >
-                        <button>Go!</button>
-                    </form>
-                </div>
-                <!-- Output/Result -->
-                <div class="col-md-6">
-                    <h3>Algorithm comparison</h3>
-                    <table class="mx-auto">
-                        <tr>
-                            <th scope="col">Method</th>
-                            <th scope="col">Time</th>
-                            <th scope="col">Number</th>
-                            <th scope="col">List</th>
-                        </tr>
-                        <tr th:each="cat : ${catList}">
-                            <td th:text="${cat.getName()}"></td>
-                            <td th:text="${cat.getTimeElapsed()}"></td>
-                            <td th:text="${cat.getNth()}"></td>
-                            <td th:text="${cat.getList()}"></td>
-                        </tr>
-                    </table>
-                </div>
+            <!-- Output/Result -->
+            <div class="col-md-6">
+                <h3>Algorithm comparison</h3>
+                <table class="mx-auto">
+                    <tr>
+                        <th scope="col">Method</th>
+                        <th scope="col">Time</th>
+                        <th scope="col">Number</th>
+                        <th scope="col">List</th>
+                    </tr>
+                    <tr th:each="cat : ${catList}">
+                        <td th:text="${cat.getName()}"></td>
+                        <td th:text="${cat.getTimeElapsed()}"></td>
+                        <td th:text="${cat.getNth()}"></td>
+                        <td th:text="${cat.getList()}"></td>
+                    </tr>
+                </table>
             </div>
         </div>
+
+        <div class="col-12" style="text-align: left; ">
+            <a href="https://github.com/nighthawkcoders/nighthawk_csa/tree/master/src/main/java/com/nighthawk/csa/algorithm/fibonacciModel">cat Package</a>
+        </div>
     </div>
+</div>
     <style>
         table, td, th {
             border: 1px solid var(--dblue);

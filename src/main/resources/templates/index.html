@@ -12,7 +12,7 @@
             var total_text=document.getElementsByClassName("input_text");
             total_text=total_text.length+1;
             document.getElementById("field_div").innerHTML=document.getElementById("field_div").innerHTML+
-                "<p id='input_text"+total_text+"_wrapper'><input type='radio'><input type='text' class='form-control' id='input_text"+total_text+"' placeholder='Enter Note' style='width: 20rem'></p>";
+                "<div class='input-group' style='margin-top: 10px; width: 20rem;'><div class='input-group-prepend'><div class='input-group-text'> <input type='radio'></div></div><input type='text' class='form-control'></div>";
         }
     </script>
 </div></head>
@@ -47,14 +47,14 @@
                             <p class="card-text">can add tasks & notifications</p>
                             <form action="/" method="GET" id="notifForm">
                                 <div class="input-group-text">
-                                  <label for="notifField">Type your notification</label>
+                                    <label for="notifField">Type your notification</label>
                                     <input type="text" class="form-control" name="name" id="notifField">
-                                  <label for="emailField">Email to notify you</label>
+                                    <label for="emailField">Email to notify you</label>
                                     <input type="text" class="form-control" name="email" id="emailField">
-                                  <button> Notify me!</button>
-                                  <!-- p th:text= ${numer1}*${number2}></p-->
+                                    <button> Notify me!</button>
+                                    <!-- p th:text= ${numer1}*${number2}></p-->
                                 </div>
-                              </form>
+                            </form>
                         </div>
                     </div>
                 </div>
@@ -76,7 +76,7 @@
                         </div>
                         <input type="text" class="form-control" aria-label="Text input with radio button">
                     </div>
-                    <div class="input-group" style="width: 20rem;">
+                    <div class="input-group" style="margin-top: 13px; width: 20rem;">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="radio" aria-label="Radio button for following text input">
@@ -84,7 +84,7 @@
                         </div>
                         <input type="text" class="form-control" aria-label="Text input with radio button">
                     </div>
-                    <div class="input-group" style="width: 20rem;">
+                    <div class="input-group" style="margin-top: 13px; width: 20rem;">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="radio" aria-label="Radio button for following text input">
@@ -92,7 +92,7 @@
                         </div>
                         <input type="text" class="form-control" aria-label="Text input with radio button">
                     </div>
-                    <div class="input-group" style="width: 20rem;">
+                    <div class="input-group" style="margin-top: 13px; width: 20rem;">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="radio" aria-label="Radio button for following text input">
@@ -100,7 +100,7 @@
                         </div>
                         <input type="text" class="form-control" aria-label="Text input with radio button">
                     </div>
-                    <div class="input-group" style="width: 20rem;">
+                    <div class="input-group" style="margin-top: 13px; width: 20rem;">
                         <div class="input-group-prepend">
                             <div class="input-group-text">
                                 <input type="radio" aria-label="Radio button for following text input">
@@ -160,7 +160,7 @@
         }
     </style>
 </div>
-    <!-- End of body content specific to page -->
+<!-- End of body content specific to page -->
 
 </div></body>
 

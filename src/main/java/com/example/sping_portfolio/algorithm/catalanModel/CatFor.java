@@ -1,16 +1,14 @@
 
 package com.example.sping_portfolio.algorithm.catalanModel;
 
-public class CatFor extends com.example.sping_portfolio.algorithm.catalanModel._Catalan {
-    // zero and one argument constructors, both defer to super
-    public CatFor() { super(); }
+import com.example.sping_portfolio.algorithm.pellModel.PellFor;
+import com.example.sping_portfolio.algorithm.pellModel._Pell;
+
+public class CatFor extends _Catalan {
     public CatFor(int nth) {
         super(nth);
     }
 
-    /*
-    Abstract Polymorphic "init()" method using For
-     */
     @Override
     protected void init() {
         super.name = "For";
@@ -25,7 +23,8 @@ public class CatFor extends com.example.sping_portfolio.algorithm.catalanModel._
     Class method "main" with purpose of testing CatFor
      */
     public static void main(String[] args) {
-        com.example.sping_portfolio.algorithm.catalanModel._Catalan catalan = new CatFor(); // "CatFor" is used as initializer for the "_Catalan catalan"  object
-        catalan.print();
+        int num = 92;
+        _Catalan cat = new CatFor(num);
+        cat.print();
     }
 }
