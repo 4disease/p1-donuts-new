@@ -15,10 +15,80 @@
                 "<div class='input-group' style='margin-top: 10px; width: 20rem;'><div class='input-group-prepend'><div class='input-group-text'> <input type='radio'></div></div><input type='text' class='form-control'></div>";
         }
     </script>
+
+    <script>
+
+        function getSchedule(){
+            const dt = new Date();
+            const day = dt.getDay();
+
+            if(day === 0){
+                document.getElementById("schedule").innerHTML = "Sunday</br></br>No school today! Catch up on your work!";
+            }
+            if(day === 1){
+                document.getElementById("schedule").innerHTML = "Monday</br></br>Period 1: 8:10AM - 9:20AM</br>" +
+                    "Period 2: 9:25AM - 10:37AM</br>" +
+                    "Break: 10:37AM - 10:47AM</br>" +
+                    "Period 3: 10:52AM - 12:02PM</br>" +
+                    "Period 4: 12:07PM - 1:17PM</br>" +
+                    "Lunch: 1:17PM - 1:47PM</br>" +
+                    "Period 5: 1:52PM - 3:02PM</br>" +
+                    "Tutorial: 3:02PM - 3:32PM";
+            }
+            if(day === 2){
+                document.getElementById("schedule").innerHTML = "Tuesday</br></br>\n" +
+                    "Period 1: 9:05AM - 10:10AM</br>\n" +
+                    "Period 2: 10:15AM - 11:22AM</br>\n" +
+                    "Break: 11:22AM - 11:32AM</br>\n" +
+                    "Period 3: 11:37AM - 12:42PM</br>\n" +
+                    "Lunch: 12:42PM - 1:12PM</br>\n" +
+                    "Period 4: 1:17PM - 2:22PM</br>\n" +
+                    "Period 5: 2:27PM - 3:32PM</br>"
+
+            }
+            if(day === 3){
+                document.getElementById("schedule").innerHTML = "Wednesday</br></br>\n" +
+                    "Period 1: 8:10AM - 9:20AM</br>\n" +
+                    "Period 2: 9:25AM - 10:37AM</br>\n" +
+                    "Break: 10:37AM - 10:47AM</br>\n" +
+                    "Period 3: 10:52AM - 12:02PM</br>\n" +
+                    "Period 4: 12:07PM - 1:17PM</br>\n" +
+                    "Lunch: 1:17PM - 1:47PM</br>\n" +
+                    "Period 5: 1:52PM - 3:02PM</br>\n" +
+                    "Tutorial: 3:02PM - 3:32PM"
+            }
+            if(day === 4){
+                document.getElementById("schedule").innerHTML = "Thursday</br></br>\n" +
+                    "Period 1: 8:10AM - 9:20AM</br>\n" +
+                    "Period 2: 9:25AM - 10:37AM</br>\n" +
+                    "Break: 10:37AM - 10:47AM</br>\n" +
+                    "Period 3: 10:52AM - 12:02PM</br>\n" +
+                    "Period 4: 12:07PM - 1:17PM</br>\n" +
+                    "Lunch: 1:17PM - 1:47PM</br>\n" +
+                    "Period 5: 1:52PM - 3:02PM</br>\n" +
+                    "Tutorial: 3:02PM - 3:32PM"
+            }
+            if(day === 5){
+                document.getElementById("schedule").innerHTML = "Friday\n" +
+                    "Period 1: 8:10AM - 9:20AM</br>\n" +
+                    "Period 2: 9:25AM - 10:37AM</br>\n" +
+                    "Break: 10:37AM - 10:47AM</br>\n" +
+                    "Homeroom: 10:52AM - 11:17PM</br>\n" +
+                    "Period 3: 11:22AM - 12:32PM</br>\n" +
+                    "Lunch: 12:32PM - 1:02PM</br>\n" +
+                    "Period 4: 1:07PM - 2:17PM</br>\n" +
+                    "Period 5: 2:22PM - 3:32PM\n"
+            }
+            if(day === 6){
+                document.getElementById("schedule").innerHTML = "Saturday</br></br>No school today! Catch up on your work!";
+            }
+        }
+
+    </script>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
-<body><div layout:fragment="content" th:remove="tag">
+<body onload="getSchedule()"><div layout:fragment="content" th:remove="tag">
     <!-- Start of body content specific to page -->
     <div id="main_page" class="articles">
         <div class="product" style="margin-top: 5%; height: 150vh">
@@ -28,10 +98,8 @@
                     <div class="card card-flip h-100" style="margin-top: 25px; width: 30rem; margin-bottom: 30px;">
                         <div class="card-front text-white bg-dark">
                             <div class="card-body">
-                                <h3 class="card-title">Front</h3>
-                                <p class="card-text">can add notes or a calendar</p>
-                                <p class="card-text"></p>
-                                <p class="card-text"></p>
+                                <h3 class="card-title">Today's Schedule</h3>
+                                <p class="card-text" id="schedule">Schedule</p>
                             </div>
                         </div>
                         <div class="card-back mb-1 text-dark">
