@@ -38,7 +38,7 @@
 ### Individual Videos & Scoring 
 | Name | Video | Score | Unit 9 Journals |
 | ---  | ---   |  ---  | ---             |
-| Kira | [Video](https://drive.google.com/file/d/1Odv1j95FgZliRCQl5IR19Iyu78I_uqaU/view?usp=sharing) | /6 | Journal |
+| Kira | [Video](https://drive.google.com/file/d/1Odv1j95FgZliRCQl5IR19Iyu78I_uqaU/view?usp=sharing) | /6 | [Journal](https://docs.google.com/document/d/1P3O66bgcIqnIjq_NskjC-jh1Xk58by92_Mf9s7qrPbM/edit?usp=sharing) |
 | Natasha | [Video](https://www.loom.com/share/a5ffa3fca8c24dbcaac6b8f5e7a0070b) | /6 | [Journal](https://docs.google.com/document/d/1tInvSuXHHESgCO1JRUFdZERazEWkDU56U27LbQqZfOM/edit) |
 | Adi | [Video](https://youtu.be/-Eb7NM89BSU)  | /6  | [Journal](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | [Video](https://youtu.be/Yrg6OT01GAw)  |  /6 | [Journal](https://docs.google.com/document/d/1nrmzM9ZZKpLgSpoci978MJ_qGaV5M3oZDaYvcKt0O_U/edit?usp=sharing) |
