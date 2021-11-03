@@ -1,0 +1,73 @@
+package com.example.sping_portfolio.algorithm;
+
+
+
+import javax.mail.*;
+import javax.mail.internet.InternetAddress;
+import javax.mail.internet.MimeMessage;
+import java.util.Properties;
+
+
+/* schedule a task with a certain key in the database
+    attributes: email address & task name, behavior: send the email
+ */
+
+
+public class SendEmail {
+    private String emailAddress;
+    private String taskName;
+
+    public SendEmail(String email, String task){
+        emailAddress = email;
+        taskName = task;
+    }
+
+    public String getEmailAddress() {
+        return emailAddress;
+    }
+
+    public void setEmailAddress(String emailAddress) {
+        this.emailAddress = emailAddress;
+    }
+
+    public String getTaskName() {
+        return taskName;
+    }
+
+    public void setTaskName(String taskName) {
+        this.taskName = taskName;
+    }
+
+    public void sendEmail(String emailAddress, String taskName){
+        Properties props = System.getProperties();
+        props.setProperty("mail.smtp.host", "smtp.gmail.com");
+        props.setProperty("mail.smtp.port", "587");
+        props.put("mail.smtp.auth", "true");
+        props.put("mail.smtp.starttls.enable", "true");
+        props.put("mail.debug", "true");
+        props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
+        props.put("mail.smtp.ssl.protocols", "TLSv1.2");
+        final String username = "natasha.sp.kapoor@gmail.com";
+        final String password = "adzqusgmukdulzli";
+
+        // username: "the.end.of.the.world.is.life@gmail.com"
+        // pwd: "the end of the world"
+
+        Session session = Session.getDefaultInstance(props);
+        try{
+            MimeMessage message = new MimeMessage(session);
+            message.setFrom(new InternetAddress(emailAddress));
+            message.addRecipient(Message.RecipientType.TO, new InternetAddress(emailAddress));
+            message.setSubject("You have a task to do!: " + taskName);
+            message.setText("Make sure to incorporate " + taskName + " into your schedule today!");
+            Transport t = session.getTransport("smtp");
+            t.connect(username, password);
+            t.sendMessage(message, message.getAllRecipients());
+            t.close();
+            System.out.println("Message Sent Successfully....");
+        } catch (MessagingException mex){
+            mex.printStackTrace();
+        }
+
+    }
+}

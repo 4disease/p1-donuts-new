@@ -1,9 +1,10 @@
 package com.example.sping_portfolio.controllers;
 
+import com.example.sping_portfolio.algorithm.SendEmail;
+import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.stereotype.Controller;
 
 //import models.ImageInfo_Model.java;
 
@@ -91,6 +92,11 @@ public class MainController {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         model.addAttribute("name", name); // MODEL is passed to html
         model.addAttribute("name", email); // MODEL is passed to html
+        if (email != null && name != null) {
+            SendEmail userEmail = new SendEmail(email, name);
+            userEmail.sendEmail(email, name);
+        }
+
         return "index"; // returns HTML VIEW (greeting)
     }
 
