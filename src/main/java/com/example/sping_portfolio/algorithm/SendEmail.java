@@ -33,7 +33,7 @@ public class SendEmail {
     public String getTaskName() {
         return taskName;
     }
-
+`
     public void setTaskName(String taskName) {
         this.taskName = taskName;
     }
@@ -47,11 +47,17 @@ public class SendEmail {
         props.put("mail.debug", "true");
         props.put("mail.smtp.ssl.trust", "smtp.gmail.com");
         props.put("mail.smtp.ssl.protocols", "TLSv1.2");
-        final String username = "natasha.sp.kapoor@gmail.com";
-        final String password = "adzqusgmukdulzli";
+        props.put("mail.smtp.port", "465");
+        props.put("mail.smtp.socketFactory.port", "465");
+        props.put("mail.smtp.socketFactory.class", "javax.net.ssl.SSLSocketFactory");
 
-        // username: "the.end.of.the.world.is.life@gmail.com"
-        // pwd: "the end of the world"
+
+        // creates a new session, no Authenticator (will connect() later
+        final String username = "the.end.of.the.world.is.life@gmail.com";
+        final String password = "the end of the world";
+
+        props.put("mail.smtp.user", username);
+
 
         Session session = Session.getDefaultInstance(props);
         try{
