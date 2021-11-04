@@ -6,28 +6,32 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 
-//import models.ImageInfo_Model.java;
+import java.awt.image.BufferedImage;
+import java.util.ArrayList;
+import java.util.List;
+import java.awt.*;
+import models.ImageInfo_Model;
 
 @Controller
 public class MainController {
 
-    @GetMapping("/aboutus")
+ /*   @GetMapping("/aboutus")
     public String aboutus(Model model) {
-     /*  List<ImageInfo_Model> imageInfoList = new ArrayList<>();
+        List<ImageInfo_Model> imageInfoList = new ArrayList<>();
         String image0 = "http://localhost:8080/images/kira.PNG";
-        ImageInfo_Model if0 = new ImageInfo_Model(image0); if0.getOriginalImg(); if0.getGrayscaleImg();
+        ImageInfo_Model if0 = new ImageInfo_Model(image0); if0.getOriginalImg();
         imageInfoList.add(if0);
 
         String image1 = "http://localhost:8080/images/natasha.png";
-        ImageInfo_Model if1 = new ImageInfo_Model(image1); if1.getOriginalImg(); if1.getGrayscaleImg();
+        ImageInfo_Model if1 = new ImageInfo_Model(image1); if1.getOriginalImg();
         imageInfoList.add(if1);
 
 
-        model.addAttribute("iiList", imageInfoList); */
+        model.addAttribute("iiList", imageInfoList);
 
         return "aboutus";
 
-    }
+    } */
 
     @GetMapping("/greet")
     public String greeting(@RequestParam(name="name", required=false, defaultValue="World") String name, Model model) {
