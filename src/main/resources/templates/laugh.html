@@ -1,0 +1,59 @@
+<!DOCTYPE HTML>
+<!-- Signals to the Layout Dialect which layout should be used to decorate this View -->
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<!-- <head> -->
+<div layout:fragment="metadata" th:remove="tag">
+    <title>Quotes</title>
+    <style>
+        table, td, th {
+            border: 1px solid white;
+        }
+        td, th {
+            text-align:right;
+        }
+        td:first-child, th:first-child {
+            text-align: center;
+        }
+    </style>
+</div>
+
+<!-- <body> -->
+<div layout:fragment="content" th:remove="tag">
+    <div class="container">
+
+        <div class="row justify-content-md-center" style="margin-top: 80px;">
+            <h1><strong>JSON Jokes</strong></h1>
+        </div>
+
+        <div class="row justify-content-md-center" style="margin-top: 10px;">
+        <form action="/laugh" method="GET" id="laughForm">
+            <button>Get a joke!</button>
+        </form>
+        </div>
+
+        <table class="table" style="margin-top: 20px;">
+            <tr>
+                <th>Line 1</th>
+                <th>Line 2</th>
+            </tr>
+            <tr>
+                <!-- Usage of Java HashMap and Thymeleaf -->
+                <td th:text="${laugh.setup}"></td>
+                <td th:text="${laugh.delivery}"></td>
+            </tr>
+        </table>
+
+        <table class="table">
+            <tr>
+                <th>Jokes using JSON</th>
+            </tr>
+            <td th:text="${laugh}"></td>
+            </tr>
+        </table>
+
+    </div>
+</div>
+
+</html>
