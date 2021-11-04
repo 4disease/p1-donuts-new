@@ -145,6 +145,7 @@ body
 	["bye", "good bye", "goodbye", "see you later"],
 	
 ];
+
 var reply = [
 	["Hi","Hey","Hello"], 
 	["Fine", "Pretty well", "Fantastic"],
@@ -162,6 +163,8 @@ var reply = [
 	["Bye", "Goodbye", "See you later"]
 
 ];
+
+
 var alternative = ["Haha...", "Eh..."];
 document.querySelector("#input").addEventListener("keypress", function(e){
 	var key = e.which || e.keyCode;
@@ -171,6 +174,9 @@ document.querySelector("#input").addEventListener("keypress", function(e){
 		output(input);
 	}
 });
+
+
+
 function output(input){
 	try{
 		var product = input + "=" + eval(input);
@@ -200,8 +206,14 @@ function compare(arr, array, string){
 	return item;
 }
   </script>
+
+
+<p> </p>
 	
 </div>
 </body>
+
+
+
 <script type="text/javascript" src="script.js"></script>
 </html>
