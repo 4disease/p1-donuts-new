@@ -21,4 +21,8 @@ public class LoginSqlRepository {
         jpa.save(login);
     }
 
+    public Login get(long id) {
+        return jpa.findById(id).get();
+    }
+
 }

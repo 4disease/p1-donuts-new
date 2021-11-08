@@ -25,8 +25,7 @@
                     <th>Last Name</th>
                     <th>Username</th>
                     <th>Password</th>
-                    <th>Gender</th>
-                    <th>DOB</th>
+                    <th>Action</th>
                 </tr>
                 </thead>
                 <tbody>
@@ -37,8 +36,9 @@
                     <td th:text="${login.lastname}">Last Name</td>
                     <td th:text="${login.username}">Username</td>
                     <td th:text="${login.password}">Password</td>
-                    <td th:text="${login.gender}">Gender</td>
-                    <td th:text="${login.dateofbirth}">DOB</td>
+                    <td>
+                        <a th:href="@{/data/loginupdate/{id}(id = ${login.id})}">Update</a>
+                    </td>
                 </tr>
                 </tbody>
             </table>

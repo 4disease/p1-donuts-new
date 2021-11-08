@@ -1,16 +1,10 @@
-package com.example.sping_portfolio.algorithm;
+/*package com.example.sping_portfolio.algorithm;
 
 
 
-import javax.mail.*;
-import javax.mail.internet.InternetAddress;
-import javax.mail.internet.MimeMessage;
 import java.util.Properties;
 
 
-/* schedule a task with a certain key in the database
-    attributes: email address & task name, behavior: send the email
- */
 
 
 public class SendEmail {
@@ -76,4 +70,4 @@ public class SendEmail {
         }
 
     }
-}
+} */

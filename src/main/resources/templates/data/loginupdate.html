@@ -1,0 +1,57 @@
+<!DOCTYPE HTML>
+<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
+      layout:decorate="~{layout}" lang="en">
+
+<head><div layout:fragment="metadata" th:remove="tag">
+  <title>Person Update</title>
+</div></head>
+
+<body><div layout:fragment="content" th:remove="tag">
+  <div style="margin: 2%;">
+    <h3>Update Login</h3>
+    <form action="#" th:action="@{/data/loginupdate}" th:object="${login}" method="POST">
+      <table>
+        <tr>
+          <td>ID:</td>
+          <td th:text="${login.id}">ID</td>
+          <td><input type="hidden" th:field="*{id}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+          <td>Firstname:</td>
+          <td th:text="${login.firstname}">Firstname</td>
+          <td><input type="hidden" th:field="*{firstname}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+        <td>Lastname:</td>
+        <td th:text="${login.lastname}">Lastname</td>
+        <td><input type="hidden" th:field="*{lastname}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+          <td>Username:</td>
+          <td th:text="${login.username}">Username</td>
+          <td><input type="hidden" th:field="*{username}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+          <td>Password:</td>
+          <td th:text="${login.password}">Password</td>
+          <td><input type="hidden" th:field="*{password}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+          <td>Email:</td>
+          <td th:text="${login.email}">Email</td>
+          <td><input type="hidden" th:field="*{email}" readonly="readonly" /></td>
+        </tr>
+        <tr>
+          <td>Task:</td>
+          <td><input type="text" th:field="*{task}" /></td>
+          <td th:if="${#fields.hasErrors('task')}" th:errors="*{task}">Task Error</td>
+        </tr>
+        <tr>
+          <td><button type="submit">Save</button></td>
+        </tr>
+      </table>
+    </form>
+  </div>
+</div></body>
+
+</html>

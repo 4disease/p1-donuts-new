@@ -1,6 +1,5 @@
 package com.example.sping_portfolio.controllers;
 
-import com.example.sping_portfolio.algorithm.SendEmail;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -91,7 +90,7 @@ public class MainController {
 
     }
 
-    @GetMapping("/")
+   /* @GetMapping("/")
     public String notificationString(@RequestParam(name="name", required=false, defaultValue="World") String name, String email, Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         model.addAttribute("name", name); // MODEL is passed to html
@@ -102,7 +101,7 @@ public class MainController {
         }
 
         return "index"; // returns HTML VIEW (greeting)
-    }
+    } */
 
     @GetMapping("/profile")
     public String profile() {

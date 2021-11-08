@@ -7,6 +7,7 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.GetMapping;
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.servlet.config.annotation.WebMvcConfigurer;
 
@@ -35,6 +36,23 @@ public class LoginSqlMvcController implements WebMvcConfigurer {
         // Validation of Decorated PersonForm attributes
         if (bindingResult.hasErrors()) {
             return "data/createlogin";
+        }
+        repository.save(login);
+        // Redirect to next step
+        return "redirect:/data/login";
+    }
+
+    @GetMapping("/data/loginupdate/{id}")
+    public String loginUpdate(@PathVariable("id") int id, Model model) {
+        model.addAttribute("login", repository.get(id));
+        return "data/loginupdate";
+    }
+
+    @PostMapping("/data/loginupdate")
+    public String loginUpdateSave(@Valid Login login, BindingResult bindingResult) {
+        // Validation of Decorated PersonForm attributes
+        if (bindingResult.hasErrors()) {
+            return "data/loginupdate";
         }
         repository.save(login);
         // Redirect to next step
