@@ -5,36 +5,36 @@
       layout:decorate="~{layout}" lang="en">
 
 <head><div layout:fragment="metadata" th:remove="tag">
-    <title>Login List</title>
+    <title>Task List</title>
 </div></head>
 
 <!-- layout::fragment="content" is heart of ThymeLeaf layout -->
 <body><div layout:fragment="content" th:remove="tag">
     <div style="margin: 2%;">
         <div align="center">
-            <h1>SQL Login List</h1>
-            <a href="/data/createlogin/">Create Login</a>
+            <h1>SQL Task List</h1>
+            <a href="/data/createtask/">Create Task</a>
             <br/><br/>
 
             <table border="1" cellpadding="10">
                 <thead>
                 <tr>
                     <th>ID</th>
-                    <th>Email</th>
-                    <th>First Name</th>
-                    <th>Last Name</th>
-                    <th>Username</th>
-                    <th>Password</th>
+                    <th>Name</th>
+                    <th>Title</th>
+                    <th>Description</th>
+                    <th>Details</th>
+                    <th>DOB</th>
                 </tr>
                 </thead>
                 <tbody>
-                <tr th:each="login : ${list}">
-                    <td th:text="${login.id}">Login ID</td>
-                    <td th:text="${login.email}">Email</td>
-                    <td th:text="${login.firstname}">First Name</td>
-                    <td th:text="${login.lastname}">Last Name</td>
-                    <td th:text="${login.username}">Username</td>
-                    <td th:text="${login.password}">Password</td>
+                <tr th:each="task : ${list}">
+                    <td th:text="${task.id}">Task ID</td>
+                    <td th:text="${task.name}">Name</td>
+                    <td th:text="${task.title}">Title</td>
+                    <td th:text="${task.description}">Description</td>
+                    <td th:text="${task.details}">Details</td>
+                    <td th:text="${task.dob}">DOB</td>
                 </tr>
                 </tbody>
             </table>

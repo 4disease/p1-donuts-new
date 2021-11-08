@@ -42,20 +42,4 @@ public class LoginSqlMvcController implements WebMvcConfigurer {
         return "redirect:/data/login";
     }
 
-    @GetMapping("/data/loginupdate/{id}")
-    public String loginUpdate(@PathVariable("id") int id, Model model) {
-        model.addAttribute("login", repository.get(id));
-        return "data/loginupdate";
-    }
-
-    @PostMapping("/data/loginupdate")
-    public String loginUpdateSave(@Valid Login login, BindingResult bindingResult) {
-        // Validation of Decorated PersonForm attributes
-        if (bindingResult.hasErrors()) {
-            return "data/loginupdate";
-        }
-        repository.save(login);
-        // Redirect to next step
-        return "redirect:/data/login";
-    }
 }
