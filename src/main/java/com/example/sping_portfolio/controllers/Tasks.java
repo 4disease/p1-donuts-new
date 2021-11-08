@@ -15,13 +15,15 @@ public class Tasks implements Serializable {
     String description;
     String details;
     String date;
+    String category;
     Boolean complete;
 
-    public void taskAssign(String t, String d, String e, String dt) {
+    public void taskAssign(String t, String d, String e, String dt, String c) {
         title = t;
         description = d;
         details = e;
         date = dt;
+        category = c;
     }
 
     public String getTitle(){
@@ -36,11 +38,13 @@ public class Tasks implements Serializable {
 
     public String getDate() {return date;}
 
+    public String getCategory() {return category;}
+
     public ArrayList<Tasks> taskslist(){
         Tasks task1 = new Tasks();//creating an object of Student
         Tasks task2 = new Tasks();
-        task1.taskAssign( "Math homework", "DO YOUR MATH!!!!!", "More info on the assignment" , "2022-06-01");
-        task2.taskAssign( "English Homework", "Write a whole essay boyyyyy", "More info on the assignment", "2022-06-01");
+        task1.taskAssign( "Math homework", "DO YOUR MATH!!!!!", "More info on the assignment" , "2022-06-01", "Math");
+        task2.taskAssign( "English Homework", "Write a whole essay boyyyyy", "More info on the assignment", "2022-06-01", "English");
 
         ArrayList<Tasks> list = new ArrayList<>();
         list.add(task1);
@@ -62,12 +66,13 @@ public class Tasks implements Serializable {
                         @RequestParam(name="description", required=false, defaultValue="Task description") String description,
                         @RequestParam(name="details", required = false, defaultValue = "Task details") String details,
                         @RequestParam(name="date", required = false, defaultValue = "0000-00-00") String date,
+                        @RequestParam(name="category", required = false, defaultValue = "none") String category,
                         Model model) {
         // @RequestParam handles required and default values, name and model are class variables, model looking like JSON
         //model.addAttribute("list", taskslist());
 
         Tasks task10 = new Tasks();
-        task10.taskAssign(title, description, details, date);
+        task10.taskAssign(title, description, details, date, category);
 
         Tasks task1 = new Tasks();//creating an object of Student
         Tasks task2 = new Tasks();
@@ -79,15 +84,15 @@ public class Tasks implements Serializable {
         Tasks task8 = new Tasks();
         Tasks task9 = new Tasks();
 
-        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
-        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
-        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01");
-        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01");
-        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01");
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01", "Math");
+        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01", "English");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01", "CS");
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01", "Math");
+        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01", "English");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01", "CS");
+        task1.taskAssign("Math homework", "DO YOUR MATH!!!!!", "More info on the assignment", "2022-06-01", "Math");
+        task2.taskAssign("English Homework", "Write a whole essay", "More info on the assignment", "2022-06-01", "English");
+        task3.taskAssign("CompSci Homework", "Doing it right now :)", "More info on the assignment", "2022-06-01", "CS");
 
 
         ArrayList<Tasks> list = new ArrayList<>();
