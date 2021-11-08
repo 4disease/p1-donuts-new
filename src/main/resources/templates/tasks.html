@@ -27,25 +27,36 @@
 
 <body>
 <div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
+    <form style="margin-top: 100px; margin-left: 80px;">
+        <p class="category-search">Select Task Categories to Filter</p>
+        <input type="checkbox" name="categories" vaue="Other" />Other<br />
+        <input type="checkbox" name="categories" vaue="English" />English<br />
+        <input type="checkbox" name="categories" vaue="Math" />Math<br />
+        <input type="checkbox" name="categories" vaue="Science" />Science<br />
+        <input type="checkbox" name="categories" vaue="History" />History<br />
+        <input type="checkbox" name="categories" vaue="CS" />CS<br />
+        <input type="checkbox" name="categories" vaue="OtherHW" />Other HW<br />
+    </form>
     <div style=" width: 1500px; padding:30px;">
-        <div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each ="tasks : ${list}">
+        <div class="card" style="width: 18rem; margin-top: 10px; margin-left:50px; margin-right: 50px; display: inline-block;" th:each ="tasks : ${list}">
             <div class="card-front">
                 <img class="card-img-top" th:src="@{/images/tasks_waterlily.jpg}" alt="Card image cap">
                 <div class="card-body">
                     <h5 class="card-title" th:text="${tasks.title}">Card title</h5>
                     <p class="card-text" th:text="${tasks.description}">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                     <div class="more-details">
-                        <button class="more-details-btn" style="width:9rem; height:4rem; margin-left: 50px; background-color: #60a8ad; border: none; font-size: small;">More details</button>
+                        <button class="more-details-btn" style="width:9rem; height:4rem; margin-left: 50px; background-color: #60a8ad; border-color: white; border-radius: 50px; font-size: large; color: white;">More details</button>
                         <div class="more-details-box">
                             <p class="card-details" th:text="${tasks.details}">Some more details and information</p>
-                            <p class="card-date" th:text="${tasks.date}">00/00/0000</p>
+                            <p class="card-date" th:text="'Date: ' + ${tasks.date}">00/00/0000</p>
+                            <p class="card-category" th:text="'Category: ' + ${tasks.category}">none</p>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
     </div>
-    <div class="create-task-card" style="width:25rem; margin-left:75px; display: inline-block;">
+    <div class="create-task-card" style="width: 100%; text-align: center; display: inline-block;">
         <div class="create-task-card-front">
             <div class="create-task-card-body">
                 <h5 class="create-task-card-title">Create New Task</h5>
@@ -59,7 +70,17 @@
                         <p class="input-text3">Additional Details</p>
                         <input name="details" id="details">
                         <p class="input-text4">Dates</p>
-                        <input type="date" id="date" name="date" min="2021-01-01" max="3052-12-31"></input>
+                        <input type="date" id="date" name="date" min="2021-01-01" max="3052-12-31">
+                        <p class="input-text5">Category</p>
+                        <select name="category" id="category">
+                            <option value="Other">Other</option>
+                            <option value="English">English</option>
+                            <option value="Math">Math</option>
+                            <option value="Science">Science</option>
+                            <option value="History">History</option>
+                            <option value="CS">CS</option>
+                            <option value="OtherHW">Other HW</option>
+                        </select>
                         <button>Add</button>
                     </div>
                 </form>
@@ -68,26 +89,18 @@
     </div>
     <style>
         .more-details-box{
-            display:bottom;
             visibility: hidden;
-            background-color: #898c8c;
+            background-color: #60a8ad;
             color:#ffffff;
             padding:20px;
             float:bottom;
             margin:20px;
+            position: absolute;
+            z-index: 1;
         }
         .more-details:hover .more-details-box{
             visibility:visible;
             opacity:1;
-        }
-
-        .more-details-btn {
-            text-align: center;
-            border: #000000;
-            background-color: #60a8ad;
-            color: white;
-            font-size: medium;
-            border-radius: 50px;
         }
 
         .create-task-card {
@@ -97,5 +110,5 @@
         }
     </style>
 </div>
-</body>
 </html>
+</body>
