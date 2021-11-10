@@ -20,36 +20,8 @@
 | Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=ridhimainukurti) |
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
-## Overall Reflection + GeekBot 
-### Kira
-#### What went well?
-I think that our planning went well. We were pretty good on upkeeping the README and we made sure to keep our journals organized so we wouldn't have to rush to complete it before checks. Although we weren't able to cover everything that we initially planned, our ideas were well fleshed out and our planning shows through.
-
-#### What didn't go that well?
-Maybe our team collaboration could've been better. Although we worked well together, I noticed that it was a bit hard to work when we weren't in class together. It may have been a matter of communication or motivation, but it was harder to buckle down and get work done when we were apart.
-
-#### What did every team member learn?
-Every team member learned more about java. I know that we all didn't have much experience with java, especially making websites using it. We learned a lot about modeling certain ideas and making them come to fruition. We also had to learn a lot about spring and thymeleaf to complete our project efficiently.
-
-#### What puzzles every team member?
-Sometimes, going from idea to code can be challenging. We struggled to model the tasks function specifically, which dealt with databases. Without sessions, it was hard to filter the tasks by user. Eventually, we ended up with two different tables that weren't connected. In the very least, we learned a lesson on how to deal with big problems, and that we should tackle them early on.
-
-#### What was your favorite mini-lab project?
-My favorite mini-lab project was the math sequences lab. It helped me understand a little more about polymorphism and java structure, and having the different loops print out helped me understand how they functioned more visually.
-
-#### What was your favorite CB topic?
-My favorite CB topic was objects. Since objects are a huge part of Java, it was useful to learn about how to make objects and what they can do. I was sure to use this topic in our PBL to determine how to use it practically.
-
-#### Identify in priority order biggest challenges.
-1. Back end code
-2. Staying organized
-3. Learning + finishing minilabs on time
-
-#### What was your favorite N@tM project?
-My favorite N@tM project were paintings and drawings by my friends in art. I really liked their use of color and medium. I also liked the particular subjects they picked - I especially liked the paintings of clowns, and I found them visually interesting.
-
-
 ## Table of Contents
+  - [Overall Reflection]()
   - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
   - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
@@ -59,6 +31,20 @@ My favorite N@tM project were paintings and drawings by my friends in art. I rea
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Overall Reflection + GeekBot 
+### Individual Reflection Journals
+| Name | Reflection |
+| ---  | ---        |
+| Kira | Reflection |
+| Natasha | Reflection |
+| Adi | Reflection |
+| Ridhima | Reflection |
+| Samhitha | [Reflection](https://docs.google.com/document/d/10OSQpC79nTjIFdvgqzlWt0aghFxY8TED33TWpYIvdvE/edit?usp=sharing) |
+
+### N@tM Pictures
+![20211109_083934](https://user-images.githubusercontent.com/70492417/141166245-7bee8931-dab2-4b17-908d-277ea8c7809f.jpg)
+![20211109_083924](https://user-images.githubusercontent.com/70492417/141166279-6aeb205e-bdb3-4b81-b0e9-c838a6a6658c.jpg)
 
 ## Week 9
 ### [Review Ticket](https://github.com/4disease/p1-donuts-new/projects/1#card-71486648)
