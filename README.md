@@ -48,6 +48,15 @@ databases and APIs
 #### What was your favorite N@tM project?
 hmm i think it was this apple we saw at one of the art rooms. it was this apple, and it seemed like it had been sliced up and slapped onto the canvas. kind of like a copy paste of code... but of fruit. but the background of the canvas had space to be creative, which kinda reminded me of comp sci. it was an abstract painting ( i think ) but it looked visually interesting.
 
+<img width="257" alt="Screen Shot 2021-11-10 at 9 03 36 AM" src="https://user-images.githubusercontent.com/71796291/141158930-48b3b15c-5e33-4acf-b3f2-ef063269d116.png">
+Very cool painting from studio art. Visually appealing aesthetics touched my heart. 
+
+<img width="261" alt="Screen Shot 2021-11-10 at 9 04 12 AM" src="https://user-images.githubusercontent.com/71796291/141159018-87de3c00-214a-41a5-a376-229bdbabaf6c.png">
+Abstraction reminded me of computer science; the idea and conceptualization reminded me of the intricacies of the class. 
+
+<img width="453" alt="Screen Shot 2021-11-10 at 9 05 01 AM" src="https://user-images.githubusercontent.com/71796291/141159141-81588c1d-418b-48ea-8f5a-deb9e3bd9e89.png">
+Much pretty eye; its inspiring me a color palette for next tri that we could use. it feels really soft. 
+
 
 ## Table of Contents
   - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
