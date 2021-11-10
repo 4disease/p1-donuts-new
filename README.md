@@ -36,8 +36,8 @@
 ### Individual Reflection Journals
 | Name | Reflection |
 | ---  | ---        |
-| Kira | Reflection |
-| Natasha | Reflection |
+| Kira | [Reflection](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
+| Natasha | [Reflection](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
 | Adi | [Reflection](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
 | Ridhima | [Reflection](https://docs.google.com/document/d/11SzthwyOwuaLQpk8zHeX9fWN2m2tnU7sFqW-z_dgqSQ/edit?usp=sharing) |
 | Samhitha | [Reflection](https://docs.google.com/document/d/10OSQpC79nTjIFdvgqzlWt0aghFxY8TED33TWpYIvdvE/edit?usp=sharing) |
