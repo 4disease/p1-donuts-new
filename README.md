@@ -48,45 +48,6 @@ My favorite CB topic was objects. Since objects are a huge part of Java, it was 
 #### What was your favorite N@tM project?
 My favorite N@tM project were paintings and drawings by my friends in art. I really liked their use of color and medium. I also liked the particular subjects they picked - I especially liked the paintings of clowns, and I found them visually interesting.
 
-### Adi 
-#### What went well?
-the overall project idea was pretty good, a lot of people seemed to enjoy the chatbot, and it was fun seeing all of the projects on display. we also had good collaboration, and had nice technicals, like chatbot, api, the calendar, tasks, and email notifications.
-
-#### What didn't go that well?
-deployment was such a struggle - while it was interesting learning the concept behind how to host a site, going through all of the nginx steps, running the zillions of commands, and setting up the pi was somewhat difficult. i also missed using my pi as a mini heater - it's getting cold so i'll need a replacement haha. another struggle was, personally, organization for me. i struggled to stay organized throughout the trimester, and while it could have just been due to being overwhelmed, it's something i want to work on.
-
-#### What did every team member learn?
-we learned about the different technicals - api, databases, html, java; three of us were in ap csp last year, so it was a nice conceptual review, but in java this time. we also got to work on communication, collaboration, and steps to implement good work habits.
-
-#### What puzzles every team member? 
-deployment definitely got me, but i think most of the time, we were able to understand and figure out things that puzzled us. some main things were using APIs, databases, and the fibonacci lab. honestly, most assignments were puzzling, so we would need to get past the stages of being puzzled, figuring it out (the aha moment), and learning how to do it.
-
-#### What was your favorite mini-lab project?
-the ascii lab! i loved preparing it, and trying it out on my own. we went to starbucks to try and figure some of it out, and seeing all of the different ways everyone coded the lab and got it on the site was really cool. it was fun to see the images that everyone made, and also see how it related to CB topics. I think it was a great way of linking CB to coding projects, and helped clarify how the concepts we learn are demonstrated in code.
-
-#### What was your favorite CB topic?
-speaking of CB topics - recursion! recursion is kind of annoying, but it's like a computer science math problem, and i find them fun. i could sit down and do these problems all day, but the ones that are really confusing are super fun to go through and figure out.
-
-#### Identify in priority order biggest challenges.
-deployment, for sure
-organizations + management
-databases and APIs
-
-#### What was your favorite N@tM project?
-hmm i think it was this apple we saw at one of the art rooms. it was this apple, and it seemed like it had been sliced up and slapped onto the canvas. kind of like a copy paste of code... but of fruit. but the background of the canvas had space to be creative, which kinda reminded me of comp sci. it was an abstract painting ( i think ) but it looked visually interesting.
-
-#### Goals for Tri 2 
-a meaningful project; one that can help people, and also prepare for next trimester (tri 3) where we need to get sponsors. suepr excited to work with more people, learn more skills in java and computer sceince, and im hoping to get more into ML and AI stuff next trimester too. and building apps! 
-
-<img width="257" alt="Screen Shot 2021-11-10 at 9 03 36 AM" src="https://user-images.githubusercontent.com/71796291/141158930-48b3b15c-5e33-4acf-b3f2-ef063269d116.png">
-Very cool painting from studio art. Visually appealing aesthetics touched my heart. 
-
-<img width="261" alt="Screen Shot 2021-11-10 at 9 04 12 AM" src="https://user-images.githubusercontent.com/71796291/141159018-87de3c00-214a-41a5-a376-229bdbabaf6c.png">
-Abstraction reminded me of computer science; the idea and conceptualization reminded me of the intricacies of the class. 
-
-<img width="453" alt="Screen Shot 2021-11-10 at 9 05 01 AM" src="https://user-images.githubusercontent.com/71796291/141159141-81588c1d-418b-48ea-8f5a-deb9e3bd9e89.png">
-Much pretty eye; its inspiring me a color palette for next tri that we could use. it feels really soft. 
-
 
 ## Table of Contents
   - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
