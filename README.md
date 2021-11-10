@@ -48,6 +48,9 @@ databases and APIs
 #### What was your favorite N@tM project?
 hmm i think it was this apple we saw at one of the art rooms. it was this apple, and it seemed like it had been sliced up and slapped onto the canvas. kind of like a copy paste of code... but of fruit. but the background of the canvas had space to be creative, which kinda reminded me of comp sci. it was an abstract painting ( i think ) but it looked visually interesting.
 
+#### Goals for Tri 2 
+a meaningful project; one that can help people, and also prepare for next trimester (tri 3) where we need to get sponsors. suepr excited to work with more people, learn more skills in java and computer sceince, and im hoping to get more into ML and AI stuff next trimester too. and building apps! 
+
 <img width="257" alt="Screen Shot 2021-11-10 at 9 03 36 AM" src="https://user-images.githubusercontent.com/71796291/141158930-48b3b15c-5e33-4acf-b3f2-ef063269d116.png">
 Very cool painting from studio art. Visually appealing aesthetics touched my heart. 
 
