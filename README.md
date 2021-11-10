@@ -20,6 +20,35 @@
 | Ridhima | [@ridhimainukurti](https://github.com/ridhimainukurti)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/ridhimainukurti) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aridhimainukurti) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=ridhimainukurti) |
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
+## Overall Reflection + GeekBot 
+### Adi 
+#### What went well?
+the overall project idea was pretty good, a lot of people seemed to enjoy the chatbot, and it was fun seeing all of the projects on display. we also had good collaboration, and had nice technicals, like chatbot, api, the calendar, tasks, and email notifications.
+
+#### What didn't go that well?
+deployment was such a struggle - while it was interesting learning the concept behind how to host a site, going through all of the nginx steps, running the zillions of commands, and setting up the pi was somewhat difficult. i also missed using my pi as a mini heater - it's getting cold so i'll need a replacement haha. another struggle was, personally, organization for me. i struggled to stay organized throughout the trimester, and while it could have just been due to being overwhelmed, it's something i want to work on.
+
+#### What did every team member learn?
+we learned about the different technicals - api, databases, html, java; three of us were in ap csp last year, so it was a nice conceptual review, but in java this time. we also got to work on communication, collaboration, and steps to implement good work habits.
+
+#### What puzzles every team member? 
+deployment definitely got me, but i think most of the time, we were able to understand and figure out things that puzzled us. some main things were using APIs, databases, and the fibonacci lab. honestly, most assignments were puzzling, so we would need to get past the stages of being puzzled, figuring it out (the aha moment), and learning how to do it.
+
+#### What was your favorite mini-lab project?
+the ascii lab! i loved preparing it, and trying it out on my own. we went to starbucks to try and figure some of it out, and seeing all of the different ways everyone coded the lab and got it on the site was really cool. it was fun to see the images that everyone made, and also see how it related to CB topics. I think it was a great way of linking CB to coding projects, and helped clarify how the concepts we learn are demonstrated in code.
+
+#### What was your favorite CB topic?
+speaking of CB topics - recursion! recursion is kind of annoying, but it's like a computer science math problem, and i find them fun. i could sit down and do these problems all day, but the ones that are really confusing are super fun to go through and figure out.
+
+#### Identify in priority order biggest challenges.
+deployment, for sure
+organizations + management
+databases and APIs
+
+#### What was your favorite N@tM project?
+hmm i think it was this apple we saw at one of the art rooms. it was this apple, and it seemed like it had been sliced up and slapped onto the canvas. kind of like a copy paste of code... but of fruit. but the background of the canvas had space to be creative, which kinda reminded me of comp sci. it was an abstract painting ( i think ) but it looked visually interesting.
+
+
 ## Table of Contents
   - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
   - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
