@@ -1,49 +1,30 @@
-<!DOCTYPE HTML>
-<!DOCTYPE HTML>
-<html xmlns:layout="http://www.w3.org/1999/xhtml" xmlns:th="http://www.w3.org/1999/xhtml"
-      layout:decorate="~{layout}" lang="en">
-
-<head><div layout:fragment="metadata" th:remove="tag">
-    <!-- Start of head content specific to page -->
+<!DOCTYPE html>
+<html>
+<link rel="stylesheet" type="text/css" href="/static/css/calendar.css">
+<script src="/static/js/calendar.js"></script>
+<head>
     <title>Calendar</title>
-    <meta charset="UTF-8">
-    <script src="https://kit.fontawesome.com/71097930ee.js" crossorigin="anonymous"></script>
-    <!-- End of head content specific to page -->
-</div></head>
-
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-
-<!-- jQuery library -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-<!-- Popper JS -->
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
-
-<!-- Latest compiled JavaScript -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-
-
+</head>
 <body>
-<div layout:fragment="content" th:with="bits=${newbit}" th:remove="tag">
-<div style=" width: 1500px; padding:30px;">
-<div class="card" style="width: 18rem; margin:50px; display: inline-block;" th:each ="tasks : ${list}">
-    <img class="card-img-top" th:src="@{/images/tasks_waterlily.jpg}" alt="Card image cap">
-    <div class="card-body">
-        <h5 class="card-title" th:text="${tasks.title}">Card title</h5>
-        <p class="card-text" th:text="${tasks.description}">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-        <a href="#" class="btn btn-primary" style="width:9rem; height:4rem; margin-left: 50px; background-color: #60a8ad; border: none; font-size: small;">More details</a>
+<div id="cal-wrap">
+    <!-- (A) PERIOD SELECTOR -->
+    <div id="cal-date">
+        <select id="cal-mth"></select>
+        <select id="cal-yr"></select>
     </div>
-</div>
-</div>
-    <div>
-        <form action="/tasks" method="GET" id="samForm" style="margin-left: 80px">
-            <div>
-                <input name="title" id="number1">
-                <input name="description" id="number2">
-                <button>Add</button>
-            </div>
-        </form>
-    </div>
+
+    <!-- (B) CALENDAR -->
+    <div id="cal-container"></div>
+
+    <!-- (C) EVENT FORM -->
+    <form id="cal-event">
+        <h1 id="evt-head"></h1>
+        <div id="evt-date"></div>
+        <textarea id="evt-details" required></textarea>
+        <input id="evt-close" type="button" value="Close"/>
+        <input id="evt-del" type="button" value="Delete"/>
+        <input id="evt-save" type="submit" value="Save"/>
+    </form>
 </div>
 </body>
 </html>

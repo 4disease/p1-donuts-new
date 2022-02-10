@@ -35,7 +35,7 @@ public class Task {
     @DateTimeFormat(pattern = "yyyy-MM-dd")
     private Date dob;
 
-    public Login(Long id, String name, String title, String description, String details, Date dob) {
+    public void Login(Long id, String name, String title, String description, String details, Date dob) {
         this.id = id;
         this.name = name;
         this.title = title;

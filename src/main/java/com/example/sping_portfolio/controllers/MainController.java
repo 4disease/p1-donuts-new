@@ -81,6 +81,7 @@ public class MainController {
         return "/chatbot";
     }
 
+
     @GetMapping("/binary")    // CONTROLLER handles GET request for /greeting, maps it to greeting() and does variable bindings
     public String binary(@RequestParam(name = "bit", required = false, defaultValue = "8") String bit, Model model) {
         model.addAttribute( "bit", bit);
