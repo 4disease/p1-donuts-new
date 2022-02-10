@@ -17,7 +17,6 @@ import lombok.Getter;
  // this will enable standard Getters on attributes in Class in form "getName" where "name" is attribute
 public abstract class _Pell {
     int size;
-
     public String getName() {
         return name;
     }

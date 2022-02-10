@@ -21,6 +21,7 @@
 | Adi | [@adhithin](https://github.com/adhithin)  | [Tickets](https://github.com/4disease/p1-donuts-new/issues/assigned/adhithin) | [Scrum Board](https://github.com/4disease/p1-donuts-new/projects/1?card_filter_query=assignee%3Aadhithin) | [Commits](https://github.com/4disease/p1-donuts-new/commits?author=adhithin) |
 
 ## Table of Contents
+  - [Overall Reflection](https://github.com/4disease/p1-donuts-new#overall-reflection--geekbot)
   - [Week 9](https://github.com/4disease/p1-donuts-new/blob/master/README.md#week-9)
   - [Week 8](https://github.com/4disease/p1-donuts-new#week-8)
   - [Week 7](https://github.com/4disease/p1-donuts-new#week-7)
@@ -30,6 +31,20 @@
   - [Week 3](https://github.com/4disease/p1-donuts-new#week-3)
   - [Week 2](https://github.com/4disease/p1-donuts-new#week-2)
   - [Ideation](https://github.com/4disease/p1-donuts-new#ideation)
+
+## Overall Reflection + GeekBot 
+### Individual Reflection Journals
+| Name | Reflection |
+| ---  | ---        |
+| Kira | [Reflection](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
+| Natasha | [Reflection](https://docs.google.com/document/d/1QwZR7rZCKQ_408GuY0SUCDS9y_yJ-nyMV44ZrVq_2t0/edit?usp=sharing) |
+| Adi | [Reflection](https://padlet.com/adhithinmurthy07/qpjul2mieejnr1d6) |
+| Ridhima | [Reflection](https://docs.google.com/document/d/11SzthwyOwuaLQpk8zHeX9fWN2m2tnU7sFqW-z_dgqSQ/edit?usp=sharing) |
+| Samhitha | [Reflection](https://docs.google.com/document/d/10OSQpC79nTjIFdvgqzlWt0aghFxY8TED33TWpYIvdvE/edit?usp=sharing) |
+
+### N@tM Pictures
+![20211109_083934](https://user-images.githubusercontent.com/70492417/141166245-7bee8931-dab2-4b17-908d-277ea8c7809f.jpg)
+![20211109_083924](https://user-images.githubusercontent.com/70492417/141166279-6aeb205e-bdb3-4b81-b0e9-c838a6a6658c.jpg)
 
 ## Week 9
 ### [Review Ticket](https://github.com/4disease/p1-donuts-new/projects/1#card-71486648)

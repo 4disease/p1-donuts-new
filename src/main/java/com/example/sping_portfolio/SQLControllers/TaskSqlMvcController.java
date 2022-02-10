@@ -21,7 +21,7 @@ public class TaskSqlMvcController implements WebMvcConfigurer {
 
     @GetMapping("/data/task")
     public String task(Model model) {
-        List<Task> list = repository.listAll();
+        List<Task> task = repository.listAll();
         model.addAttribute("task", task);
         return "data/task";
     }
